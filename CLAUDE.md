@@ -63,6 +63,34 @@ linkml-validate -s schema/wrenshoe.yaml <deck_file>
 
 Never save an invalid deck. If validation fails, fix the JSON and re-validate.
 
+## Licensing
+
+Code and data are licensed separately:
+- **Code** (`terminal/`, `tools/`, `schema/`): BSD-3-Clause
+- **Data** (`data/`): each deck carries its own SPDX license in the `license` field, plus `sources` for upstream attribution
+
+Every deck JSON must have a `license` (SPDX identifier) and `sources` (list of SourceAttribution). When creating or modifying decks, always populate these fields.
+
+### License compatibility — IMPORTANT
+
+Not all open licenses are compatible when combining data into a single derivative work:
+- **CC-BY-SA-3.0 and CC-BY-SA-4.0 are NOT automatically compatible** with each other. Content under one cannot simply be merged into a deck under the other.
+- **CC-BY** is compatible with CC-BY-SA (it can be incorporated into SA-licensed works).
+- **MIT** data is compatible with everything.
+- Currently each starter deck is derived from a compatible source set, but **cross-deck merging** (e.g. combining kansaiben CC-BY-SA-3.0 with KANJIDIC2 CC-BY-SA-4.0 into one deck) requires a compatibility audit first.
+- When adding new decks or importing data, always check that the source licenses are compatible before combining.
+- Use SPDX compound expressions (`AND`) when a deck derives from multiple sources with different licenses.
+
+### Source-specific notes
+
+- **kansaibenkyou.net**: CC-BY-SA-3.0, by Keiko Yukawa
+- **KANJIDIC2 / JMdict**: CC-BY-SA-4.0, EDRDG / Jim Breen (Monash)
+- **CC-CEDICT**: CC-BY-SA-4.0
+- **cc-kedict**: CC-BY-SA-3.0, Masato Hagiwara
+- **JLPT word lists**: MIT (jamsinclair), underlying data CC-BY (Jonathan Waller)
+- **HSK vocabulary**: MIT (drkameleon), underlying data from CC-CEDICT
+- **Legacy decks** (hiragana, katakana, mandarin vocab): CC-BY-4.0, Seth Carbon
+
 ## Legacy Data
 
 Original Wrenshoe data lives in `~/local/src/bazaar/home/trunk/wrenshoe/`. The conversion tool `tools/convert-legacy.py` transforms `.meta`/`.data` pairs to the new JSON format.
