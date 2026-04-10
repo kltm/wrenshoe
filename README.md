@@ -96,7 +96,7 @@ If you fork this repo and want your own hosted instance:
 3. Push to `main` — the included workflow (`.github/workflows/pages.yml`) will build the site and deploy it automatically.
 4. (Optional) Under **Settings > Pages > Custom domain**, add your domain and configure DNS per [GitHub's docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-github-pages).
 
-The workflow runs `tools/build-manifest.py` to generate the deck index, then combines `docs/` (the app) and `data/` (the decks) into the deployed site.
+The workflow runs `tools/build-manifest.py` to generate the deck index, then combines `docs/` (the app) and `data/` (the decks) into the deployed site. The reference deployment is at [wrenshoe.org](https://wrenshoe.org).
 
 ## Claude Code Status Line Setup
 
