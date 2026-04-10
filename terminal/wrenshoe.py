@@ -20,9 +20,10 @@ CONFIG_DIR = Path.home() / ".config" / "wrenshoe"
 SESSION_FILE = CONFIG_DIR / "session.json"
 STATE_FILE = CONFIG_DIR / "state.json"
 
-# Where deck JSON files live (next to this script's repo).
+# Where deck JSON files live.
 SCRIPT_DIR = Path(__file__).resolve().parent
-DATA_DIR = SCRIPT_DIR.parent / "data"
+DATA_DIR = SCRIPT_DIR.parent / "data"  # starter decks in repo
+USER_DATA_DIR = Path.home() / ".local" / "share" / "wrenshoe" / "decks"  # user decks
 
 # ANSI color helpers.
 DIM = "\033[2m"
@@ -34,16 +35,21 @@ RESET = "\033[0m"
 
 
 def find_decks():
-    """Find all deck JSON files."""
+    """Find all deck JSON files from both starter and user directories."""
     decks = {}
-    if DATA_DIR.is_dir():
-        for f in sorted(DATA_DIR.glob("*.json")):
-            try:
-                with open(f, encoding="utf-8") as fh:
-                    d = json.load(fh)
-                    decks[d["id"]] = {"path": str(f), "name": d["name"]}
-            except (json.JSONDecodeError, KeyError):
-                pass
+    for deck_dir in [DATA_DIR, USER_DATA_DIR]:
+        if deck_dir.is_dir():
+            for f in sorted(deck_dir.glob("*.json")):
+                try:
+                    with open(f, encoding="utf-8") as fh:
+                        d = json.load(fh)
+                        decks[d["id"]] = {
+                            "path": str(f),
+                            "name": d["name"],
+                            "source": "user" if deck_dir == USER_DATA_DIR else "starter",
+                        }
+                except (json.JSONDecodeError, KeyError):
+                    pass
     return decks
 
 

@@ -49,6 +49,20 @@ Modes: `--render` (default, for status line), `--configure` (interactive setup),
 - Field assignment (which fields on which face) persists across sessions via session.json
 - Cards with "n/a" field values are filtered from display
 
+## Deck Management
+
+- Starter decks: `data/` (shipped with repo, not user-editable)
+- User decks: `~/.local/share/wrenshoe/decks/` (user-created, editable)
+- The `/wrenshoe` skill handles deck creation (`add-deck`), card addition (`add-cards`), and file import (`import`)
+
+**All deck writes MUST be validated against the LinkML schema before saving:**
+
+```
+linkml-validate -s schema/wrenshoe.yaml <deck_file>
+```
+
+Never save an invalid deck. If validation fails, fix the JSON and re-validate.
+
 ## Legacy Data
 
 Original Wrenshoe data lives in `~/local/src/bazaar/home/trunk/wrenshoe/`. The conversion tool `tools/convert-legacy.py` transforms `.meta`/`.data` pairs to the new JSON format.
