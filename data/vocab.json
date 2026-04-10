@@ -1,12 +1,12 @@
 {
   "id": "v_k_ccc",
-  "name": "Mandarin Vocabulary (中文)",
-  "description": "Simple learning Mandarin vocabulary set.",
+  "name": "Chit-Chat Chinese Vocabulary (中文)",
+  "description": "Mandarin vocabulary from Chit-Chat Chinese (Rachel Meyer, Fu Kuo-Chung, Huang Hsiao-Chien; Far East Book Co., 2010). Hand-entered as a study technique.",
   "source_language": "zh",
   "license": "CC-BY-4.0",
   "sources": [
     {
-      "name": "Wrenshoe project",
+      "name": "Chit-Chat Chinese",
       "license": "CC-BY-4.0",
       "authors": [
         "Seth Carbon"

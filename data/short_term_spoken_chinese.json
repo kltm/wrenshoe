@@ -1,12 +1,12 @@
 {
   "id": "short_term_spoken_chinese",
-  "name": "Short-term Spoken Chinese Vocabulary (中文)",
-  "description": "Mandarin vocabulary from Short-term Spoken Chinese textbook.",
+  "name": "Short-term Spoken Chinese: Threshold (汉语口语速成·入门篇)",
+  "description": "Mandarin vocabulary from Short-term Spoken Chinese, Threshold level (Ma Jianfei et al.; BLCU Press). Hand-entered as a study technique.",
   "source_language": "zh",
   "license": "CC-BY-4.0",
   "sources": [
     {
-      "name": "Wrenshoe project",
+      "name": "Short-term Spoken Chinese (汉语口语速成)",
       "license": "CC-BY-4.0",
       "authors": [
         "Seth Carbon"

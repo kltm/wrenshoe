@@ -1,12 +1,12 @@
 {
   "id": "boya_chinese_v2",
-  "name": "Boya Chinese Volume II (中文)",
-  "description": "Mandarin vocabulary from Boya Chinese textbook Volume II.",
+  "name": "Boya Chinese Elementary Starter II (博雅汉语·初级起步篇 II)",
+  "description": "Mandarin vocabulary from Boya Chinese Elementary Starter Volume II (Li Xiaoqi et al.; Peking University Press). Hand-entered as a study technique.",
   "source_language": "zh",
   "license": "CC-BY-4.0",
   "sources": [
     {
-      "name": "Wrenshoe project",
+      "name": "Boya Chinese (博雅汉语)",
       "license": "CC-BY-4.0",
       "authors": [
         "Seth Carbon"
