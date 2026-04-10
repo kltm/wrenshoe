@@ -1,0 +1,226 @@
+id: https://w3id.org/wrenshoe
+name: wrenshoe
+title: Wrenshoe Flashcard Schema
+description: >-
+  A data model for multilingual flashcard/vocabulary decks,
+  grounded in OntoLex-Lemon and SKOS.
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  wrenshoe: https://w3id.org/wrenshoe/
+  ontolex: http://www.w3.org/ns/lemon/ontolex#
+  skos: http://www.w3.org/2004/02/skos/core#
+  lexinfo: http://www.lexinfo.net/ontology/3.0/lexinfo#
+  schema: http://schema.org/
+
+imports:
+  - linkml:types
+
+default_range: string
+default_prefix: wrenshoe
+
+classes:
+
+  Deck:
+    tree_root: true
+    description: A collection of flashcards organized as a study deck.
+    attributes:
+      id:
+        identifier: true
+        description: Unique identifier for this deck.
+      name:
+        required: true
+        slot_uri: schema:name
+        description: Human-readable deck name.
+      description:
+        slot_uri: schema:description
+        description: Description of the deck contents and purpose.
+      source_language:
+        required: true
+        description: Primary source language (BCP 47 tag).
+      field_definitions:
+        range: FieldDefinition
+        multivalued: true
+        inlined_as_list: true
+        required: true
+        description: Defines what fields each card in this deck has.
+      default_display:
+        range: DisplayConfig
+        inlined: true
+        description: Default display configuration for this deck.
+      cards:
+        range: Card
+        multivalued: true
+        inlined_as_list: true
+
+  FieldDefinition:
+    description: >-
+      Defines a named field that cards in this deck can have.
+      Grounded in OntoLex: representation fields map to
+      ontolex:writtenRep, sense fields map to skos:definition.
+    attributes:
+      name:
+        identifier: true
+        description: >-
+          Machine-readable field name, used as key in card
+          field_values and in display config references.
+      label:
+        slot_uri: skos:prefLabel
+        description: Human-readable label for UI display.
+      language:
+        required: true
+        description: BCP 47 language+script tag for values in this field.
+      field_type:
+        range: FieldType
+        required: true
+        description: Semantic type of this field.
+      displayable:
+        range: boolean
+        ifabsent: bool(true)
+        description: >-
+          Whether this field can appear on card faces.
+          False for metadata-only fields like URLs.
+      default_face:
+        range: FaceName
+        description: >-
+          Which face this field appears on by default.
+          If unset, the field is suppressed by default.
+
+  Card:
+    class_uri: ontolex:LexicalEntry
+    description: >-
+      A single flashcard representing a lexical entry.
+    attributes:
+      field_values:
+        range: FieldValue
+        multivalued: true
+        inlined_as_list: true
+        required: true
+      tags:
+        range: string
+        multivalued: true
+        description: Tags for filtering and categorization.
+      weight:
+        range: float
+        ifabsent: float(1.0)
+        description: >-
+          Relative frequency weight for card selection.
+          Higher values mean the card appears more often.
+
+  FieldValue:
+    description: A value for a specific field on a card.
+    attributes:
+      field:
+        required: true
+        description: Reference to a FieldDefinition name.
+      value:
+        required: true
+        description: The text content.
+
+  DisplayConfig:
+    description: >-
+      Which fields appear on which face, and timing.
+    attributes:
+      front:
+        range: string
+        multivalued: true
+        description: Field names to show on the front face.
+      back:
+        range: string
+        multivalued: true
+        description: Field names to show on the back face.
+      both:
+        range: string
+        multivalued: true
+        description: >-
+          Field names to show on the combined face.
+          Defaults to front + back if unset.
+      suppress:
+        range: string
+        multivalued: true
+        description: Field names to never show.
+      timing_front_s:
+        range: integer
+        ifabsent: int(10)
+        description: Seconds to display front face.
+      timing_back_s:
+        range: integer
+        ifabsent: int(10)
+        description: Seconds to display back face.
+      timing_both_s:
+        range: integer
+        ifabsent: int(5)
+        description: Seconds to display combined face.
+      tag_filter:
+        range: string
+        multivalued: true
+        description: >-
+          Only show cards matching at least one of these tags.
+          Empty means show all cards.
+      cycle_mode:
+        range: CycleMode
+        ifabsent: string(front_back)
+        description: >-
+          Whether to cycle front/back only, or front/back/both.
+      card_order:
+        range: CardOrder
+        ifabsent: string(weighted_random)
+
+  SessionConfig:
+    description: >-
+      Persisted per-user session configuration, stored
+      separately from deck data (e.g. ~/.config/wrenshoe/).
+    attributes:
+      deck_id:
+        required: true
+        description: Which deck this session applies to.
+      display:
+        range: DisplayConfig
+        inlined: true
+        description: Display overrides for this session.
+      last_card_index:
+        range: integer
+        description: Resume position.
+      last_updated:
+        range: datetime
+
+enums:
+
+  FieldType:
+    description: >-
+      Semantic type of a card field, grounding it in OntoLex/SKOS.
+    permissible_values:
+      representation:
+        description: >-
+          A written form (ontolex:Form / ontolex:writtenRep).
+      sense:
+        description: >-
+          A meaning or gloss (ontolex:LexicalSense / skos:definition).
+      reference:
+        description: >-
+          Metadata such as a URL. Not displayed on card faces.
+
+  FaceName:
+    permissible_values:
+      front:
+        description: The prompt face.
+      back:
+        description: The answer face.
+      both:
+        description: The combined face.
+
+  CycleMode:
+    permissible_values:
+      front_back:
+        description: Cycle front then back, then next card.
+      front_back_both:
+        description: Cycle front, back, then combined, then next card.
+
+  CardOrder:
+    permissible_values:
+      weighted_random:
+        description: Random selection weighted by card weight.
+      sequential:
+        description: Cards in deck order.
+      random:
+        description: Uniform random selection.

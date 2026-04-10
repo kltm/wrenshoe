@@ -1,0 +1,385 @@
+{
+    "$defs": {
+        "Card": {
+            "additionalProperties": false,
+            "description": "A single flashcard representing a lexical entry.",
+            "properties": {
+                "field_values": {
+                    "items": {
+                        "$ref": "#/$defs/FieldValue"
+                    },
+                    "type": "array"
+                },
+                "tags": {
+                    "description": "Tags for filtering and categorization.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "weight": {
+                    "description": "Relative frequency weight for card selection. Higher values mean the card appears more often.",
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "field_values"
+            ],
+            "title": "Card",
+            "type": "object"
+        },
+        "CardOrder": {
+            "description": "",
+            "enum": [
+                "weighted_random",
+                "sequential",
+                "random"
+            ],
+            "title": "CardOrder",
+            "type": "string"
+        },
+        "Deck": {
+            "additionalProperties": false,
+            "description": "A collection of flashcards organized as a study deck.",
+            "properties": {
+                "cards": {
+                    "items": {
+                        "$ref": "#/$defs/Card"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "default_display": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/DisplayConfig"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Default display configuration for this deck."
+                },
+                "description": {
+                    "description": "Description of the deck contents and purpose.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "field_definitions": {
+                    "description": "Defines what fields each card in this deck has.",
+                    "items": {
+                        "$ref": "#/$defs/FieldDefinition"
+                    },
+                    "type": "array"
+                },
+                "id": {
+                    "description": "Unique identifier for this deck.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "Human-readable deck name.",
+                    "type": "string"
+                },
+                "source_language": {
+                    "description": "Primary source language (BCP 47 tag).",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "name",
+                "source_language",
+                "field_definitions"
+            ],
+            "title": "Deck",
+            "type": "object"
+        },
+        "DisplayConfig": {
+            "additionalProperties": false,
+            "description": "Which fields appear on which face, and timing.",
+            "properties": {
+                "back": {
+                    "description": "Field names to show on the back face.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "both": {
+                    "description": "Field names to show on the combined face. Defaults to front + back if unset.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "card_order": {
+                    "$ref": "#/$defs/CardOrder"
+                },
+                "front": {
+                    "description": "Field names to show on the front face.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "suppress": {
+                    "description": "Field names to never show.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "tag_filter": {
+                    "description": "Only show cards matching at least one of these tags. Empty means show all cards.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "timing_back_s": {
+                    "description": "Seconds to display back face.",
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "timing_both_s": {
+                    "description": "Seconds to display combined face.",
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "timing_front_s": {
+                    "description": "Seconds to display front face.",
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                }
+            },
+            "title": "DisplayConfig",
+            "type": "object"
+        },
+        "FaceName": {
+            "description": "",
+            "enum": [
+                "front",
+                "back",
+                "both"
+            ],
+            "title": "FaceName",
+            "type": "string"
+        },
+        "FieldDefinition": {
+            "additionalProperties": false,
+            "description": "Defines a named field that cards in this deck can have. Grounded in OntoLex: representation fields map to ontolex:writtenRep, sense fields map to skos:definition.",
+            "properties": {
+                "default_face": {
+                    "$ref": "#/$defs/FaceName",
+                    "description": "Which face this field appears on by default. If unset, the field is suppressed by default."
+                },
+                "displayable": {
+                    "description": "Whether this field can appear on card faces. False for metadata-only fields like URLs.",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                "field_type": {
+                    "$ref": "#/$defs/FieldType",
+                    "description": "Semantic type of this field."
+                },
+                "label": {
+                    "description": "Human-readable label for UI display.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "language": {
+                    "description": "BCP 47 language+script tag for values in this field.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "Machine-readable field name, used as key in card field_values and in display config references.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "name",
+                "language",
+                "field_type"
+            ],
+            "title": "FieldDefinition",
+            "type": "object"
+        },
+        "FieldType": {
+            "description": "Semantic type of a card field, grounding it in OntoLex/SKOS.",
+            "enum": [
+                "representation",
+                "sense",
+                "reference"
+            ],
+            "title": "FieldType",
+            "type": "string"
+        },
+        "FieldValue": {
+            "additionalProperties": false,
+            "description": "A value for a specific field on a card.",
+            "properties": {
+                "field": {
+                    "description": "Reference to a FieldDefinition name.",
+                    "type": "string"
+                },
+                "value": {
+                    "description": "The text content.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "field",
+                "value"
+            ],
+            "title": "FieldValue",
+            "type": "object"
+        },
+        "SessionConfig": {
+            "additionalProperties": false,
+            "description": "Persisted per-user session configuration, stored separately from deck data (e.g. ~/.config/wrenshoe/).",
+            "properties": {
+                "deck_id": {
+                    "description": "Which deck this session applies to.",
+                    "type": "string"
+                },
+                "display": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/DisplayConfig"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Display overrides for this session."
+                },
+                "last_card_index": {
+                    "description": "Resume position.",
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "last_updated": {
+                    "format": "date-time",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "deck_id"
+            ],
+            "title": "SessionConfig",
+            "type": "object"
+        }
+    },
+    "$id": "https://w3id.org/wrenshoe",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "description": "A collection of flashcards organized as a study deck.",
+    "metamodel_version": "1.7.0",
+    "properties": {
+        "cards": {
+            "items": {
+                "$ref": "#/$defs/Card"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "default_display": {
+            "anyOf": [
+                {
+                    "$ref": "#/$defs/DisplayConfig"
+                },
+                {
+                    "type": "null"
+                }
+            ],
+            "description": "Default display configuration for this deck."
+        },
+        "description": {
+            "description": "Description of the deck contents and purpose.",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "field_definitions": {
+            "description": "Defines what fields each card in this deck has.",
+            "items": {
+                "$ref": "#/$defs/FieldDefinition"
+            },
+            "type": "array"
+        },
+        "id": {
+            "description": "Unique identifier for this deck.",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "name": {
+            "description": "Human-readable deck name.",
+            "type": "string"
+        },
+        "source_language": {
+            "description": "Primary source language (BCP 47 tag).",
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "source_language",
+        "field_definitions"
+    ],
+    "title": "wrenshoe",
+    "type": "object",
+    "version": null
+}
+

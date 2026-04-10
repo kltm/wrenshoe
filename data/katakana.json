@@ -1,0 +1,1172 @@
+{
+  "id": "q_katakana",
+  "name": "Katakana (カタカナ)",
+  "source_language": "ja",
+  "field_definitions": [
+    {
+      "name": "glyph",
+      "label": "Glyph",
+      "language": "ja-Kana",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "gloss",
+      "label": "Romanization",
+      "language": "ja-Latn",
+      "field_type": "representation",
+      "default_face": "back"
+    }
+  ],
+  "default_display": {
+    "front": [
+      "glyph"
+    ],
+    "back": [
+      "gloss"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ア"
+        },
+        {
+          "field": "gloss",
+          "value": "a"
+        }
+      ],
+      "tags": [
+        "Level 01 (a)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "イ"
+        },
+        {
+          "field": "gloss",
+          "value": "i"
+        }
+      ],
+      "tags": [
+        "Level 01 (a)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ウ"
+        },
+        {
+          "field": "gloss",
+          "value": "u"
+        }
+      ],
+      "tags": [
+        "Level 01 (a)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "エ"
+        },
+        {
+          "field": "gloss",
+          "value": "e"
+        }
+      ],
+      "tags": [
+        "Level 01 (a)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "オ"
+        },
+        {
+          "field": "gloss",
+          "value": "o"
+        }
+      ],
+      "tags": [
+        "Level 01 (a)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "カ"
+        },
+        {
+          "field": "gloss",
+          "value": "ka"
+        }
+      ],
+      "tags": [
+        "Level 02 (k)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "キ"
+        },
+        {
+          "field": "gloss",
+          "value": "ki"
+        }
+      ],
+      "tags": [
+        "Level 02 (k)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ク"
+        },
+        {
+          "field": "gloss",
+          "value": "ku"
+        }
+      ],
+      "tags": [
+        "Level 02 (k)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ケ"
+        },
+        {
+          "field": "gloss",
+          "value": "ke"
+        }
+      ],
+      "tags": [
+        "Level 02 (k)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "コ"
+        },
+        {
+          "field": "gloss",
+          "value": "ko"
+        }
+      ],
+      "tags": [
+        "Level 02 (k)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "サ"
+        },
+        {
+          "field": "gloss",
+          "value": "sa"
+        }
+      ],
+      "tags": [
+        "Level 03 (s)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "シ"
+        },
+        {
+          "field": "gloss",
+          "value": "shi"
+        }
+      ],
+      "tags": [
+        "Level 03 (s)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ス"
+        },
+        {
+          "field": "gloss",
+          "value": "su"
+        }
+      ],
+      "tags": [
+        "Level 03 (s)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "セ"
+        },
+        {
+          "field": "gloss",
+          "value": "se"
+        }
+      ],
+      "tags": [
+        "Level 03 (s)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ソ"
+        },
+        {
+          "field": "gloss",
+          "value": "so"
+        }
+      ],
+      "tags": [
+        "Level 03 (s)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "タ"
+        },
+        {
+          "field": "gloss",
+          "value": "ta"
+        }
+      ],
+      "tags": [
+        "Level 04 (t)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "チ"
+        },
+        {
+          "field": "gloss",
+          "value": "chi"
+        }
+      ],
+      "tags": [
+        "Level 04 (t)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ツ"
+        },
+        {
+          "field": "gloss",
+          "value": "tsu"
+        }
+      ],
+      "tags": [
+        "Level 04 (t)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "テ"
+        },
+        {
+          "field": "gloss",
+          "value": "te"
+        }
+      ],
+      "tags": [
+        "Level 04 (t)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ト"
+        },
+        {
+          "field": "gloss",
+          "value": "to"
+        }
+      ],
+      "tags": [
+        "Level 04 (t)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ナ"
+        },
+        {
+          "field": "gloss",
+          "value": "na"
+        }
+      ],
+      "tags": [
+        "Level 05 (n)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ニ"
+        },
+        {
+          "field": "gloss",
+          "value": "ni"
+        }
+      ],
+      "tags": [
+        "Level 05 (n)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヌ"
+        },
+        {
+          "field": "gloss",
+          "value": "nu"
+        }
+      ],
+      "tags": [
+        "Level 05 (n)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ネ"
+        },
+        {
+          "field": "gloss",
+          "value": "ne"
+        }
+      ],
+      "tags": [
+        "Level 05 (n)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ノ"
+        },
+        {
+          "field": "gloss",
+          "value": "no"
+        }
+      ],
+      "tags": [
+        "Level 05 (n)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ハ"
+        },
+        {
+          "field": "gloss",
+          "value": "ha"
+        }
+      ],
+      "tags": [
+        "Level 06 (h)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヒ"
+        },
+        {
+          "field": "gloss",
+          "value": "hi"
+        }
+      ],
+      "tags": [
+        "Level 06 (h)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "フ"
+        },
+        {
+          "field": "gloss",
+          "value": "fu"
+        }
+      ],
+      "tags": [
+        "Level 06 (h)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヘ"
+        },
+        {
+          "field": "gloss",
+          "value": "he"
+        }
+      ],
+      "tags": [
+        "Level 06 (h)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ホ"
+        },
+        {
+          "field": "gloss",
+          "value": "ho"
+        }
+      ],
+      "tags": [
+        "Level 06 (h)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "マ"
+        },
+        {
+          "field": "gloss",
+          "value": "ma"
+        }
+      ],
+      "tags": [
+        "Level 07 (m)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ミ"
+        },
+        {
+          "field": "gloss",
+          "value": "mi"
+        }
+      ],
+      "tags": [
+        "Level 07 (m)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ム"
+        },
+        {
+          "field": "gloss",
+          "value": "mu"
+        }
+      ],
+      "tags": [
+        "Level 07 (m)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "メ"
+        },
+        {
+          "field": "gloss",
+          "value": "me"
+        }
+      ],
+      "tags": [
+        "Level 07 (m)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "モ"
+        },
+        {
+          "field": "gloss",
+          "value": "mo"
+        }
+      ],
+      "tags": [
+        "Level 07 (m)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヤ"
+        },
+        {
+          "field": "gloss",
+          "value": "ya"
+        }
+      ],
+      "tags": [
+        "Level 08 (y)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ユ"
+        },
+        {
+          "field": "gloss",
+          "value": "yu"
+        }
+      ],
+      "tags": [
+        "Level 08 (y)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヨ"
+        },
+        {
+          "field": "gloss",
+          "value": "yo"
+        }
+      ],
+      "tags": [
+        "Level 08 (y)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ラ"
+        },
+        {
+          "field": "gloss",
+          "value": "ra"
+        }
+      ],
+      "tags": [
+        "Level 09 (r)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "リ"
+        },
+        {
+          "field": "gloss",
+          "value": "ri"
+        }
+      ],
+      "tags": [
+        "Level 09 (r)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ル"
+        },
+        {
+          "field": "gloss",
+          "value": "ru"
+        }
+      ],
+      "tags": [
+        "Level 09 (r)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "レ"
+        },
+        {
+          "field": "gloss",
+          "value": "re"
+        }
+      ],
+      "tags": [
+        "Level 09 (r)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ロ"
+        },
+        {
+          "field": "gloss",
+          "value": "ro"
+        }
+      ],
+      "tags": [
+        "Level 09 (r)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ワ"
+        },
+        {
+          "field": "gloss",
+          "value": "wa"
+        }
+      ],
+      "tags": [
+        "Level 10 (won)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヲ"
+        },
+        {
+          "field": "gloss",
+          "value": "o/wo"
+        }
+      ],
+      "tags": [
+        "Level 10 (won)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ン"
+        },
+        {
+          "field": "gloss",
+          "value": "n"
+        }
+      ],
+      "tags": [
+        "Level 10 (won)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ガ"
+        },
+        {
+          "field": "gloss",
+          "value": "ga"
+        }
+      ],
+      "tags": [
+        "Level 11 (g)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ギ"
+        },
+        {
+          "field": "gloss",
+          "value": "gi"
+        }
+      ],
+      "tags": [
+        "Level 11 (g)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "グ"
+        },
+        {
+          "field": "gloss",
+          "value": "gu"
+        }
+      ],
+      "tags": [
+        "Level 11 (g)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ゲ"
+        },
+        {
+          "field": "gloss",
+          "value": "gg"
+        }
+      ],
+      "tags": [
+        "Level 11 (g)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ゴ"
+        },
+        {
+          "field": "gloss",
+          "value": "go"
+        }
+      ],
+      "tags": [
+        "Level 11 (g)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ザ"
+        },
+        {
+          "field": "gloss",
+          "value": "za"
+        }
+      ],
+      "tags": [
+        "Level 12 (z/j)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ジ"
+        },
+        {
+          "field": "gloss",
+          "value": "ji"
+        }
+      ],
+      "tags": [
+        "Level 12 (z/j)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ズ"
+        },
+        {
+          "field": "gloss",
+          "value": "zu"
+        }
+      ],
+      "tags": [
+        "Level 12 (z/j)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ゼ"
+        },
+        {
+          "field": "gloss",
+          "value": "ze"
+        }
+      ],
+      "tags": [
+        "Level 12 (z/j)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ゾ"
+        },
+        {
+          "field": "gloss",
+          "value": "zo"
+        }
+      ],
+      "tags": [
+        "Level 12 (z/j)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ダ"
+        },
+        {
+          "field": "gloss",
+          "value": "da"
+        }
+      ],
+      "tags": [
+        "Level 13 (d/j/tz)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヂ"
+        },
+        {
+          "field": "gloss",
+          "value": "ji"
+        }
+      ],
+      "tags": [
+        "Level 13 (d/j/tz)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヅ"
+        },
+        {
+          "field": "gloss",
+          "value": "tzu"
+        }
+      ],
+      "tags": [
+        "Level 13 (d/j/tz)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "デ"
+        },
+        {
+          "field": "gloss",
+          "value": "de"
+        }
+      ],
+      "tags": [
+        "Level 13 (d/j/tz)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ド"
+        },
+        {
+          "field": "gloss",
+          "value": "do"
+        }
+      ],
+      "tags": [
+        "Level 13 (d/j/tz)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ビ"
+        },
+        {
+          "field": "gloss",
+          "value": "bi"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ピ"
+        },
+        {
+          "field": "gloss",
+          "value": "pi"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "バ"
+        },
+        {
+          "field": "gloss",
+          "value": "ba"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "パ"
+        },
+        {
+          "field": "gloss",
+          "value": "pa"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ブ"
+        },
+        {
+          "field": "gloss",
+          "value": "bu"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "プ"
+        },
+        {
+          "field": "gloss",
+          "value": "pu"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ベ"
+        },
+        {
+          "field": "gloss",
+          "value": "be"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ペ"
+        },
+        {
+          "field": "gloss",
+          "value": "pe"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ボ"
+        },
+        {
+          "field": "gloss",
+          "value": "bo"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ポ"
+        },
+        {
+          "field": "gloss",
+          "value": "po"
+        }
+      ],
+      "tags": [
+        "Level 14 (b/p)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヰ"
+        },
+        {
+          "field": "gloss",
+          "value": "wi"
+        }
+      ],
+      "tags": [
+        "Level 15 (w+)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヱ"
+        },
+        {
+          "field": "gloss",
+          "value": "we"
+        }
+      ],
+      "tags": [
+        "Level 15 (w+)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ヴ"
+        },
+        {
+          "field": "gloss",
+          "value": "vu"
+        }
+      ],
+      "tags": [
+        "Level 15 (w+)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "・"
+        },
+        {
+          "field": "gloss",
+          "value": "(word separation, often used in names)"
+        }
+      ],
+      "tags": [
+        "Level 15 (w+)"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ー"
+        },
+        {
+          "field": "gloss",
+          "value": "(vowel extension)"
+        }
+      ],
+      "tags": [
+        "Level 15 (w+)"
+      ]
+    }
+  ],
+  "description": "The Japanese katakana alphabet."
+}

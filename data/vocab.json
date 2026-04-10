@@ -1,0 +1,7512 @@
+{
+  "id": "v_k_ccc",
+  "name": "Mandarin Vocabulary (中文)",
+  "source_language": "zh",
+  "field_definitions": [
+    {
+      "name": "pinyin",
+      "label": "Pinyin",
+      "language": "zh-Latn",
+      "field_type": "representation",
+      "default_face": "back"
+    },
+    {
+      "name": "english",
+      "label": "English",
+      "language": "en",
+      "field_type": "sense",
+      "default_face": "back"
+    },
+    {
+      "name": "characters",
+      "label": "Characters",
+      "language": "zh-Hans",
+      "field_type": "representation",
+      "default_face": "front"
+    }
+  ],
+  "default_display": {
+    "front": [
+      "characters"
+    ],
+    "back": [
+      "pinyin",
+      "english"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǒ"
+        },
+        {
+          "field": "english",
+          "value": "I"
+        },
+        {
+          "field": "characters",
+          "value": "我"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǐ"
+        },
+        {
+          "field": "english",
+          "value": "you"
+        },
+        {
+          "field": "characters",
+          "value": "你"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tā"
+        },
+        {
+          "field": "english",
+          "value": "he/she/it"
+        },
+        {
+          "field": "characters",
+          "value": "他"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǒmen"
+        },
+        {
+          "field": "english",
+          "value": "we/us"
+        },
+        {
+          "field": "characters",
+          "value": "我们"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǐmen"
+        },
+        {
+          "field": "english",
+          "value": "you (all)"
+        },
+        {
+          "field": "characters",
+          "value": "你们"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tāmen"
+        },
+        {
+          "field": "english",
+          "value": "they/them"
+        },
+        {
+          "field": "characters",
+          "value": "他们"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shì"
+        },
+        {
+          "field": "english",
+          "value": "to be"
+        },
+        {
+          "field": "characters",
+          "value": "是"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bù"
+        },
+        {
+          "field": "english",
+          "value": "not"
+        },
+        {
+          "field": "characters",
+          "value": "不"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "búshì"
+        },
+        {
+          "field": "english",
+          "value": "is/was/are not"
+        },
+        {
+          "field": "characters",
+          "value": "不是"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "rén"
+        },
+        {
+          "field": "english",
+          "value": "person"
+        },
+        {
+          "field": "characters",
+          "value": "人"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wén"
+        },
+        {
+          "field": "english",
+          "value": "language/culture/writing"
+        },
+        {
+          "field": "characters",
+          "value": "文"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lǎoshī"
+        },
+        {
+          "field": "english",
+          "value": "teacher"
+        },
+        {
+          "field": "characters",
+          "value": "老师"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xuésheng"
+        },
+        {
+          "field": "english",
+          "value": "student"
+        },
+        {
+          "field": "characters",
+          "value": "学生"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dǒng"
+        },
+        {
+          "field": "english",
+          "value": "to understand"
+        },
+        {
+          "field": "characters",
+          "value": "懂"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bùdǒng"
+        },
+        {
+          "field": "english",
+          "value": "to not understand"
+        },
+        {
+          "field": "characters",
+          "value": "不懂"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xièxie"
+        },
+        {
+          "field": "english",
+          "value": "\"Thank you.\""
+        },
+        {
+          "field": "characters",
+          "value": "谢谢"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "búkèqì"
+        },
+        {
+          "field": "english",
+          "value": "\"You're welcome.\"/[lit. no good manners/politeness]"
+        },
+        {
+          "field": "characters",
+          "value": "不客气"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "búyòngxiè"
+        },
+        {
+          "field": "english",
+          "value": "\"You're welcome.\"/[lit. no use/need thanks]"
+        },
+        {
+          "field": "characters",
+          "value": "不用谢"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "biékèqì"
+        },
+        {
+          "field": "english",
+          "value": "\"You're welcome.\"(informal)/\"Don't mention it.\""
+        },
+        {
+          "field": "characters",
+          "value": "别客气"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hǎo"
+        },
+        {
+          "field": "english",
+          "value": "good"
+        },
+        {
+          "field": "characters",
+          "value": "好"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hěn"
+        },
+        {
+          "field": "english",
+          "value": "very; (as adjective connector)"
+        },
+        {
+          "field": "characters",
+          "value": "很"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hěn hǎo"
+        },
+        {
+          "field": "english",
+          "value": "very good; fine (as in response to \"How are you?\")"
+        },
+        {
+          "field": "characters",
+          "value": "很好"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bùhǎo"
+        },
+        {
+          "field": "english",
+          "value": "not good"
+        },
+        {
+          "field": "characters",
+          "value": "不好"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "mǎmahūhū"
+        },
+        {
+          "field": "english",
+          "value": "\"So-so.\" [lit. horse horse tiger tiger]"
+        },
+        {
+          "field": "characters",
+          "value": "马马虎虎"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǐ ne"
+        },
+        {
+          "field": "english",
+          "value": "\"And you?\"/\"How about yourself?\""
+        },
+        {
+          "field": "characters",
+          "value": "你呢"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiào"
+        },
+        {
+          "field": "english",
+          "value": "to be called/named; to call/name"
+        },
+        {
+          "field": "characters",
+          "value": "叫"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "míngzì"
+        },
+        {
+          "field": "english",
+          "value": "name [lit. name character]"
+        },
+        {
+          "field": "characters",
+          "value": "名字"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zàijiàn"
+        },
+        {
+          "field": "english",
+          "value": "\"Goodbye.\" [lit. again see]"
+        },
+        {
+          "field": "characters",
+          "value": "再见"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "de"
+        },
+        {
+          "field": "english",
+          "value": "の/of -'s"
+        },
+        {
+          "field": "characters",
+          "value": "的"
+        }
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wā!"
+        },
+        {
+          "field": "english",
+          "value": "\"Wow!\""
+        },
+        {
+          "field": "characters",
+          "value": "哇"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yě"
+        },
+        {
+          "field": "english",
+          "value": "also"
+        },
+        {
+          "field": "characters",
+          "value": "也"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ma"
+        },
+        {
+          "field": "english",
+          "value": "(question particle)"
+        },
+        {
+          "field": "characters",
+          "value": "吗"
+        }
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǐhǎo"
+        },
+        {
+          "field": "english",
+          "value": "\"Hello.\""
+        },
+        {
+          "field": "characters",
+          "value": "你好"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nínhǎo"
+        },
+        {
+          "field": "english",
+          "value": "\"Hello.\" (super polite (for cops, officials, etc))"
+        },
+        {
+          "field": "characters",
+          "value": "您好"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hěn gāoxìng rènshí nǐ"
+        },
+        {
+          "field": "english",
+          "value": "\"Nice to meet you.\""
+        },
+        {
+          "field": "characters",
+          "value": "很高兴认识你"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǒ yě hěn gāoxìng rènshí nǐ"
+        },
+        {
+          "field": "english",
+          "value": "\"Nice to meet you too.\""
+        },
+        {
+          "field": "characters",
+          "value": "我也很高兴认识你"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "rènshí."
+        },
+        {
+          "field": "english",
+          "value": "to meet/to have met/to know"
+        },
+        {
+          "field": "characters",
+          "value": "认识"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǐ jiào shénme míngzì"
+        },
+        {
+          "field": "english",
+          "value": "\"What is your name?\""
+        },
+        {
+          "field": "characters",
+          "value": "你叫什么名字"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǐ zuò shénme gōngzuò"
+        },
+        {
+          "field": "english",
+          "value": "\"What do you do?\""
+        },
+        {
+          "field": "characters",
+          "value": "你做什么工作"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǎlinǎli"
+        },
+        {
+          "field": "english",
+          "value": "\"No it isn't.\" (said to a compliment) [lit. \"Where where.\"]"
+        },
+        {
+          "field": "characters",
+          "value": "哪里哪里"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "méiyǒuméiyǒu"
+        },
+        {
+          "field": "english",
+          "value": "\"No it isn't.\" (said to a compliment; less formal, more used than the other) [lit. \"Don't have, don't have.\"]"
+        },
+        {
+          "field": "characters",
+          "value": "没有没有"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yǒu"
+        },
+        {
+          "field": "english",
+          "value": "to have; to exist; to possess"
+        },
+        {
+          "field": "characters",
+          "value": "有"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìdàlì"
+        },
+        {
+          "field": "english",
+          "value": "Italy"
+        },
+        {
+          "field": "characters",
+          "value": "意大利"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìdàlìrén"
+        },
+        {
+          "field": "english",
+          "value": "Italian (person)"
+        },
+        {
+          "field": "characters",
+          "value": "意大利人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìdàlìwén"
+        },
+        {
+          "field": "english",
+          "value": "Italian (language)"
+        },
+        {
+          "field": "characters",
+          "value": "意大利文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìndù"
+        },
+        {
+          "field": "english",
+          "value": "India"
+        },
+        {
+          "field": "characters",
+          "value": "印度"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìndùrén"
+        },
+        {
+          "field": "english",
+          "value": "Indian (person)"
+        },
+        {
+          "field": "characters",
+          "value": "印度人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìndùwén"
+        },
+        {
+          "field": "english",
+          "value": "Indian (Hindi)"
+        },
+        {
+          "field": "characters",
+          "value": "印度文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hánguó"
+        },
+        {
+          "field": "english",
+          "value": "(South) Korea"
+        },
+        {
+          "field": "characters",
+          "value": "韩国"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hánguórén"
+        },
+        {
+          "field": "english",
+          "value": "(South) Korean (person)"
+        },
+        {
+          "field": "characters",
+          "value": "韩国人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hánwén"
+        },
+        {
+          "field": "english",
+          "value": "Korean (language)"
+        },
+        {
+          "field": "characters",
+          "value": "韩文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "cháoxiǎn"
+        },
+        {
+          "field": "english",
+          "value": "North Korea"
+        },
+        {
+          "field": "characters",
+          "value": "朝鲜"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "cháoxiǎnrén"
+        },
+        {
+          "field": "english",
+          "value": "North Korean (person)"
+        },
+        {
+          "field": "characters",
+          "value": "朝鲜人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiānádà"
+        },
+        {
+          "field": "english",
+          "value": "Canada"
+        },
+        {
+          "field": "characters",
+          "value": "加拿大"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiānádàrén"
+        },
+        {
+          "field": "english",
+          "value": "Canadian (person)"
+        },
+        {
+          "field": "characters",
+          "value": "加拿大人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "àodàlìyà"
+        },
+        {
+          "field": "english",
+          "value": "Australia"
+        },
+        {
+          "field": "characters",
+          "value": "澳大利亚"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "àodàlìyàrén"
+        },
+        {
+          "field": "english",
+          "value": "Australian (person)"
+        },
+        {
+          "field": "characters",
+          "value": "澳大利亚人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xībānyá"
+        },
+        {
+          "field": "english",
+          "value": "Spain"
+        },
+        {
+          "field": "characters",
+          "value": "西班牙"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xībānyárén"
+        },
+        {
+          "field": "english",
+          "value": "Spaniard"
+        },
+        {
+          "field": "characters",
+          "value": "西班牙人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xībānyáwén"
+        },
+        {
+          "field": "english",
+          "value": "Spanish (language)"
+        },
+        {
+          "field": "characters",
+          "value": "西班牙文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "mòxīgē"
+        },
+        {
+          "field": "english",
+          "value": "Mexico"
+        },
+        {
+          "field": "characters",
+          "value": "墨西哥"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "mòxīgērén"
+        },
+        {
+          "field": "english",
+          "value": "Mexican (person)"
+        },
+        {
+          "field": "characters",
+          "value": "墨西哥人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhōngguó"
+        },
+        {
+          "field": "english",
+          "value": "China"
+        },
+        {
+          "field": "characters",
+          "value": "中国"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "měiguó"
+        },
+        {
+          "field": "english",
+          "value": "America"
+        },
+        {
+          "field": "characters",
+          "value": "美国"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yīngguó"
+        },
+        {
+          "field": "english",
+          "value": "England"
+        },
+        {
+          "field": "characters",
+          "value": "英国"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fǎguó"
+        },
+        {
+          "field": "english",
+          "value": "France"
+        },
+        {
+          "field": "characters",
+          "value": "法国"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "déguó"
+        },
+        {
+          "field": "english",
+          "value": "Germany"
+        },
+        {
+          "field": "characters",
+          "value": "德国"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "rìběn"
+        },
+        {
+          "field": "english",
+          "value": "Japan"
+        },
+        {
+          "field": "characters",
+          "value": "日本"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhōngguórén"
+        },
+        {
+          "field": "english",
+          "value": "Chinese (person)"
+        },
+        {
+          "field": "characters",
+          "value": "中国人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "měiguórén"
+        },
+        {
+          "field": "english",
+          "value": "American (person)"
+        },
+        {
+          "field": "characters",
+          "value": "美国人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yīngguórén"
+        },
+        {
+          "field": "english",
+          "value": "English (person)"
+        },
+        {
+          "field": "characters",
+          "value": "英国人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fǎguórén"
+        },
+        {
+          "field": "english",
+          "value": "French (person)"
+        },
+        {
+          "field": "characters",
+          "value": "法国人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "déguórén"
+        },
+        {
+          "field": "english",
+          "value": "German (person)"
+        },
+        {
+          "field": "characters",
+          "value": "德国人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "rìběnrén"
+        },
+        {
+          "field": "english",
+          "value": "Japanese (person)"
+        },
+        {
+          "field": "characters",
+          "value": "日本人"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhōngwén"
+        },
+        {
+          "field": "english",
+          "value": "Chinese (language)"
+        },
+        {
+          "field": "characters",
+          "value": "中文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yīngwén"
+        },
+        {
+          "field": "english",
+          "value": "English (language)"
+        },
+        {
+          "field": "characters",
+          "value": "英文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fǎwén"
+        },
+        {
+          "field": "english",
+          "value": "French (language)"
+        },
+        {
+          "field": "characters",
+          "value": "法文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "déwén"
+        },
+        {
+          "field": "english",
+          "value": "German (language)"
+        },
+        {
+          "field": "characters",
+          "value": "德文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "rìwén"
+        },
+        {
+          "field": "english",
+          "value": "Japanese (language)"
+        },
+        {
+          "field": "characters",
+          "value": "日文"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xüé"
+        },
+        {
+          "field": "english",
+          "value": "to study/learn"
+        },
+        {
+          "field": "characters",
+          "value": "学"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shuō"
+        },
+        {
+          "field": "english",
+          "value": "to say/speak"
+        },
+        {
+          "field": "characters",
+          "value": "说"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kàn"
+        },
+        {
+          "field": "english",
+          "value": "to see/read/look at"
+        },
+        {
+          "field": "characters",
+          "value": "看"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiě"
+        },
+        {
+          "field": "english",
+          "value": "to write"
+        },
+        {
+          "field": "characters",
+          "value": "写"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "huì"
+        },
+        {
+          "field": "english",
+          "value": "to know (a skill); to be able to"
+        },
+        {
+          "field": "characters",
+          "value": "会"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhīdào."
+        },
+        {
+          "field": "english",
+          "value": "to know (about something)"
+        },
+        {
+          "field": "characters",
+          "value": "知道"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "huìshuō"
+        },
+        {
+          "field": "english",
+          "value": "to know how to speak/say"
+        },
+        {
+          "field": "characters",
+          "value": "会说"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "huìkàn"
+        },
+        {
+          "field": "english",
+          "value": "to know how to read"
+        },
+        {
+          "field": "characters",
+          "value": "会看"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "huìxiě"
+        },
+        {
+          "field": "english",
+          "value": "to know how to write"
+        },
+        {
+          "field": "characters",
+          "value": "会写"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xǐhuan."
+        },
+        {
+          "field": "english",
+          "value": "to like"
+        },
+        {
+          "field": "characters",
+          "value": "喜欢"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yào"
+        },
+        {
+          "field": "english",
+          "value": "to want (strong)"
+        },
+        {
+          "field": "characters",
+          "value": "要"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiāo (X Y)"
+        },
+        {
+          "field": "english",
+          "value": "to teach (X to Y)"
+        },
+        {
+          "field": "characters",
+          "value": "教"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tīng"
+        },
+        {
+          "field": "english",
+          "value": "to listen"
+        },
+        {
+          "field": "characters",
+          "value": "听"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìdiǎr"
+        },
+        {
+          "field": "english",
+          "value": "a little (bit) [northern]"
+        },
+        {
+          "field": "characters",
+          "value": "一点儿"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìdiǎn"
+        },
+        {
+          "field": "english",
+          "value": "a little (bit) [southern]"
+        },
+        {
+          "field": "characters",
+          "value": "一点"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhǐ"
+        },
+        {
+          "field": "english",
+          "value": "only"
+        },
+        {
+          "field": "characters",
+          "value": "只"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zìsī"
+        },
+        {
+          "field": "english",
+          "value": "selfish/self-centered"
+        },
+        {
+          "field": "characters",
+          "value": "自私"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sìcì"
+        },
+        {
+          "field": "english",
+          "value": "four time(s)"
+        },
+        {
+          "field": "characters",
+          "value": "四次"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qù"
+        },
+        {
+          "field": "english",
+          "value": "to go"
+        },
+        {
+          "field": "characters",
+          "value": "去"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chī"
+        },
+        {
+          "field": "english",
+          "value": "to eat"
+        },
+        {
+          "field": "characters",
+          "value": "吃"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiǎng"
+        },
+        {
+          "field": "english",
+          "value": "to think (about); to want; to miss (somebody)"
+        },
+        {
+          "field": "characters",
+          "value": "想"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìsi"
+        },
+        {
+          "field": "english",
+          "value": "meaning"
+        },
+        {
+          "field": "characters",
+          "value": "意思"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "X shì shénme yìsi?"
+        },
+        {
+          "field": "english",
+          "value": "\"What does X mean?\""
+        },
+        {
+          "field": "characters",
+          "value": "是什么意思"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "duìbùqǐ"
+        },
+        {
+          "field": "english",
+          "value": "\"Pardon me.\"/\"Excuse me.\"/\"I'm sorry.\""
+        },
+        {
+          "field": "characters",
+          "value": "对不起"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "guójiā"
+        },
+        {
+          "field": "english",
+          "value": "(home) country"
+        },
+        {
+          "field": "characters",
+          "value": "国家"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "duì/bùduì"
+        },
+        {
+          "field": "english",
+          "value": "correct/incorrect"
+        },
+        {
+          "field": "characters",
+          "value": "对/不对"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dà"
+        },
+        {
+          "field": "english",
+          "value": "big/large"
+        },
+        {
+          "field": "characters",
+          "value": "大"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiǎo"
+        },
+        {
+          "field": "english",
+          "value": "small"
+        },
+        {
+          "field": "characters",
+          "value": "小"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "gāo"
+        },
+        {
+          "field": "english",
+          "value": "tall/high"
+        },
+        {
+          "field": "characters",
+          "value": "高"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ǎi"
+        },
+        {
+          "field": "english",
+          "value": "short"
+        },
+        {
+          "field": "characters",
+          "value": "矮"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "měi"
+        },
+        {
+          "field": "english",
+          "value": "beautiful/pretty (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "美"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "měilì"
+        },
+        {
+          "field": "english",
+          "value": "beautiful/pretty ((more) formal)"
+        },
+        {
+          "field": "characters",
+          "value": "美丽"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "piàoliàng"
+        },
+        {
+          "field": "english",
+          "value": "beautiful/pretty (casual/non-male)"
+        },
+        {
+          "field": "characters",
+          "value": "漂亮"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chǒu"
+        },
+        {
+          "field": "english",
+          "value": "(f)ugly"
+        },
+        {
+          "field": "characters",
+          "value": "丑"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hǎokàn"
+        },
+        {
+          "field": "english",
+          "value": "good-looking/nice (general)"
+        },
+        {
+          "field": "characters",
+          "value": "好看"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shuái"
+        },
+        {
+          "field": "english",
+          "value": "handsome/beautiful (male)"
+        },
+        {
+          "field": "characters",
+          "value": "帅"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nánkàn"
+        },
+        {
+          "field": "english",
+          "value": "unsightly/ugly (people okay)"
+        },
+        {
+          "field": "characters",
+          "value": "难看"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chòu"
+        },
+        {
+          "field": "english",
+          "value": "smelly/foul/disgusting"
+        },
+        {
+          "field": "characters",
+          "value": "臭"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kuàilè"
+        },
+        {
+          "field": "english",
+          "value": "happy/joyful/cheerful (formal/ceremonial)"
+        },
+        {
+          "field": "characters",
+          "value": "快乐"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kāixīn"
+        },
+        {
+          "field": "english",
+          "value": "happy/joyful (casual)"
+        },
+        {
+          "field": "characters",
+          "value": "开心"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "gāoxìng"
+        },
+        {
+          "field": "english",
+          "value": "happy/glad/willing"
+        },
+        {
+          "field": "characters",
+          "value": "高兴"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shāngxīn"
+        },
+        {
+          "field": "english",
+          "value": "sad/broken-hearted (casual)"
+        },
+        {
+          "field": "characters",
+          "value": "伤心"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nánguò"
+        },
+        {
+          "field": "english",
+          "value": "sad (lit. difficult.pass)"
+        },
+        {
+          "field": "characters",
+          "value": "难过"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "pàng"
+        },
+        {
+          "field": "english",
+          "value": "fat/stout"
+        },
+        {
+          "field": "characters",
+          "value": "胖"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shòu"
+        },
+        {
+          "field": "english",
+          "value": "thin/skinny"
+        },
+        {
+          "field": "characters",
+          "value": "瘦"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "#búpàng yě búshòu"
+        },
+        {
+          "field": "english",
+          "value": "\"not fat and/but not skinny\""
+        },
+        {
+          "field": "characters",
+          "value": "不胖也不瘦"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nán"
+        },
+        {
+          "field": "english",
+          "value": "difficult/hard"
+        },
+        {
+          "field": "characters",
+          "value": "难"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "róngyì"
+        },
+        {
+          "field": "english",
+          "value": "easy"
+        },
+        {
+          "field": "characters",
+          "value": "容易"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "cōngmíng"
+        },
+        {
+          "field": "english",
+          "value": "intelligent/smart"
+        },
+        {
+          "field": "characters",
+          "value": "聪明"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bèn"
+        },
+        {
+          "field": "english",
+          "value": "stupid/dumb"
+        },
+        {
+          "field": "characters",
+          "value": "笨"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "#xiào bèn dàn"
+        },
+        {
+          "field": "english",
+          "value": "()"
+        },
+        {
+          "field": "characters",
+          "value": "小笨蛋"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiǎndān"
+        },
+        {
+          "field": "english",
+          "value": "simple"
+        },
+        {
+          "field": "characters",
+          "value": "简单"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qiǎokèlì"
+        },
+        {
+          "field": "english",
+          "value": "chocolate"
+        },
+        {
+          "field": "characters",
+          "value": "巧克力"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǒ bùzhīdao"
+        },
+        {
+          "field": "english",
+          "value": "\"I don't know.\"/\"I don't have that knowledge\""
+        },
+        {
+          "field": "characters",
+          "value": "我不知道"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yěxǚ"
+        },
+        {
+          "field": "english",
+          "value": "maybe/perhaps/probably"
+        },
+        {
+          "field": "characters",
+          "value": "也许"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kěnéng"
+        },
+        {
+          "field": "english",
+          "value": "possible/maybe (possibly)"
+        },
+        {
+          "field": "characters",
+          "value": "可能"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kěnéngxìng"
+        },
+        {
+          "field": "english",
+          "value": "possability"
+        },
+        {
+          "field": "characters",
+          "value": "可能性"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kěyǐ"
+        },
+        {
+          "field": "english",
+          "value": "can/may (verb)"
+        },
+        {
+          "field": "characters",
+          "value": "可以"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xìnggǎn"
+        },
+        {
+          "field": "english",
+          "value": "hot/sexy"
+        },
+        {
+          "field": "characters",
+          "value": "性感"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tài"
+        },
+        {
+          "field": "english",
+          "value": "greatest/highest; too/excessively"
+        },
+        {
+          "field": "characters",
+          "value": "太"
+        }
+      ],
+      "tags": [
+        "common noun/adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zuì"
+        },
+        {
+          "field": "english",
+          "value": "most/-est"
+        },
+        {
+          "field": "characters",
+          "value": "最"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bǐ"
+        },
+        {
+          "field": "english",
+          "value": "to compare/contrast"
+        },
+        {
+          "field": "characters",
+          "value": "比"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "cài"
+        },
+        {
+          "field": "english",
+          "value": "vegetable; food; dish; course; cuisine"
+        },
+        {
+          "field": "characters",
+          "value": "采"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chá"
+        },
+        {
+          "field": "english",
+          "value": "tea"
+        },
+        {
+          "field": "characters",
+          "value": "茶"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hǎochī"
+        },
+        {
+          "field": "english",
+          "value": "delicious/tasty (to eat)"
+        },
+        {
+          "field": "characters",
+          "value": "好吃"
+        }
+      ],
+      "tags": [
+        "adjective phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nánchī"
+        },
+        {
+          "field": "english",
+          "value": "not good/hard (to eat)"
+        },
+        {
+          "field": "characters",
+          "value": "难吃"
+        }
+      ],
+      "tags": [
+        "adjective phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chàbùduō"
+        },
+        {
+          "field": "english",
+          "value": "similar/about the same; (just about right?)"
+        },
+        {
+          "field": "characters",
+          "value": "差不多"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hǎotíng"
+        },
+        {
+          "field": "english",
+          "value": "pleasant to hear/sound good"
+        },
+        {
+          "field": "characters",
+          "value": "好听"
+        }
+      ],
+      "tags": [
+        "adjective phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hē"
+        },
+        {
+          "field": "english",
+          "value": "to drink"
+        },
+        {
+          "field": "characters",
+          "value": "喝"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hǎohē"
+        },
+        {
+          "field": "english",
+          "value": "good (to drink)/tasty drink"
+        },
+        {
+          "field": "characters",
+          "value": "好喝"
+        }
+      ],
+      "tags": [
+        "adjective phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiǚ"
+        },
+        {
+          "field": "english",
+          "value": "alcoholic drink/wine/spirits"
+        },
+        {
+          "field": "characters",
+          "value": "酒"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "gānbēi"
+        },
+        {
+          "field": "english",
+          "value": "\"Kampai!\""
+        },
+        {
+          "field": "characters",
+          "value": "干杯"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "huānyíng"
+        },
+        {
+          "field": "english",
+          "value": "welcome/greet; be well received"
+        },
+        {
+          "field": "characters",
+          "value": "欢迎"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "Jiǜjīnshān"
+        },
+        {
+          "field": "english",
+          "value": "San Francisco (China)"
+        },
+        {
+          "field": "characters",
+          "value": "旧金山"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "Sānfānshì"
+        },
+        {
+          "field": "english",
+          "value": "San Francisco (immigrant)"
+        },
+        {
+          "field": "characters",
+          "value": "三藩市"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zài"
+        },
+        {
+          "field": "english",
+          "value": "in; on; at"
+        },
+        {
+          "field": "characters",
+          "value": "在"
+        }
+      ],
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "gōngzòu"
+        },
+        {
+          "field": "english",
+          "value": "to work operate; job/occupation  (as noun)"
+        },
+        {
+          "field": "characters",
+          "value": "工作"
+        }
+      ],
+      "tags": [
+        "common noun",
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shàngbān"
+        },
+        {
+          "field": "english",
+          "value": "to go to work"
+        },
+        {
+          "field": "characters",
+          "value": "上班"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhù"
+        },
+        {
+          "field": "english",
+          "value": "to live/reside"
+        },
+        {
+          "field": "characters",
+          "value": "住"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shéi/shuí"
+        },
+        {
+          "field": "english",
+          "value": "who"
+        },
+        {
+          "field": "characters",
+          "value": "谁"
+        }
+      ],
+      "tags": [
+        "question word"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǎ/něi"
+        },
+        {
+          "field": "english",
+          "value": "which"
+        },
+        {
+          "field": "characters",
+          "value": "那"
+        }
+      ],
+      "tags": [
+        "question word"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shénme"
+        },
+        {
+          "field": "english",
+          "value": "what"
+        },
+        {
+          "field": "characters",
+          "value": "什么"
+        }
+      ],
+      "tags": [
+        "question word"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "weishénme"
+        },
+        {
+          "field": "english",
+          "value": "why [for/to what (what for)]"
+        },
+        {
+          "field": "characters",
+          "value": "为什么"
+        }
+      ],
+      "tags": [
+        "question word"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yīnwéi"
+        },
+        {
+          "field": "english",
+          "value": "because"
+        },
+        {
+          "field": "characters",
+          "value": "因为"
+        }
+      ],
+      "tags": [
+        "conjunction",
+        "preposition"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǎli/nǎr"
+        },
+        {
+          "field": "english",
+          "value": "where"
+        },
+        {
+          "field": "characters",
+          "value": "哪里"
+        }
+      ],
+      "tags": [
+        "question word"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nàli/nàr"
+        },
+        {
+          "field": "english",
+          "value": "there"
+        },
+        {
+          "field": "characters",
+          "value": "那里"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhèli/zhèr"
+        },
+        {
+          "field": "english",
+          "value": "here"
+        },
+        {
+          "field": "characters",
+          "value": "这里"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "méi(yǒu) guānxi"
+        },
+        {
+          "field": "english",
+          "value": "\"That's okay\"/\"It doesn't matter\" [lit. no connection/relationship]"
+        },
+        {
+          "field": "characters",
+          "value": "没关系"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qǐngwèn"
+        },
+        {
+          "field": "english",
+          "value": "\"May I ask?\"/\"Excuse me...\""
+        },
+        {
+          "field": "characters",
+          "value": "请问"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lǎo"
+        },
+        {
+          "field": "english",
+          "value": "old (age)"
+        },
+        {
+          "field": "characters",
+          "value": "老"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "niánqīng"
+        },
+        {
+          "field": "english",
+          "value": "young (age)"
+        },
+        {
+          "field": "characters",
+          "value": "年轻/年青"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lǐmiàn"
+        },
+        {
+          "field": "english",
+          "value": "inside"
+        },
+        {
+          "field": "characters",
+          "value": "里面"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhège[/zhèige]"
+        },
+        {
+          "field": "english",
+          "value": "this (one/person)"
+        },
+        {
+          "field": "characters",
+          "value": "这个"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nàge[/něigè]"
+        },
+        {
+          "field": "english",
+          "value": "that (one/person)"
+        },
+        {
+          "field": "characters",
+          "value": "那个"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xüéxí"
+        },
+        {
+          "field": "english",
+          "value": "to study/learn (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "学习"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sānbā"
+        },
+        {
+          "field": "english",
+          "value": "gossip/stupid"
+        },
+        {
+          "field": "characters",
+          "value": "三八"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kěshì"
+        },
+        {
+          "field": "english",
+          "value": "but"
+        },
+        {
+          "field": "characters",
+          "value": "可是"
+        }
+      ],
+      "tags": [
+        "conjunction",
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dǎnshì"
+        },
+        {
+          "field": "english",
+          "value": "but/yet/nevertheless"
+        },
+        {
+          "field": "characters",
+          "value": "但是"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bùhaǒyìsi"
+        },
+        {
+          "field": "english",
+          "value": "to be embarrassed about (verb); embarrassing (adjective) [lit. not good meaning]"
+        },
+        {
+          "field": "characters",
+          "value": "不好意思"
+        }
+      ],
+      "tags": [
+        "adjective",
+        "verb",
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiōng"
+        },
+        {
+          "field": "english",
+          "value": "terrible/mean/fierce/ominous"
+        },
+        {
+          "field": "characters",
+          "value": "凶"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fēichánghǎo"
+        },
+        {
+          "field": "english",
+          "value": "\"Very/extremely good!\""
+        },
+        {
+          "field": "characters",
+          "value": "非常好"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lǚguǎn"
+        },
+        {
+          "field": "english",
+          "value": "(cheaper) hotel (or inn)"
+        },
+        {
+          "field": "characters",
+          "value": "旅馆"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bīnguǎn"
+        },
+        {
+          "field": "english",
+          "value": "hotel (nice)/guesthouse"
+        },
+        {
+          "field": "characters",
+          "value": "宾馆"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiǚdiàn"
+        },
+        {
+          "field": "english",
+          "value": "hotel [lit. liquor shop/pub]"
+        },
+        {
+          "field": "characters",
+          "value": "酒店"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fàndiàn"
+        },
+        {
+          "field": "english",
+          "value": "hotel/(sometimes restaurant) [lit. food shop/restaurant]"
+        },
+        {
+          "field": "characters",
+          "value": "饭店"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bālí"
+        },
+        {
+          "field": "english",
+          "value": "Paris"
+        },
+        {
+          "field": "characters",
+          "value": "巴黎"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bālídǎo"
+        },
+        {
+          "field": "english",
+          "value": "Bali (Island)"
+        },
+        {
+          "field": "characters",
+          "value": "巴厘岛"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "àokèlán"
+        },
+        {
+          "field": "english",
+          "value": "Oakland"
+        },
+        {
+          "field": "characters",
+          "value": "奥克兰"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shènghéxī"
+        },
+        {
+          "field": "english",
+          "value": "San Jose"
+        },
+        {
+          "field": "characters",
+          "value": "圣h荷西"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bókèlì"
+        },
+        {
+          "field": "english",
+          "value": "Berkeley"
+        },
+        {
+          "field": "characters",
+          "value": "伯克利"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "niǔyuē"
+        },
+        {
+          "field": "english",
+          "value": "New York"
+        },
+        {
+          "field": "characters",
+          "value": "纽约"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhījiāgē"
+        },
+        {
+          "field": "english",
+          "value": "Chicago"
+        },
+        {
+          "field": "characters",
+          "value": "芝加哥"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "luòshānjī"
+        },
+        {
+          "field": "english",
+          "value": "Los Angeles"
+        },
+        {
+          "field": "characters",
+          "value": "洛杉矶"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lúndūn"
+        },
+        {
+          "field": "english",
+          "value": "London"
+        },
+        {
+          "field": "characters",
+          "value": "伦敦"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "běijīng"
+        },
+        {
+          "field": "english",
+          "value": "Beijing"
+        },
+        {
+          "field": "characters",
+          "value": "北京"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shánghǎi"
+        },
+        {
+          "field": "english",
+          "value": "Shanghai"
+        },
+        {
+          "field": "characters",
+          "value": "上海"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "táiběi"
+        },
+        {
+          "field": "english",
+          "value": "Taipei"
+        },
+        {
+          "field": "characters",
+          "value": "台北"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiānggǎng"
+        },
+        {
+          "field": "english",
+          "value": "Hong Kong"
+        },
+        {
+          "field": "characters",
+          "value": "香港"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dōngjīng"
+        },
+        {
+          "field": "english",
+          "value": "Tokyo"
+        },
+        {
+          "field": "characters",
+          "value": "东京"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nán(xìng)"
+        },
+        {
+          "field": "english",
+          "value": "male (sex)"
+        },
+        {
+          "field": "characters",
+          "value": "男(性)"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǚ(xìng)"
+        },
+        {
+          "field": "english",
+          "value": "female (sex)"
+        },
+        {
+          "field": "characters",
+          "value": "女(性)"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nánrén"
+        },
+        {
+          "field": "english",
+          "value": "man"
+        },
+        {
+          "field": "characters",
+          "value": "男人"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǚrén"
+        },
+        {
+          "field": "english",
+          "value": "woman"
+        },
+        {
+          "field": "characters",
+          "value": "女人"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīní"
+        },
+        {
+          "field": "english",
+          "value": "Sydney (Australia)"
+        },
+        {
+          "field": "characters",
+          "value": "悉尼"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiāzhōu"
+        },
+        {
+          "field": "english",
+          "value": "California (abbr.)"
+        },
+        {
+          "field": "characters",
+          "value": "加州"
+        }
+      ],
+      "tags": [
+        "proper noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "háiyǒu"
+        },
+        {
+          "field": "english",
+          "value": "furthmore/in addition/also"
+        },
+        {
+          "field": "characters",
+          "value": "还有"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "háiyǒu"
+        },
+        {
+          "field": "english",
+          "value": "furthmore/in addition/also"
+        },
+        {
+          "field": "characters",
+          "value": "还有"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiā"
+        },
+        {
+          "field": "english",
+          "value": "home/family"
+        },
+        {
+          "field": "characters",
+          "value": "家"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiārén"
+        },
+        {
+          "field": "english",
+          "value": "family member"
+        },
+        {
+          "field": "characters",
+          "value": "家人"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fángzi"
+        },
+        {
+          "field": "english",
+          "value": "house"
+        },
+        {
+          "field": "characters",
+          "value": "房子"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "māma"
+        },
+        {
+          "field": "english",
+          "value": "mother"
+        },
+        {
+          "field": "characters",
+          "value": "妈妈"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bàba"
+        },
+        {
+          "field": "english",
+          "value": "father"
+        },
+        {
+          "field": "characters",
+          "value": "爸爸"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bàbamāma"
+        },
+        {
+          "field": "english",
+          "value": "parents"
+        },
+        {
+          "field": "characters",
+          "value": "爸爸妈妈"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "mǔqīn"
+        },
+        {
+          "field": "english",
+          "value": "mother (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "母亲"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fùqīn"
+        },
+        {
+          "field": "english",
+          "value": "father (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "父亲"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fùmǔ"
+        },
+        {
+          "field": "english",
+          "value": "parents (formal-ish)"
+        },
+        {
+          "field": "characters",
+          "value": "父母"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiōng"
+        },
+        {
+          "field": "english",
+          "value": "older brother (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "兄"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "háizi"
+        },
+        {
+          "field": "english",
+          "value": "child"
+        },
+        {
+          "field": "characters",
+          "value": "孩子"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nánháizi"
+        },
+        {
+          "field": "english",
+          "value": "boy"
+        },
+        {
+          "field": "characters",
+          "value": "男孩子"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǚháizi"
+        },
+        {
+          "field": "english",
+          "value": "girl"
+        },
+        {
+          "field": "characters",
+          "value": "女孩子"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǚér"
+        },
+        {
+          "field": "english",
+          "value": "daughter"
+        },
+        {
+          "field": "characters",
+          "value": "女儿"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "érzi"
+        },
+        {
+          "field": "english",
+          "value": "son"
+        },
+        {
+          "field": "characters",
+          "value": "儿子"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "gēge"
+        },
+        {
+          "field": "english",
+          "value": "(older) brother"
+        },
+        {
+          "field": "characters",
+          "value": "哥哥"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dìdi"
+        },
+        {
+          "field": "english",
+          "value": "(younger) brother"
+        },
+        {
+          "field": "characters",
+          "value": "弟弟"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiějie"
+        },
+        {
+          "field": "english",
+          "value": "(older) sister"
+        },
+        {
+          "field": "characters",
+          "value": "姐姐"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "mèimei"
+        },
+        {
+          "field": "english",
+          "value": "(younger) sister"
+        },
+        {
+          "field": "characters",
+          "value": "妹妹"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiōngdìjiěmèi"
+        },
+        {
+          "field": "english",
+          "value": "siblings (can be disassembled)"
+        },
+        {
+          "field": "characters",
+          "value": "兄弟姐妹"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tàitai"
+        },
+        {
+          "field": "english",
+          "value": "wife [Taiwan/Hong Kong?]; ma'am; Mrs."
+        },
+        {
+          "field": "characters",
+          "value": "太太"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lǎopó"
+        },
+        {
+          "field": "english",
+          "value": "wife [mainland]"
+        },
+        {
+          "field": "characters",
+          "value": "老婆"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lǎogōng"
+        },
+        {
+          "field": "english",
+          "value": "husband [mainland]"
+        },
+        {
+          "field": "characters",
+          "value": "老公"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiānsheng"
+        },
+        {
+          "field": "english",
+          "value": "husband [Taiwan/Hong Kong?]; sir; Mr.; waiter (some places)"
+        },
+        {
+          "field": "characters",
+          "value": "先生"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiǎojiě"
+        },
+        {
+          "field": "english",
+          "value": "Miss [lit. little older sister]; prostitute (some places/contexts--be careful)"
+        },
+        {
+          "field": "characters",
+          "value": "小姐"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fúwùyuán"
+        },
+        {
+          "field": "english",
+          "value": "attendant/server; waiter/waitress (Beijing)"
+        },
+        {
+          "field": "characters",
+          "value": "服务员"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "péngyǒu"
+        },
+        {
+          "field": "english",
+          "value": "friend"
+        },
+        {
+          "field": "characters",
+          "value": "朋友"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nánpéngyǒu"
+        },
+        {
+          "field": "english",
+          "value": "boyfriend"
+        },
+        {
+          "field": "characters",
+          "value": "男朋友"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǚpéngyǒu"
+        },
+        {
+          "field": "english",
+          "value": "girlfriend"
+        },
+        {
+          "field": "characters",
+          "value": "女朋友"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hǎowán"
+        },
+        {
+          "field": "english",
+          "value": "fun/interesting"
+        },
+        {
+          "field": "characters",
+          "value": "好玩"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hǎowén"
+        },
+        {
+          "field": "english",
+          "value": "smell good/sweet"
+        },
+        {
+          "field": "characters",
+          "value": "好闻"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tīngqǐlái"
+        },
+        {
+          "field": "english",
+          "value": "to sound like X"
+        },
+        {
+          "field": "characters",
+          "value": "听起来"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "kànqǐlái"
+        },
+        {
+          "field": "english",
+          "value": "to look like X"
+        },
+        {
+          "field": "characters",
+          "value": "看起来"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chīqǐlái"
+        },
+        {
+          "field": "english",
+          "value": "to taste like X"
+        },
+        {
+          "field": "characters",
+          "value": "吃起来"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dāngrán"
+        },
+        {
+          "field": "english",
+          "value": "of course/certainly"
+        },
+        {
+          "field": "characters",
+          "value": "当然"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǒ shuō..."
+        },
+        {
+          "field": "english",
+          "value": "\"I was saying..\"/\"I mean...\""
+        },
+        {
+          "field": "characters",
+          "value": "我说"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wěn"
+        },
+        {
+          "field": "english",
+          "value": "to kiss (formal, not commonly used)"
+        },
+        {
+          "field": "characters",
+          "value": "吻"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qīn"
+        },
+        {
+          "field": "english",
+          "value": "to kiss"
+        },
+        {
+          "field": "characters",
+          "value": "亲"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "miànzi"
+        },
+        {
+          "field": "english",
+          "value": "\"face\""
+        },
+        {
+          "field": "characters",
+          "value": "面子"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "píjiǔ"
+        },
+        {
+          "field": "english",
+          "value": "beer"
+        },
+        {
+          "field": "characters",
+          "value": "啤酒"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhǔnbèi"
+        },
+        {
+          "field": "english",
+          "value": "to prepare/get ready"
+        },
+        {
+          "field": "characters",
+          "value": "准备"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhǔnbèi hǎo le ma? [hǎo le/méiyǒu]"
+        },
+        {
+          "field": "english",
+          "value": "\"Are you ready?\" [\"Yes.\"/\"No.\"]"
+        },
+        {
+          "field": "characters",
+          "value": "准备好了吗 好了 没有"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "líng"
+        },
+        {
+          "field": "english",
+          "value": "0"
+        },
+        {
+          "field": "characters",
+          "value": "令"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yī"
+        },
+        {
+          "field": "english",
+          "value": "1"
+        },
+        {
+          "field": "characters",
+          "value": "一"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "èr/liǎng"
+        },
+        {
+          "field": "english",
+          "value": "2"
+        },
+        {
+          "field": "characters",
+          "value": "二/两"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "èr"
+        },
+        {
+          "field": "english",
+          "value": "2"
+        },
+        {
+          "field": "characters",
+          "value": "二"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sān"
+        },
+        {
+          "field": "english",
+          "value": "3"
+        },
+        {
+          "field": "characters",
+          "value": "三"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sì"
+        },
+        {
+          "field": "english",
+          "value": "4"
+        },
+        {
+          "field": "characters",
+          "value": "四"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǔ"
+        },
+        {
+          "field": "english",
+          "value": "5"
+        },
+        {
+          "field": "characters",
+          "value": "五"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liù"
+        },
+        {
+          "field": "english",
+          "value": "6"
+        },
+        {
+          "field": "characters",
+          "value": "六"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qī"
+        },
+        {
+          "field": "english",
+          "value": "7"
+        },
+        {
+          "field": "characters",
+          "value": "七"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bā"
+        },
+        {
+          "field": "english",
+          "value": "8"
+        },
+        {
+          "field": "characters",
+          "value": "八"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiǔ"
+        },
+        {
+          "field": "english",
+          "value": "9"
+        },
+        {
+          "field": "characters",
+          "value": "九"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shí"
+        },
+        {
+          "field": "english",
+          "value": "ten(s)"
+        },
+        {
+          "field": "characters",
+          "value": "十"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bǎi"
+        },
+        {
+          "field": "english",
+          "value": "hundred(s)"
+        },
+        {
+          "field": "characters",
+          "value": "百"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qiān"
+        },
+        {
+          "field": "english",
+          "value": "thousand(s)"
+        },
+        {
+          "field": "characters",
+          "value": "千"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wàn"
+        },
+        {
+          "field": "english",
+          "value": "ten thousand(s)"
+        },
+        {
+          "field": "characters",
+          "value": "万"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yì"
+        },
+        {
+          "field": "english",
+          "value": "hundred million(s)"
+        },
+        {
+          "field": "characters",
+          "value": "亿"
+        }
+      ],
+      "tags": [
+        "counting number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "*gē"
+        },
+        {
+          "field": "english",
+          "value": "general/people (counter)"
+        },
+        {
+          "field": "characters",
+          "value": "个"
+        }
+      ],
+      "tags": [
+        "counter"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "*bēi"
+        },
+        {
+          "field": "english",
+          "value": "cup/glass (counter)"
+        },
+        {
+          "field": "characters",
+          "value": "杯"
+        }
+      ],
+      "tags": [
+        "counter"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "*píng"
+        },
+        {
+          "field": "english",
+          "value": "bottle/container (counter)"
+        },
+        {
+          "field": "characters",
+          "value": "瓶"
+        }
+      ],
+      "tags": [
+        "counter"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "*běn"
+        },
+        {
+          "field": "english",
+          "value": "book/bound item (counter)"
+        },
+        {
+          "field": "characters",
+          "value": "本"
+        }
+      ],
+      "tags": [
+        "counter"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "*zhāng"
+        },
+        {
+          "field": "english",
+          "value": "paper/table/thin or flat item (counter)"
+        },
+        {
+          "field": "characters",
+          "value": "张"
+        }
+      ],
+      "tags": [
+        "counter"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "*suì"
+        },
+        {
+          "field": "english",
+          "value": "age/years (counter)"
+        },
+        {
+          "field": "characters",
+          "value": "岁"
+        }
+      ],
+      "tags": [
+        "counter"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐ"
+        },
+        {
+          "field": "english",
+          "value": "how many"
+        },
+        {
+          "field": "characters",
+          "value": "几"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐgē"
+        },
+        {
+          "field": "english",
+          "value": "\"How many (of something)?\""
+        },
+        {
+          "field": "characters",
+          "value": "几个"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐsuì"
+        },
+        {
+          "field": "english",
+          "value": "\"How (many years) old?\""
+        },
+        {
+          "field": "characters",
+          "value": "几岁"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dōu"
+        },
+        {
+          "field": "english",
+          "value": "all; both; every"
+        },
+        {
+          "field": "characters",
+          "value": "都"
+        }
+      ],
+      "tags": [
+        "adverb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "guānxi"
+        },
+        {
+          "field": "english",
+          "value": "relationship/relation/relevance; connection"
+        },
+        {
+          "field": "characters",
+          "value": "关系"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "méiyǒu yìsi"
+        },
+        {
+          "field": "english",
+          "value": "not interesting/boring"
+        },
+        {
+          "field": "characters",
+          "value": "没有意思"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yǒu yìsi"
+        },
+        {
+          "field": "english",
+          "value": "interesting"
+        },
+        {
+          "field": "characters",
+          "value": "有意思"
+        }
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yè"
+        },
+        {
+          "field": "english",
+          "value": "page"
+        },
+        {
+          "field": "characters",
+          "value": "页"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "suǒyǐ"
+        },
+        {
+          "field": "english",
+          "value": "therefore/so"
+        },
+        {
+          "field": "characters",
+          "value": "所以"
+        }
+      ],
+      "tags": [
+        "conjunction"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiǚ"
+        },
+        {
+          "field": "english",
+          "value": "long (time)"
+        },
+        {
+          "field": "characters",
+          "value": "久"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "cóng"
+        },
+        {
+          "field": "english",
+          "value": "from"
+        },
+        {
+          "field": "characters",
+          "value": "从"
+        }
+      ],
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "lái"
+        },
+        {
+          "field": "english",
+          "value": "to come"
+        },
+        {
+          "field": "characters",
+          "value": "来"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chē"
+        },
+        {
+          "field": "english",
+          "value": "vehicle/car"
+        },
+        {
+          "field": "characters",
+          "value": "车"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nián"
+        },
+        {
+          "field": "english",
+          "value": "year"
+        },
+        {
+          "field": "characters",
+          "value": "年"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yüè"
+        },
+        {
+          "field": "english",
+          "value": "month/moon"
+        },
+        {
+          "field": "characters",
+          "value": "月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yüèfèn"
+        },
+        {
+          "field": "english",
+          "value": "month (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "月份"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yīyüè"
+        },
+        {
+          "field": "english",
+          "value": "January"
+        },
+        {
+          "field": "characters",
+          "value": "一月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "èryüè"
+        },
+        {
+          "field": "english",
+          "value": "February"
+        },
+        {
+          "field": "characters",
+          "value": "二月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sānyüè"
+        },
+        {
+          "field": "english",
+          "value": "March"
+        },
+        {
+          "field": "characters",
+          "value": "三月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yí ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "one month (duration)"
+        },
+        {
+          "field": "characters",
+          "value": "一个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎng ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "two months (duration)"
+        },
+        {
+          "field": "characters",
+          "value": "两个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sān ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "three months (duration)"
+        },
+        {
+          "field": "characters",
+          "value": "三个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hào"
+        },
+        {
+          "field": "english",
+          "value": "number/date"
+        },
+        {
+          "field": "characters",
+          "value": "号"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "rì"
+        },
+        {
+          "field": "english",
+          "value": "number/date (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "日"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yīhào"
+        },
+        {
+          "field": "english",
+          "value": "the 1st (date)"
+        },
+        {
+          "field": "characters",
+          "value": "一号"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "èrhào"
+        },
+        {
+          "field": "english",
+          "value": "the 2nd (date)"
+        },
+        {
+          "field": "characters",
+          "value": "二号"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sānhào"
+        },
+        {
+          "field": "english",
+          "value": "the 3rd (date)"
+        },
+        {
+          "field": "characters",
+          "value": "三号"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "week"
+        },
+        {
+          "field": "characters",
+          "value": "星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqīyī"
+        },
+        {
+          "field": "english",
+          "value": "Monday"
+        },
+        {
+          "field": "characters",
+          "value": "星期一"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqī'èr"
+        },
+        {
+          "field": "english",
+          "value": "Tuesday"
+        },
+        {
+          "field": "characters",
+          "value": "星期二"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqīsān"
+        },
+        {
+          "field": "english",
+          "value": "Wednesday"
+        },
+        {
+          "field": "characters",
+          "value": "星期三"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqīsì"
+        },
+        {
+          "field": "english",
+          "value": "Thursday"
+        },
+        {
+          "field": "characters",
+          "value": "星期四"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqīwǔ"
+        },
+        {
+          "field": "english",
+          "value": "Friday"
+        },
+        {
+          "field": "characters",
+          "value": "星期五"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqīliù"
+        },
+        {
+          "field": "english",
+          "value": "Saturday"
+        },
+        {
+          "field": "characters",
+          "value": "星期六"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqītiān/xīngqīrì"
+        },
+        {
+          "field": "english",
+          "value": "Sunday"
+        },
+        {
+          "field": "characters",
+          "value": "星期天/星期日"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yí ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "one week (duration)"
+        },
+        {
+          "field": "characters",
+          "value": "一个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎng ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "two weeks (duration)"
+        },
+        {
+          "field": "characters",
+          "value": "两个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sān ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "three weeks (duration)"
+        },
+        {
+          "field": "characters",
+          "value": "三个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zǎoshang"
+        },
+        {
+          "field": "english",
+          "value": "morning"
+        },
+        {
+          "field": "characters",
+          "value": "早上"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhōngwǔ"
+        },
+        {
+          "field": "english",
+          "value": "midday/noon"
+        },
+        {
+          "field": "characters",
+          "value": "中午"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiàwǔ"
+        },
+        {
+          "field": "english",
+          "value": "afternoon"
+        },
+        {
+          "field": "characters",
+          "value": "下午"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǎnshang"
+        },
+        {
+          "field": "english",
+          "value": "evening"
+        },
+        {
+          "field": "characters",
+          "value": "晚上"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bànyè"
+        },
+        {
+          "field": "english",
+          "value": "midnight"
+        },
+        {
+          "field": "characters",
+          "value": "半夜"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "diǎn"
+        },
+        {
+          "field": "english",
+          "value": "o'clock"
+        },
+        {
+          "field": "characters",
+          "value": "点"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìdiǎn"
+        },
+        {
+          "field": "english",
+          "value": "1 o'clock"
+        },
+        {
+          "field": "characters",
+          "value": "一点"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎngdiǎn"
+        },
+        {
+          "field": "english",
+          "value": "2 o'clock"
+        },
+        {
+          "field": "characters",
+          "value": "两点"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sāndiǎn"
+        },
+        {
+          "field": "english",
+          "value": "3 o'clock"
+        },
+        {
+          "field": "characters",
+          "value": "三点"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "fēn"
+        },
+        {
+          "field": "english",
+          "value": "minute"
+        },
+        {
+          "field": "characters",
+          "value": "分"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìfēn"
+        },
+        {
+          "field": "english",
+          "value": "1 minute"
+        },
+        {
+          "field": "characters",
+          "value": "一分"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎngfēn"
+        },
+        {
+          "field": "english",
+          "value": "two minutes"
+        },
+        {
+          "field": "characters",
+          "value": "两分"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sānfēn"
+        },
+        {
+          "field": "english",
+          "value": "three minutes"
+        },
+        {
+          "field": "characters",
+          "value": "三分"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tiān"
+        },
+        {
+          "field": "english",
+          "value": "day"
+        },
+        {
+          "field": "characters",
+          "value": "天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yìtiān"
+        },
+        {
+          "field": "english",
+          "value": "1 day"
+        },
+        {
+          "field": "characters",
+          "value": "一天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "èrtiān"
+        },
+        {
+          "field": "english",
+          "value": "two day(s)"
+        },
+        {
+          "field": "characters",
+          "value": "二天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sāntiān"
+        },
+        {
+          "field": "english",
+          "value": "three day(s)"
+        },
+        {
+          "field": "characters",
+          "value": "三天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhōumò"
+        },
+        {
+          "field": "english",
+          "value": "weekend"
+        },
+        {
+          "field": "characters",
+          "value": "周末"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zǎofàn"
+        },
+        {
+          "field": "english",
+          "value": "breakfast"
+        },
+        {
+          "field": "characters",
+          "value": "早饭"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zǎocān"
+        },
+        {
+          "field": "english",
+          "value": "breakfast (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "早餐"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhōngfàn/wǔfàn"
+        },
+        {
+          "field": "english",
+          "value": "lunch"
+        },
+        {
+          "field": "characters",
+          "value": "中饭/午饭"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǔcān"
+        },
+        {
+          "field": "english",
+          "value": "lunch (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "午餐"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiàwǔchá"
+        },
+        {
+          "field": "english",
+          "value": "afternoon tea"
+        },
+        {
+          "field": "characters",
+          "value": "下午茶"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "chīdōngxī"
+        },
+        {
+          "field": "english",
+          "value": "eat things/nosh (casual)"
+        },
+        {
+          "field": "characters",
+          "value": "吃东西"
+        }
+      ],
+      "tags": [
+        "verb phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǎnfàn"
+        },
+        {
+          "field": "english",
+          "value": "dinner"
+        },
+        {
+          "field": "characters",
+          "value": "晚饭"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǎncàn"
+        },
+        {
+          "field": "english",
+          "value": "dinner (formal)"
+        },
+        {
+          "field": "characters",
+          "value": "晚餐"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǒ hěn è"
+        },
+        {
+          "field": "english",
+          "value": "\"I'm hungry.\""
+        },
+        {
+          "field": "characters",
+          "value": "我很饿"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "wǒ hěn kě"
+        },
+        {
+          "field": "english",
+          "value": "\"I'm thirsty.\""
+        },
+        {
+          "field": "characters",
+          "value": "w我很渴"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dì*"
+        },
+        {
+          "field": "english",
+          "value": "[ordinal suffix]"
+        },
+        {
+          "field": "characters",
+          "value": "第"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dì yī ge X"
+        },
+        {
+          "field": "english",
+          "value": "first X"
+        },
+        {
+          "field": "characters",
+          "value": "第一个"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dì èr ge X"
+        },
+        {
+          "field": "english",
+          "value": "second X"
+        },
+        {
+          "field": "characters",
+          "value": "第二个"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "dì sān ge X"
+        },
+        {
+          "field": "english",
+          "value": "third X"
+        },
+        {
+          "field": "characters",
+          "value": "第三个"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yíkè"
+        },
+        {
+          "field": "english",
+          "value": "15 minutes; a quarter"
+        },
+        {
+          "field": "characters",
+          "value": "一刻"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sānkè"
+        },
+        {
+          "field": "english",
+          "value": "45 minutes; three quarters"
+        },
+        {
+          "field": "characters",
+          "value": "三刻"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "bàn"
+        },
+        {
+          "field": "english",
+          "value": "half"
+        },
+        {
+          "field": "characters",
+          "value": "半"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yíbàn"
+        },
+        {
+          "field": "english",
+          "value": "one half"
+        },
+        {
+          "field": "characters",
+          "value": "一半"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "tīng bù dǒng"
+        },
+        {
+          "field": "english",
+          "value": "to not hear/understant"
+        },
+        {
+          "field": "characters",
+          "value": "听不懂"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jiù shì"
+        },
+        {
+          "field": "english",
+          "value": "to be (emphasizing subject)"
+        },
+        {
+          "field": "characters",
+          "value": "就是"
+        }
+      ],
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhēn de"
+        },
+        {
+          "field": "english",
+          "value": "really"
+        },
+        {
+          "field": "characters",
+          "value": "真的"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhēn de ma?"
+        },
+        {
+          "field": "english",
+          "value": "\"Really?\""
+        },
+        {
+          "field": "characters",
+          "value": "真的吗"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shàng"
+        },
+        {
+          "field": "english",
+          "value": "up/above; before"
+        },
+        {
+          "field": "characters",
+          "value": "上"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xià"
+        },
+        {
+          "field": "english",
+          "value": "down/below; after"
+        },
+        {
+          "field": "characters",
+          "value": "下"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shēngrì"
+        },
+        {
+          "field": "english",
+          "value": "birthday"
+        },
+        {
+          "field": "characters",
+          "value": "生日"
+        }
+      ],
+      "tags": [
+        "common noun"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shénme shíhou"
+        },
+        {
+          "field": "english",
+          "value": "\"When?\""
+        },
+        {
+          "field": "characters",
+          "value": "什么时候"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "nǎ yì nián"
+        },
+        {
+          "field": "english",
+          "value": "\"What year?\""
+        },
+        {
+          "field": "characters",
+          "value": "哪一年"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐ yüè"
+        },
+        {
+          "field": "english",
+          "value": "\"What month?\""
+        },
+        {
+          "field": "characters",
+          "value": "几月"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐ ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "\"How many months?\""
+        },
+        {
+          "field": "characters",
+          "value": "几个月"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐ yüè jǐ hào"
+        },
+        {
+          "field": "english",
+          "value": "\"When?\"/\"What month/date?\""
+        },
+        {
+          "field": "characters",
+          "value": "几月几号"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐ hào"
+        },
+        {
+          "field": "english",
+          "value": "\"What date?\""
+        },
+        {
+          "field": "characters",
+          "value": "几号"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xīngqī jǐ"
+        },
+        {
+          "field": "english",
+          "value": "\"What day?\""
+        },
+        {
+          "field": "characters",
+          "value": "星期几"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐ ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "\"How many weeks?\""
+        },
+        {
+          "field": "characters",
+          "value": "几个星期"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jǐ diǎn"
+        },
+        {
+          "field": "english",
+          "value": "\"What time?\""
+        },
+        {
+          "field": "characters",
+          "value": "几点"
+        }
+      ],
+      "tags": [
+        "time phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qián"
+        },
+        {
+          "field": "english",
+          "value": "front/before; ahead"
+        },
+        {
+          "field": "characters",
+          "value": "前"
+        }
+      ],
+      "tags": [
+        "???"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yǐqián"
+        },
+        {
+          "field": "english",
+          "value": "before/previously"
+        },
+        {
+          "field": "characters",
+          "value": "以前"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiànzài"
+        },
+        {
+          "field": "english",
+          "value": "now"
+        },
+        {
+          "field": "characters",
+          "value": "现在"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "yǐhòu"
+        },
+        {
+          "field": "english",
+          "value": "after; later"
+        },
+        {
+          "field": "characters",
+          "value": "以后"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hòulái"
+        },
+        {
+          "field": "english",
+          "value": "later/afterwards"
+        },
+        {
+          "field": "characters",
+          "value": "后来"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qiántiān"
+        },
+        {
+          "field": "english",
+          "value": "day before yesterday"
+        },
+        {
+          "field": "characters",
+          "value": "前天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zuótiān"
+        },
+        {
+          "field": "english",
+          "value": "yesterday"
+        },
+        {
+          "field": "characters",
+          "value": "昨天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jīntiān"
+        },
+        {
+          "field": "english",
+          "value": "today"
+        },
+        {
+          "field": "characters",
+          "value": "今天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "míngtiān"
+        },
+        {
+          "field": "english",
+          "value": "tomorrow"
+        },
+        {
+          "field": "characters",
+          "value": "明天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hòutiān"
+        },
+        {
+          "field": "english",
+          "value": "day after tomorrow"
+        },
+        {
+          "field": "characters",
+          "value": "后天"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shàngshàng ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "week before last"
+        },
+        {
+          "field": "characters",
+          "value": "上上个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shàng ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "last week"
+        },
+        {
+          "field": "characters",
+          "value": "上个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhège[/zhēige] xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "this week"
+        },
+        {
+          "field": "characters",
+          "value": "这个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xià ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "next week"
+        },
+        {
+          "field": "characters",
+          "value": "下个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiàxià ge xīngqī"
+        },
+        {
+          "field": "english",
+          "value": "week after next"
+        },
+        {
+          "field": "characters",
+          "value": "下下个星期"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shàngshàng ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "month before last"
+        },
+        {
+          "field": "characters",
+          "value": "上上个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "shàng ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "last month"
+        },
+        {
+          "field": "characters",
+          "value": "上个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zhège[/zhēige] yüè"
+        },
+        {
+          "field": "english",
+          "value": "this month"
+        },
+        {
+          "field": "characters",
+          "value": "这个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xià ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "next month"
+        },
+        {
+          "field": "characters",
+          "value": "下个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "xiàxià ge yüè"
+        },
+        {
+          "field": "english",
+          "value": "month after next"
+        },
+        {
+          "field": "characters",
+          "value": "下下个月"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qiánnián"
+        },
+        {
+          "field": "english",
+          "value": "year before last"
+        },
+        {
+          "field": "characters",
+          "value": "前年"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "qùnián"
+        },
+        {
+          "field": "english",
+          "value": "last year"
+        },
+        {
+          "field": "characters",
+          "value": "去年"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "jīnnián"
+        },
+        {
+          "field": "english",
+          "value": "this year"
+        },
+        {
+          "field": "characters",
+          "value": "今年"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "míngnián"
+        },
+        {
+          "field": "english",
+          "value": "next year"
+        },
+        {
+          "field": "characters",
+          "value": "明年"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "hòunián"
+        },
+        {
+          "field": "english",
+          "value": "year after next"
+        },
+        {
+          "field": "characters",
+          "value": "后年"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎngtiānqián"
+        },
+        {
+          "field": "english",
+          "value": "two days ago"
+        },
+        {
+          "field": "characters",
+          "value": "两天前"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎngtiānhòu"
+        },
+        {
+          "field": "english",
+          "value": "two days later/from now"
+        },
+        {
+          "field": "characters",
+          "value": "两天后"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎnggexīngqīqián"
+        },
+        {
+          "field": "english",
+          "value": "two weeks ago"
+        },
+        {
+          "field": "characters",
+          "value": "两个星期前"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎnggexīngqīhòu"
+        },
+        {
+          "field": "english",
+          "value": "two weeks later/from now"
+        },
+        {
+          "field": "characters",
+          "value": "两个星期后"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎnggeyüèqián"
+        },
+        {
+          "field": "english",
+          "value": "two months ago"
+        },
+        {
+          "field": "characters",
+          "value": "两个月前"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎnggeyüèhòu"
+        },
+        {
+          "field": "english",
+          "value": "two months later/from now"
+        },
+        {
+          "field": "characters",
+          "value": "两个有后"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎngniánqián"
+        },
+        {
+          "field": "english",
+          "value": "two years ago"
+        },
+        {
+          "field": "characters",
+          "value": "两年前"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "liǎngniánhòu"
+        },
+        {
+          "field": "english",
+          "value": "two years later/from now"
+        },
+        {
+          "field": "characters",
+          "value": "两年后"
+        }
+      ],
+      "tags": [
+        "time"
+      ]
+    }
+  ],
+  "description": "Simple learning Mandarin vocabulary set."
+}

@@ -1,0 +1,7876 @@
+{
+  "id": "kb_net_vocab",
+  "name": "Kansaibenkyou.net Vocabulary (関西弁)",
+  "source_language": "ja-x-kansai",
+  "field_definitions": [
+    {
+      "name": "word",
+      "label": "Word (かな)",
+      "language": "ja-x-kansai",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "meaning",
+      "label": "Meaning",
+      "language": "en",
+      "field_type": "sense",
+      "default_face": "back"
+    },
+    {
+      "name": "kanji",
+      "label": "Kanji",
+      "language": "ja-x-kansai",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "std_word",
+      "label": "Std. Word (かな)",
+      "language": "ja",
+      "field_type": "representation"
+    },
+    {
+      "name": "std_kanji",
+      "label": "Std. Kanji",
+      "language": "ja",
+      "field_type": "representation"
+    },
+    {
+      "name": "link",
+      "label": "Reference",
+      "language": "en",
+      "field_type": "reference",
+      "displayable": false
+    }
+  ],
+  "default_display": {
+    "front": [
+      "word",
+      "kanji"
+    ],
+    "back": [
+      "meaning"
+    ],
+    "suppress": [
+      "std_word",
+      "std_kanji",
+      "link"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いがむ"
+        },
+        {
+          "field": "meaning",
+          "value": "to tilt; to be not straight; to twist"
+        },
+        {
+          "field": "kanji",
+          "value": "歪む"
+        },
+        {
+          "field": "std_word",
+          "value": "かたむく／ずれる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "傾く／ずれる"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/100\" title=\"See いがむ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なすび"
+        },
+        {
+          "field": "meaning",
+          "value": "eggplant"
+        },
+        {
+          "field": "kanji",
+          "value": "茄子"
+        },
+        {
+          "field": "std_word",
+          "value": "なす"
+        },
+        {
+          "field": "std_kanji",
+          "value": "茄子"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/5\" title=\"See なすび on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どもならん"
+        },
+        {
+          "field": "meaning",
+          "value": "can't be helped; (be resigned)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どうにもならない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/259\" title=\"See どもならん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どこぞ"
+        },
+        {
+          "field": "meaning",
+          "value": "anywhere; somewhere"
+        },
+        {
+          "field": "kanji",
+          "value": "何処ぞ"
+        },
+        {
+          "field": "std_word",
+          "value": "どこか"
+        },
+        {
+          "field": "std_kanji",
+          "value": "何処か"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/294\" title=\"See どこぞ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えんりょのかたまり"
+        },
+        {
+          "field": "meaning",
+          "value": "that one last piece of food at the table that everyone refuses to eat because they don't want to be the rude one."
+        },
+        {
+          "field": "kanji",
+          "value": "遠慮の塊"
+        },
+        {
+          "field": "std_word",
+          "value": "のこりもの(たべもの)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "残り物(食べ物)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/111\" title=\"See えんりょのかたまり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "たく"
+        },
+        {
+          "field": "meaning",
+          "value": "to stew; to simmer"
+        },
+        {
+          "field": "kanji",
+          "value": "炊く"
+        },
+        {
+          "field": "std_word",
+          "value": "にる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "煮る"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/220\" title=\"See たく on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どんくさい"
+        },
+        {
+          "field": "meaning",
+          "value": "slow; stupid; dumb"
+        },
+        {
+          "field": "kanji",
+          "value": "鈍臭い"
+        },
+        {
+          "field": "std_word",
+          "value": "とろい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "とろい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/60\" title=\"See どんくさい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おとつい"
+        },
+        {
+          "field": "meaning",
+          "value": "the day before yesterday; two days ago"
+        },
+        {
+          "field": "kanji",
+          "value": "一昨日"
+        },
+        {
+          "field": "std_word",
+          "value": "おととい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "一昨日"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/117\" title=\"See おとつい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぎょうさん"
+        },
+        {
+          "field": "meaning",
+          "value": "a lot"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "たくさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "沢山"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/80\" title=\"See ぎょうさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あんじょう"
+        },
+        {
+          "field": "meaning",
+          "value": "well; faithfully; steadily"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "じょうずに／うまく／ちゃんと／しっかりと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "上手に／上手く／ちゃんと／しっかりと"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/99\" title=\"See あんじょう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こえる"
+        },
+        {
+          "field": "meaning",
+          "value": "to get fat"
+        },
+        {
+          "field": "kanji",
+          "value": "肥える"
+        },
+        {
+          "field": "std_word",
+          "value": "ふとる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "太る"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/239\" title=\"See こえる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "はん"
+        },
+        {
+          "field": "meaning",
+          "value": "Mr./Ms./Mrs. (respect title suffix for a person)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "さん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/194\" title=\"See はん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おはようおかえり"
+        },
+        {
+          "field": "meaning",
+          "value": "come home early"
+        },
+        {
+          "field": "kanji",
+          "value": "お早うお帰り"
+        },
+        {
+          "field": "std_word",
+          "value": "n/a"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/119\" title=\"See おはようおかえり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こっすい"
+        },
+        {
+          "field": "meaning",
+          "value": "devious; cunning"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ずるがしこい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "狡賢い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/371\" title=\"See こっすい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あて"
+        },
+        {
+          "field": "meaning",
+          "value": "I/me"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "わたし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "私"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/370\" title=\"See あて on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かって"
+        },
+        {
+          "field": "meaning",
+          "value": "because"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "(た)って"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/177\" title=\"See かって on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "さぶいぼ"
+        },
+        {
+          "field": "meaning",
+          "value": "goose bumps"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "とりはだ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "鳥肌"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/136\" title=\"See さぶいぼ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "きぃわるい"
+        },
+        {
+          "field": "meaning",
+          "value": "unpleasant; disturbing"
+        },
+        {
+          "field": "kanji",
+          "value": "気ぃ悪い"
+        },
+        {
+          "field": "std_word",
+          "value": "かんじがわるい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "感じが悪い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/128\" title=\"See きぃわるい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ごあさって"
+        },
+        {
+          "field": "meaning",
+          "value": "three days after tomorrow"
+        },
+        {
+          "field": "kanji",
+          "value": "五明後日"
+        },
+        {
+          "field": "std_word",
+          "value": "しあさってのつぎのひ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "明々後日の次の日"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/130\" title=\"See ごあさって on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "けつねうどん"
+        },
+        {
+          "field": "meaning",
+          "value": "<i>udon</i> with deep-fried <i>tofu</i>"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あげうどん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/14\" title=\"See けつねうどん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんべん"
+        },
+        {
+          "field": "meaning",
+          "value": "how many (times)"
+        },
+        {
+          "field": "kanji",
+          "value": "何遍"
+        },
+        {
+          "field": "std_word",
+          "value": "なんど"
+        },
+        {
+          "field": "std_kanji",
+          "value": "何度"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/191\" title=\"See なんべん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どんつき"
+        },
+        {
+          "field": "meaning",
+          "value": "end (of a street)"
+        },
+        {
+          "field": "kanji",
+          "value": "どん突き"
+        },
+        {
+          "field": "std_word",
+          "value": "つきあたり"
+        },
+        {
+          "field": "std_kanji",
+          "value": "突き当たり"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/225\" title=\"See どんつき on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "わし"
+        },
+        {
+          "field": "meaning",
+          "value": "I/me (masculine)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おれ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "俺"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/193\" title=\"See わし on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かなん"
+        },
+        {
+          "field": "meaning",
+          "value": "irritating; intolerable"
+        },
+        {
+          "field": "kanji",
+          "value": "適ん／敵ん"
+        },
+        {
+          "field": "std_word",
+          "value": "いやだ／たまらない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "嫌だ／堪らない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/123\" title=\"See かなん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほかす"
+        },
+        {
+          "field": "meaning",
+          "value": "to throw away"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "すてる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "捨てる"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/71\" title=\"See ほかす on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "じゃあくさい"
+        },
+        {
+          "field": "meaning",
+          "value": "annoying; a pain; tiresome"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "めんどうくさい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "面倒臭い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/217\" title=\"See じゃあくさい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いらんこと"
+        },
+        {
+          "field": "meaning",
+          "value": "unnecessary matter or thing"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "よけいなこと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "余計なこと"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/251\" title=\"See いらんこと on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おます"
+        },
+        {
+          "field": "meaning",
+          "value": "to exist (thing)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あります"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/141\" title=\"See おます on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かめへん"
+        },
+        {
+          "field": "meaning",
+          "value": "no problem; don't worry (about it)"
+        },
+        {
+          "field": "kanji",
+          "value": "構へん"
+        },
+        {
+          "field": "std_word",
+          "value": "かまわない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "構わない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/125\" title=\"See かめへん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "しんどい"
+        },
+        {
+          "field": "meaning",
+          "value": "tired; exhausted"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "くたびれる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/72\" title=\"See しんどい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "すんません"
+        },
+        {
+          "field": "meaning",
+          "value": "sorry; excuse me"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "すみません"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/341\" title=\"See すんません on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほんでも"
+        },
+        {
+          "field": "meaning",
+          "value": "but"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "それでも"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/170\" title=\"See ほんでも on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "チャリ"
+        },
+        {
+          "field": "meaning",
+          "value": "bicycle"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "じてんしゃ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "自転車"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/212\" title=\"See チャリ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えずく"
+        },
+        {
+          "field": "meaning",
+          "value": "to feel nauseous"
+        },
+        {
+          "field": "kanji",
+          "value": "嘔吐く"
+        },
+        {
+          "field": "std_word",
+          "value": "はきけをもよおす／はく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "吐き気を催す／吐く"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/109\" title=\"See えずく on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いきる"
+        },
+        {
+          "field": "meaning",
+          "value": "to be livid; to try and come off as strong; to be cocky"
+        },
+        {
+          "field": "kanji",
+          "value": "熱る"
+        },
+        {
+          "field": "std_word",
+          "value": "ちょうしにのる／いきがる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "調子に乗る／粋がる"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/101\" title=\"See いきる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "もっぺん"
+        },
+        {
+          "field": "meaning",
+          "value": "once more; one more time; again"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "もういっかい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "もう一回"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/195\" title=\"See もっぺん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんぼ"
+        },
+        {
+          "field": "meaning",
+          "value": "how much; how many; how old"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いくら／いくつ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "幾ら／幾つ"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/79\" title=\"See なんぼ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こないだ"
+        },
+        {
+          "field": "meaning",
+          "value": "the other day"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "このあいだ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "此の間"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/289\" title=\"See こないだ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "もうかりまっか"
+        },
+        {
+          "field": "meaning",
+          "value": "How's business?/Are you making money?"
+        },
+        {
+          "field": "kanji",
+          "value": "儲かりまっか"
+        },
+        {
+          "field": "std_word",
+          "value": "もうかっていますか"
+        },
+        {
+          "field": "std_kanji",
+          "value": "儲かっていますか"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/81\" title=\"See もうかりまっか on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほたえる"
+        },
+        {
+          "field": "meaning",
+          "value": "to be too loud; to be to be meaninglessly noisy"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "さわぐ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "騒ぐ"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/236\" title=\"See ほたえる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "だれぞ"
+        },
+        {
+          "field": "meaning",
+          "value": "anyone; someone"
+        },
+        {
+          "field": "kanji",
+          "value": "誰ぞ"
+        },
+        {
+          "field": "std_word",
+          "value": "だれか"
+        },
+        {
+          "field": "std_kanji",
+          "value": "誰か"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/284\" title=\"See だれぞ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そら"
+        },
+        {
+          "field": "meaning",
+          "value": "that"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "それは"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/205\" title=\"See そら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どないする"
+        },
+        {
+          "field": "meaning",
+          "value": "What should (sb.) do?"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どうする"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/182\" title=\"See どないする on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おこしやす"
+        },
+        {
+          "field": "meaning",
+          "value": "welcome"
+        },
+        {
+          "field": "kanji",
+          "value": "お越しやす"
+        },
+        {
+          "field": "std_word",
+          "value": "いらっしゃい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/112\" title=\"See おこしやす on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おんどれ"
+        },
+        {
+          "field": "meaning",
+          "value": "you (violent)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おまえ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お前"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/150\" title=\"See おんどれ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ちゃう"
+        },
+        {
+          "field": "meaning",
+          "value": "to be different; to be wrong"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ちがう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "違う"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/178\" title=\"See ちゃう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こすい"
+        },
+        {
+          "field": "meaning",
+          "value": "devious; cunning"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ずるがしこい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "狡賢い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/240\" title=\"See こすい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あほんだら"
+        },
+        {
+          "field": "meaning",
+          "value": "#$%& you!; Jerk!"
+        },
+        {
+          "field": "kanji",
+          "value": "阿呆んだら"
+        },
+        {
+          "field": "std_word",
+          "value": "ばかやろう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "馬鹿野郎"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/98\" title=\"See あほんだら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぱちもん"
+        },
+        {
+          "field": "meaning",
+          "value": "fake; forgery"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "にせもの"
+        },
+        {
+          "field": "std_kanji",
+          "value": "偽物"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/261\" title=\"See ぱちもん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どんぐらい"
+        },
+        {
+          "field": "meaning",
+          "value": "about how much; about how long"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どのくらい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/347\" title=\"See どんぐらい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いっつも"
+        },
+        {
+          "field": "meaning",
+          "value": "always; whenever; never (in a negative sentence)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いつも"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/42\" title=\"See いっつも on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こうく"
+        },
+        {
+          "field": "meaning",
+          "value": "school attendance boundary; school neighborhood"
+        },
+        {
+          "field": "kanji",
+          "value": "校区"
+        },
+        {
+          "field": "std_word",
+          "value": "つうがくくいき"
+        },
+        {
+          "field": "std_kanji",
+          "value": "通学区域"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/34\" title=\"See こうく on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "よろしゅう"
+        },
+        {
+          "field": "meaning",
+          "value": "thank you (in advance)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "よろしく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/201\" title=\"See よろしゅう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おあいそ"
+        },
+        {
+          "field": "meaning",
+          "value": "check; bill"
+        },
+        {
+          "field": "kanji",
+          "value": "お愛想"
+        },
+        {
+          "field": "std_word",
+          "value": "おかんじょう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お勘定"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/276\" title=\"See おあいそ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "めくそ"
+        },
+        {
+          "field": "meaning",
+          "value": "eye booger"
+        },
+        {
+          "field": "kanji",
+          "value": "目くそ"
+        },
+        {
+          "field": "std_word",
+          "value": "めやに"
+        },
+        {
+          "field": "std_kanji",
+          "value": "目やに"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/87\" title=\"See めくそ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いこる"
+        },
+        {
+          "field": "meaning",
+          "value": "to burn; to catch fire"
+        },
+        {
+          "field": "kanji",
+          "value": "熾る"
+        },
+        {
+          "field": "std_word",
+          "value": "おこる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "熾る"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/102\" title=\"See いこる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ござそうろう"
+        },
+        {
+          "field": "meaning",
+          "value": "dessert food with a puck-like in shape and crispy shell, filled with red bean paste and often served hot"
+        },
+        {
+          "field": "kanji",
+          "value": "御座候"
+        },
+        {
+          "field": "std_word",
+          "value": "いまがわやき"
+        },
+        {
+          "field": "std_kanji",
+          "value": "今川焼(き)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/17\" title=\"See ござそうろう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "わや"
+        },
+        {
+          "field": "meaning",
+          "value": "incoherent; messed-up"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "めちゃくちゃ(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "目茶苦茶(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/215\" title=\"See わや on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "べった"
+        },
+        {
+          "field": "meaning",
+          "value": "last place"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "びり"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/90\" title=\"See べった on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "しょうもない"
+        },
+        {
+          "field": "meaning",
+          "value": "unimportant; boring"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "つまらない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/56\" title=\"See しょうもない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほったらかす"
+        },
+        {
+          "field": "meaning",
+          "value": "to neglect; to leave alone"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ほうっておく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "放っておく"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/85\" title=\"See ほったらかす on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そやけど"
+        },
+        {
+          "field": "meaning",
+          "value": "I know (that) but... / by the way..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだけど／だけど／それにしても"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/165\" title=\"See そやけど on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "よう"
+        },
+        {
+          "field": "meaning",
+          "value": "often; frequently; well"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "よく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/200\" title=\"See よう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ごつい"
+        },
+        {
+          "field": "meaning",
+          "value": "big; large; strong; great"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "でかい／つよい／すごい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "でかい／強い／凄い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/133\" title=\"See ごつい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ちと"
+        },
+        {
+          "field": "meaning",
+          "value": "a little; a small amount"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ちょっと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/179\" title=\"See ちと on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ええ"
+        },
+        {
+          "field": "meaning",
+          "value": "good; fine"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/45\" title=\"See ええ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "しゅむ"
+        },
+        {
+          "field": "meaning",
+          "value": "to soak in; to penetrate; to absorb into"
+        },
+        {
+          "field": "kanji",
+          "value": "染む"
+        },
+        {
+          "field": "std_word",
+          "value": "しみる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "染みる"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/241\" title=\"See しゅむ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "うだうだ"
+        },
+        {
+          "field": "meaning",
+          "value": "grumbling; whining; complaining"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ぐだぐだ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/368\" title=\"See うだうだ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "さら(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "new (thing)"
+        },
+        {
+          "field": "kanji",
+          "value": "新(な)"
+        },
+        {
+          "field": "std_word",
+          "value": "あたらしい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "新しい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/137\" title=\"See さら(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ひらう"
+        },
+        {
+          "field": "meaning",
+          "value": "to pick up"
+        },
+        {
+          "field": "kanji",
+          "value": "拾う"
+        },
+        {
+          "field": "std_word",
+          "value": "ひろう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "拾う"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/228\" title=\"See ひらう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ここんとこ"
+        },
+        {
+          "field": "meaning",
+          "value": "recently; these days"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "さいきん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "最近"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/208\" title=\"See ここんとこ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぱくる"
+        },
+        {
+          "field": "meaning",
+          "value": "to steal"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ぬすむ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "盗む"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/244\" title=\"See ぱくる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かなわん"
+        },
+        {
+          "field": "meaning",
+          "value": "irritating; intolerable"
+        },
+        {
+          "field": "kanji",
+          "value": "適わん／敵わん"
+        },
+        {
+          "field": "std_word",
+          "value": "いやだ／たまらない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "嫌だ／堪らない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/122\" title=\"See かなわん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "きぃある"
+        },
+        {
+          "field": "meaning",
+          "value": "to be interested in"
+        },
+        {
+          "field": "kanji",
+          "value": "気ぃある"
+        },
+        {
+          "field": "std_word",
+          "value": "きがある"
+        },
+        {
+          "field": "std_kanji",
+          "value": "気がある"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/283\" title=\"See きぃある on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "わて"
+        },
+        {
+          "field": "meaning",
+          "value": "I/me"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "わたし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "私"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/202\" title=\"See わて on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えらいさん"
+        },
+        {
+          "field": "meaning",
+          "value": "negative term for person who has high status."
+        },
+        {
+          "field": "kanji",
+          "value": "偉いさん"
+        },
+        {
+          "field": "std_word",
+          "value": "ちいのたかいひと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "地位の高い人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/110\" title=\"See えらいさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぬくい"
+        },
+        {
+          "field": "meaning",
+          "value": "warm"
+        },
+        {
+          "field": "kanji",
+          "value": "温い"
+        },
+        {
+          "field": "std_word",
+          "value": "あたたかい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "暖かい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/61\" title=\"See ぬくい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あらへん"
+        },
+        {
+          "field": "meaning",
+          "value": "don't exist (thing); not"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/184\" title=\"See あらへん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あんさん"
+        },
+        {
+          "field": "meaning",
+          "value": "you"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あなた"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/140\" title=\"See あんさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こける"
+        },
+        {
+          "field": "meaning",
+          "value": "to fall"
+        },
+        {
+          "field": "kanji",
+          "value": "転ける"
+        },
+        {
+          "field": "std_word",
+          "value": "ころぶ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "転ぶ"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/73\" title=\"See こける on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おとん"
+        },
+        {
+          "field": "meaning",
+          "value": "dad; father"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おとうさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お父さん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/115\" title=\"See おとん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どない"
+        },
+        {
+          "field": "meaning",
+          "value": "how; what sort/kind of..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/258\" title=\"See どない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "よっしゃ"
+        },
+        {
+          "field": "meaning",
+          "value": "Great! / Well done! / Good. / I see."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "よし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/287\" title=\"See よっしゃ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんぎ(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "hard; difficult; a pain in the neck (when applied to a person)"
+        },
+        {
+          "field": "kanji",
+          "value": "難儀(な)"
+        },
+        {
+          "field": "std_word",
+          "value": "めんどう(な)／むずかしい／こまった"
+        },
+        {
+          "field": "std_kanji",
+          "value": "面倒(な)／難しい／困った"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/75\" title=\"See なんぎ(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かまへん"
+        },
+        {
+          "field": "meaning",
+          "value": "no problem"
+        },
+        {
+          "field": "kanji",
+          "value": "構へん"
+        },
+        {
+          "field": "std_word",
+          "value": "かまわない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "構わない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/124\" title=\"See かまへん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "まむし"
+        },
+        {
+          "field": "meaning",
+          "value": "barbecued eel on rice"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "うなぎめし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "鰻飯"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/9\" title=\"See まむし on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "すうどん"
+        },
+        {
+          "field": "meaning",
+          "value": "(bowl of) plain udon"
+        },
+        {
+          "field": "kanji",
+          "value": "素うどん"
+        },
+        {
+          "field": "std_word",
+          "value": "かけうどん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/7\" title=\"See すうどん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あかんたれ"
+        },
+        {
+          "field": "meaning",
+          "value": "a timid person; a chicken"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "だめなやつ／よわむし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "駄目な奴／弱虫"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/94\" title=\"See あかんたれ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "とちる"
+        },
+        {
+          "field": "meaning",
+          "value": "to fail; to make a mistake"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "しっぱいする"
+        },
+        {
+          "field": "std_kanji",
+          "value": "失敗する"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/86\" title=\"See とちる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "めちゃめちゃ"
+        },
+        {
+          "field": "meaning",
+          "value": "very; extremely (more than めちゃ)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "すごく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "凄く"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/262\" title=\"See めちゃめちゃ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぶたまん"
+        },
+        {
+          "field": "meaning",
+          "value": "pork bun"
+        },
+        {
+          "field": "kanji",
+          "value": "豚まん"
+        },
+        {
+          "field": "std_word",
+          "value": "にくまん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "肉まん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/25\" title=\"See ぶたまん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あれへん"
+        },
+        {
+          "field": "meaning",
+          "value": "doesn't exist (things)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/185\" title=\"See あれへん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かやくごはん"
+        },
+        {
+          "field": "meaning",
+          "value": "cooked rice with vegetables and meat/seafood seasoned with soy sauce and <em>dashi</em>"
+        },
+        {
+          "field": "kanji",
+          "value": "火薬御飯"
+        },
+        {
+          "field": "std_word",
+          "value": "たきこみごはん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "炊き込み御飯"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/8\" title=\"See かやくごはん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あら"
+        },
+        {
+          "field": "meaning",
+          "value": "that (over there)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あれは"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/206\" title=\"See あら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "はぁ"
+        },
+        {
+          "field": "meaning",
+          "value": "tooth"
+        },
+        {
+          "field": "kanji",
+          "value": "歯ぁ"
+        },
+        {
+          "field": "std_word",
+          "value": "は"
+        },
+        {
+          "field": "std_kanji",
+          "value": "歯"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/234\" title=\"See はぁ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "きつねうどん"
+        },
+        {
+          "field": "meaning",
+          "value": "<i>udon</i> with deep-fried <i>tofu</i>"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あげうどん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/13\" title=\"See きつねうどん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "てっちり"
+        },
+        {
+          "field": "meaning",
+          "value": "blowfish hotpot"
+        },
+        {
+          "field": "kanji",
+          "value": "鉄ちり"
+        },
+        {
+          "field": "std_word",
+          "value": "ふぐのなべ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "河豚の鍋"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/21\" title=\"See てっちり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かんにんする"
+        },
+        {
+          "field": "meaning",
+          "value": "to forgive"
+        },
+        {
+          "field": "kanji",
+          "value": "堪忍する"
+        },
+        {
+          "field": "std_word",
+          "value": "ゆるす"
+        },
+        {
+          "field": "std_kanji",
+          "value": "許す"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/199\" title=\"See かんにんする on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いわす"
+        },
+        {
+          "field": "meaning",
+          "value": "to beat someone up; to injure or break (body parts)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "やっつける／(からだを)こわす"
+        },
+        {
+          "field": "std_kanji",
+          "value": "やっつける／(体を)壊す"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/107\" title=\"See いわす on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "よって"
+        },
+        {
+          "field": "meaning",
+          "value": "so; therefore"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "から"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/286\" title=\"See よって on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こちょばい"
+        },
+        {
+          "field": "meaning",
+          "value": "ticklish; be tickled"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "くすぐったい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/369\" title=\"See こちょばい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おる"
+        },
+        {
+          "field": "meaning",
+          "value": "to exist (living things)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/149\" title=\"See おる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ひろうす"
+        },
+        {
+          "field": "meaning",
+          "value": "deep-fried tofu cake made with vegetables and other ingredients"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "がんもどき"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/23\" title=\"See ひろうす on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほなら"
+        },
+        {
+          "field": "meaning",
+          "value": "well then; so"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "それじゃ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/172\" title=\"See ほなら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かいせい"
+        },
+        {
+          "field": "meaning",
+          "value": "college grade level counter"
+        },
+        {
+          "field": "kanji",
+          "value": "回生"
+        },
+        {
+          "field": "std_word",
+          "value": "ねんせい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "年生"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/38\" title=\"See かいせい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いけず(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "mean; spiteful"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いじわる(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "意地悪(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/68\" title=\"See いけず(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほやかて"
+        },
+        {
+          "field": "meaning",
+          "value": "So you say, but... / Yeah, but..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうはいっても／そうだけど"
+        },
+        {
+          "field": "std_kanji",
+          "value": "そうは言っても／そうだけど"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/291\" title=\"See ほやかて on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かいてんやき"
+        },
+        {
+          "field": "meaning",
+          "value": "dessert food with a puck-like in shape and crispy shell, filled with red bean paste and often served hot"
+        },
+        {
+          "field": "kanji",
+          "value": "回転焼(き)"
+        },
+        {
+          "field": "std_word",
+          "value": "いまがわやき"
+        },
+        {
+          "field": "std_kanji",
+          "value": "今川焼(き)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/15\" title=\"See かいてんやき on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "まいど"
+        },
+        {
+          "field": "meaning",
+          "value": "thank you (literally \"every time\")"
+        },
+        {
+          "field": "kanji",
+          "value": "毎度"
+        },
+        {
+          "field": "std_word",
+          "value": "いつも"
+        },
+        {
+          "field": "std_kanji",
+          "value": "何時も"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/229\" title=\"See まいど on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "めぇ"
+        },
+        {
+          "field": "meaning",
+          "value": "eye"
+        },
+        {
+          "field": "kanji",
+          "value": "目ぇ"
+        },
+        {
+          "field": "std_word",
+          "value": "め"
+        },
+        {
+          "field": "std_kanji",
+          "value": "目ぇ"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/232\" title=\"See めぇ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "さいなら"
+        },
+        {
+          "field": "meaning",
+          "value": "Good-bye."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "さようなら"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/158\" title=\"See さいなら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おはようさん"
+        },
+        {
+          "field": "meaning",
+          "value": "Good morning."
+        },
+        {
+          "field": "kanji",
+          "value": "お早うさん"
+        },
+        {
+          "field": "std_word",
+          "value": "おはよう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お早う"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/279\" title=\"See おはようさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "きぃ"
+        },
+        {
+          "field": "meaning",
+          "value": "mind; spirit"
+        },
+        {
+          "field": "kanji",
+          "value": "気ぃ"
+        },
+        {
+          "field": "std_word",
+          "value": "き"
+        },
+        {
+          "field": "std_kanji",
+          "value": "気"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/281\" title=\"See きぃ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どつく"
+        },
+        {
+          "field": "meaning",
+          "value": "to hit; to beat up"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "なぐる／たたく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "殴る／叩く"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/187\" title=\"See どつく on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "パーマあてる"
+        },
+        {
+          "field": "meaning",
+          "value": "to get a perm"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "パーマをかける"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/82\" title=\"See パーマあてる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "レーコー"
+        },
+        {
+          "field": "meaning",
+          "value": "iced coffee"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "アイスコーヒー"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/32\" title=\"See レーコー on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "さし"
+        },
+        {
+          "field": "meaning",
+          "value": "ruler"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ものさし／じょうぎ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "物差し／定規"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/135\" title=\"See さし on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "せやけど"
+        },
+        {
+          "field": "meaning",
+          "value": "I know (that) but... / by the way..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだけど／だけど／それにしても"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/164\" title=\"See せやけど on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんぞ"
+        },
+        {
+          "field": "meaning",
+          "value": "some; any"
+        },
+        {
+          "field": "kanji",
+          "value": "何ぞ"
+        },
+        {
+          "field": "std_word",
+          "value": "なにか"
+        },
+        {
+          "field": "std_kanji",
+          "value": "何か"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/189\" title=\"See なんぞ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぺけ"
+        },
+        {
+          "field": "meaning",
+          "value": "a \"missed question\" mark on a test; an \"X\" mark"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ばつ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/36\" title=\"See ぺけ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そやから"
+        },
+        {
+          "field": "meaning",
+          "value": "therefore; so; because of that"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだから"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/343\" title=\"See そやから on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほんなら"
+        },
+        {
+          "field": "meaning",
+          "value": "well then; so"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "それじゃ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/171\" title=\"See ほんなら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おばはん"
+        },
+        {
+          "field": "meaning",
+          "value": "aunt; middle-aged woman"
+        },
+        {
+          "field": "kanji",
+          "value": "叔母はん"
+        },
+        {
+          "field": "std_word",
+          "value": "おばさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "叔母さん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/254\" title=\"See おばはん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "てんこもり"
+        },
+        {
+          "field": "meaning",
+          "value": "mountain-like heap of something; large pile"
+        },
+        {
+          "field": "kanji",
+          "value": "てんこ盛り"
+        },
+        {
+          "field": "std_word",
+          "value": "やまもり"
+        },
+        {
+          "field": "std_kanji",
+          "value": "山盛り"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/22\" title=\"See てんこもり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ばったもん"
+        },
+        {
+          "field": "meaning",
+          "value": "fake; forgery"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "にせもの"
+        },
+        {
+          "field": "std_kanji",
+          "value": "偽物"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/246\" title=\"See ばったもん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おおきに"
+        },
+        {
+          "field": "meaning",
+          "value": "Thank you."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ありがとう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "有り難う"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/78\" title=\"See おおきに on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "げら"
+        },
+        {
+          "field": "meaning",
+          "value": "person who laughs at anything"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "よくわらうひと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "よく笑う人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/91\" title=\"See げら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こない"
+        },
+        {
+          "field": "meaning",
+          "value": "this sort/kind of...; ...such as this"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "こんなに"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/157\" title=\"See こない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "めばちこ"
+        },
+        {
+          "field": "meaning",
+          "value": "sty"
+        },
+        {
+          "field": "kanji",
+          "value": "目ばちこ"
+        },
+        {
+          "field": "std_word",
+          "value": "ものもらい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/88\" title=\"See めばちこ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どんならん"
+        },
+        {
+          "field": "meaning",
+          "value": "can't be helped; (be resigned)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どうにもならない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/224\" title=\"See どんならん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "よろしゅうおあがり"
+        },
+        {
+          "field": "meaning",
+          "value": "[set phrase in response to ごちょそうさまでした, literally something like \"you ate well\".]"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "n/a"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/230\" title=\"See よろしゅうおあがり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おっちゃん"
+        },
+        {
+          "field": "meaning",
+          "value": "uncle; middle-aged man"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おじさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "叔父さん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/256\" title=\"See おっちゃん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "もっかい"
+        },
+        {
+          "field": "meaning",
+          "value": "once more; one more time; again"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "もういっかい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "もう一回"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/196\" title=\"See もっかい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "さよか"
+        },
+        {
+          "field": "meaning",
+          "value": "I see... / Is that the way it is...?"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうですか"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/278\" title=\"See さよか on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "すっこい"
+        },
+        {
+          "field": "meaning",
+          "value": "devious; cunning"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ずるがしこい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "狡賢い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/362\" title=\"See すっこい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "すんまへん"
+        },
+        {
+          "field": "meaning",
+          "value": "sorry; excuse me"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "すみません"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/167\" title=\"See すんまへん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いちびり"
+        },
+        {
+          "field": "meaning",
+          "value": "a person who is very energetic and messes around a lot"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おちょうしもの"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お調子者"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/104\" title=\"See いちびり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いちびる"
+        },
+        {
+          "field": "meaning",
+          "value": "to mess around too much; to be unable to sit still"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ちょうしにのる／ふざける"
+        },
+        {
+          "field": "std_kanji",
+          "value": "調子に乗る／ふざける"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/103\" title=\"See いちびる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どないしょ"
+        },
+        {
+          "field": "meaning",
+          "value": "What should I/we do?"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どうしよう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/181\" title=\"See どないしょ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "じゃまくさい"
+        },
+        {
+          "field": "meaning",
+          "value": "annoying; a pain; tiresome"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "めんどうくさい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "面倒臭い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/216\" title=\"See じゃまくさい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "くだらん"
+        },
+        {
+          "field": "meaning",
+          "value": "worthless; silly; not important"
+        },
+        {
+          "field": "kanji",
+          "value": "下らん"
+        },
+        {
+          "field": "std_word",
+          "value": "くだらない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "下らない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/154\" title=\"See くだらん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おぼこい"
+        },
+        {
+          "field": "meaning",
+          "value": "childlike; childish"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おさなくてそぼくなようす"
+        },
+        {
+          "field": "std_kanji",
+          "value": "幼くて素朴な様子"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/120\" title=\"See おぼこい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おこのみ"
+        },
+        {
+          "field": "meaning",
+          "value": "okonomiyaki"
+        },
+        {
+          "field": "kanji",
+          "value": "お好み"
+        },
+        {
+          "field": "std_word",
+          "value": "おこのみやき"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お好み焼き"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/277\" title=\"See おこのみ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かえらし(い)"
+        },
+        {
+          "field": "meaning",
+          "value": "cute; pretty; lovely"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "かわいらしい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "可愛らしい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/48\" title=\"See かえらし(い) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ややこしい"
+        },
+        {
+          "field": "meaning",
+          "value": "troublesome; complicated"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "めんどう(な)／ふくざつ(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "面倒(な)／複雑(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/66\" title=\"See ややこしい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ごくろうさん"
+        },
+        {
+          "field": "meaning",
+          "value": "Thank you for... / You worked hard..."
+        },
+        {
+          "field": "kanji",
+          "value": "ご苦労さん"
+        },
+        {
+          "field": "std_word",
+          "value": "ごくろうさま"
+        },
+        {
+          "field": "std_kanji",
+          "value": "ご苦労様"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/280\" title=\"See ごくろうさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そや"
+        },
+        {
+          "field": "meaning",
+          "value": "like you said; oh yeah...; well..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/161\" title=\"See そや on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "さぶい"
+        },
+        {
+          "field": "meaning",
+          "value": "cold (temperature)"
+        },
+        {
+          "field": "kanji",
+          "value": "寒い"
+        },
+        {
+          "field": "std_word",
+          "value": "さむい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "寒い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/53\" title=\"See さぶい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "みみっちい"
+        },
+        {
+          "field": "meaning",
+          "value": "stingy; tight with money"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "けち(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/65\" title=\"See みみっちい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そやさかい"
+        },
+        {
+          "field": "meaning",
+          "value": "so; because of (that); therefore"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだから"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/363\" title=\"See そやさかい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おちょくる"
+        },
+        {
+          "field": "meaning",
+          "value": "to make fun of someone; to tease someone"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "からかう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/116\" title=\"See おちょくる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "このまんま"
+        },
+        {
+          "field": "meaning",
+          "value": "as it is; like this"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "このまま"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/156\" title=\"See このまんま on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そない"
+        },
+        {
+          "field": "meaning",
+          "value": "that sort/kind of...; ...such as that"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そんなに"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/173\" title=\"See そない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "うち"
+        },
+        {
+          "field": "meaning",
+          "value": "I (feminine)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "わたし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "私"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/155\" title=\"See うち on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こいも"
+        },
+        {
+          "field": "meaning",
+          "value": "taro"
+        },
+        {
+          "field": "kanji",
+          "value": "子芋"
+        },
+        {
+          "field": "std_word",
+          "value": "さといも"
+        },
+        {
+          "field": "std_kanji",
+          "value": "里芋"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/24\" title=\"See こいも on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "けったい(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "strange; odd; weird"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "へん(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "変(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/51\" title=\"See けったい(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おかい"
+        },
+        {
+          "field": "meaning",
+          "value": "rice porridge"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おかゆ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お粥"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/11\" title=\"See おかい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "せっしょう(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "cruel; heartless; brutal"
+        },
+        {
+          "field": "kanji",
+          "value": "殺生(な)"
+        },
+        {
+          "field": "std_word",
+          "value": "むごい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "惨い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/76\" title=\"See せっしょう(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ようさん"
+        },
+        {
+          "field": "meaning",
+          "value": "a lot; many"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "たくさん／いっぱい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/147\" title=\"See ようさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おちょけ"
+        },
+        {
+          "field": "meaning",
+          "value": "person who jokes around all the time"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ふざけたことをする(いう)ひと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "ふざけたことをする(言う)人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/364\" title=\"See おちょけ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "けんけん"
+        },
+        {
+          "field": "meaning",
+          "value": "hop on one foot"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "かたあしとび"
+        },
+        {
+          "field": "std_kanji",
+          "value": "片足跳び"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/89\" title=\"See けんけん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かて"
+        },
+        {
+          "field": "meaning",
+          "value": "because"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "(た)って"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/176\" title=\"See かて on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんも"
+        },
+        {
+          "field": "meaning",
+          "value": "nothing/not any (used negative verb); everything (used with positive verb)"
+        },
+        {
+          "field": "kanji",
+          "value": "何も"
+        },
+        {
+          "field": "std_word",
+          "value": "なにも"
+        },
+        {
+          "field": "std_kanji",
+          "value": "何も"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/190\" title=\"See なんも on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほやけど"
+        },
+        {
+          "field": "meaning",
+          "value": "I know, but.../By the way,"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだけど／だけど／それにしても"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/166\" title=\"See ほやけど on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ようけ"
+        },
+        {
+          "field": "meaning",
+          "value": "a lot; many"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "たくさん／いっぱい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/146\" title=\"See ようけ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あほ(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "fool; stupid; idiot"
+        },
+        {
+          "field": "kanji",
+          "value": "阿呆(な)"
+        },
+        {
+          "field": "std_word",
+          "value": "ばか(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "馬鹿(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/69\" title=\"See あほ(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いらう"
+        },
+        {
+          "field": "meaning",
+          "value": "to touch"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "さわる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "触る"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/83\" title=\"See いらう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いてまえ"
+        },
+        {
+          "field": "meaning",
+          "value": "Let's beat them up!Let's get 'em!"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "やってしまえ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/198\" title=\"See いてまえ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かまん"
+        },
+        {
+          "field": "meaning",
+          "value": "no problem"
+        },
+        {
+          "field": "kanji",
+          "value": "構ん"
+        },
+        {
+          "field": "std_word",
+          "value": "かまわない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "構わない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/252\" title=\"See かまん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "しゃあない"
+        },
+        {
+          "field": "meaning",
+          "value": "can't be helped; hopeless; there's no way"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "しかたない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "仕方ない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/159\" title=\"See しゃあない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あじない"
+        },
+        {
+          "field": "meaning",
+          "value": "plain; dull; tasteless"
+        },
+        {
+          "field": "kanji",
+          "value": "味無い"
+        },
+        {
+          "field": "std_word",
+          "value": "あじけない／おいしくない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "味気ない／美味しくない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/95\" title=\"See あじない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "せやから"
+        },
+        {
+          "field": "meaning",
+          "value": "therefore; so; because of that"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだから"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/163\" title=\"See せやから on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こそばい"
+        },
+        {
+          "field": "meaning",
+          "value": "ticklish; be tickled"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "くすぐったい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/132\" title=\"See こそばい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "めちゃ"
+        },
+        {
+          "field": "meaning",
+          "value": "very; extremely"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "すごく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "凄く"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/263\" title=\"See めちゃ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "すい"
+        },
+        {
+          "field": "meaning",
+          "value": "sour"
+        },
+        {
+          "field": "kanji",
+          "value": "酸い"
+        },
+        {
+          "field": "std_word",
+          "value": "すっぱい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "酸っぱい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/218\" title=\"See すい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "しんきくさい"
+        },
+        {
+          "field": "meaning",
+          "value": "gloomy; dull; annoyed; glum; irritated"
+        },
+        {
+          "field": "kanji",
+          "value": "辛気臭い"
+        },
+        {
+          "field": "std_word",
+          "value": "うっとうしい／いらいらする／じれったい／たいくつ(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "鬱陶しい／いらいらする／焦れったい／退屈(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/55\" title=\"See しんきくさい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "すこい"
+        },
+        {
+          "field": "meaning",
+          "value": "devious; cunning"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ずるがしこい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "狡賢い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/219\" title=\"See すこい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぱちる"
+        },
+        {
+          "field": "meaning",
+          "value": "to steal"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ぬすむ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "盗む"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/245\" title=\"See ぱちる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "てっさ"
+        },
+        {
+          "field": "meaning",
+          "value": "blowfish sashimi"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ふぐのさしみ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "河豚の刺身"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/20\" title=\"See てっさ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "つくり"
+        },
+        {
+          "field": "meaning",
+          "value": "sashimi"
+        },
+        {
+          "field": "kanji",
+          "value": "造り"
+        },
+        {
+          "field": "std_word",
+          "value": "さしみ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "刺身"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/6\" title=\"See つくり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おばちゃん"
+        },
+        {
+          "field": "meaning",
+          "value": "aunt; middle-aged woman"
+        },
+        {
+          "field": "kanji",
+          "value": "叔母ちゃん"
+        },
+        {
+          "field": "std_word",
+          "value": "おばさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "叔母さん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/257\" title=\"See おばちゃん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "きぃきく"
+        },
+        {
+          "field": "meaning",
+          "value": "to be sensible"
+        },
+        {
+          "field": "kanji",
+          "value": "気ぃ利く"
+        },
+        {
+          "field": "std_word",
+          "value": "きがきく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "気が利く"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/282\" title=\"See きぃきく on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "げす(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "crude; declasse"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "げひん(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "下品(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/238\" title=\"See げす(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おなか(が)おおきい"
+        },
+        {
+          "field": "meaning",
+          "value": "have a full stomach"
+        },
+        {
+          "field": "kanji",
+          "value": "お腹(が)大きい"
+        },
+        {
+          "field": "std_word",
+          "value": "おなか(が)いっぱい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お腹(が)一杯"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/226\" title=\"See おなか(が)おおきい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "せわしない"
+        },
+        {
+          "field": "meaning",
+          "value": "restless; nervous"
+        },
+        {
+          "field": "kanji",
+          "value": "忙しない"
+        },
+        {
+          "field": "std_word",
+          "value": "おちつかない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "落ち着かない"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/58\" title=\"See せわしない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かぁにかまれる"
+        },
+        {
+          "field": "meaning",
+          "value": "to be stung by a mosquito"
+        },
+        {
+          "field": "kanji",
+          "value": "蚊ぁに噛まれる"
+        },
+        {
+          "field": "std_word",
+          "value": "かにさされる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "蚊に刺される"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/33\" title=\"See かぁにかまれる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "とこ"
+        },
+        {
+          "field": "meaning",
+          "value": "place; location"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ところ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "所"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/242\" title=\"See とこ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "じぶん"
+        },
+        {
+          "field": "meaning",
+          "value": "you"
+        },
+        {
+          "field": "kanji",
+          "value": "自分"
+        },
+        {
+          "field": "std_word",
+          "value": "きみ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "君"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/295\" title=\"See じぶん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ちめたい"
+        },
+        {
+          "field": "meaning",
+          "value": "cold"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "つめたい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "冷たい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/59\" title=\"See ちめたい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "たいこやき"
+        },
+        {
+          "field": "meaning",
+          "value": "dessert food with a puck-like in shape and crispy shell, filled with red bean paste and often served hot"
+        },
+        {
+          "field": "kanji",
+          "value": "太鼓焼(き)"
+        },
+        {
+          "field": "std_word",
+          "value": "いまがわやき"
+        },
+        {
+          "field": "std_kanji",
+          "value": "今川焼(き)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/16\" title=\"See たいこやき on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いらち"
+        },
+        {
+          "field": "meaning",
+          "value": "hothead; short-tempered person"
+        },
+        {
+          "field": "kanji",
+          "value": "苛ち"
+        },
+        {
+          "field": "std_word",
+          "value": "せっかち／たんきなひと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "せっかち／短気な人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/106\" title=\"See いらち on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かしわ"
+        },
+        {
+          "field": "meaning",
+          "value": "chicken meat"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "とりにく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "鶏肉"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/121\" title=\"See かしわ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えばる"
+        },
+        {
+          "field": "meaning",
+          "value": "to be arrogant"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いばる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "威張る"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/253\" title=\"See えばる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ばっちい"
+        },
+        {
+          "field": "meaning",
+          "value": "dirty; unclean"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "きたない"
+        },
+        {
+          "field": "std_kanji",
+          "value": "汚い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/64\" title=\"See ばっちい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いっぺん"
+        },
+        {
+          "field": "meaning",
+          "value": "once; one time"
+        },
+        {
+          "field": "kanji",
+          "value": "一遍"
+        },
+        {
+          "field": "std_word",
+          "value": "いちど"
+        },
+        {
+          "field": "std_kanji",
+          "value": "一度"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/145\" title=\"See いっぺん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "べっぴん"
+        },
+        {
+          "field": "meaning",
+          "value": "beautiful woman or girl"
+        },
+        {
+          "field": "kanji",
+          "value": "別嬪"
+        },
+        {
+          "field": "std_word",
+          "value": "びじん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "美人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/248\" title=\"See べっぴん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えらい"
+        },
+        {
+          "field": "meaning",
+          "value": "great; very/really; tired"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "すぐれている; とても; つかれている"
+        },
+        {
+          "field": "std_kanji",
+          "value": "優れている; とても; 疲れている"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/37\" title=\"See えらい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "よくどしい"
+        },
+        {
+          "field": "meaning",
+          "value": "greedy"
+        },
+        {
+          "field": "kanji",
+          "value": "欲どしい"
+        },
+        {
+          "field": "std_word",
+          "value": "よくばり(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "欲張り(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/67\" title=\"See よくどしい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほいで"
+        },
+        {
+          "field": "meaning",
+          "value": "and; so that; therefore"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "それで"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/373\" title=\"See ほいで on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どや"
+        },
+        {
+          "field": "meaning",
+          "value": "How about...?"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どうだ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/183\" title=\"See どや on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ちょけ"
+        },
+        {
+          "field": "meaning",
+          "value": "person who jokes around all the time"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ふざけたことをする(いう)ひと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "ふざけたことをする(言う)人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/222\" title=\"See ちょけ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ちぃ"
+        },
+        {
+          "field": "meaning",
+          "value": "blood"
+        },
+        {
+          "field": "kanji",
+          "value": "血ぃ"
+        },
+        {
+          "field": "std_word",
+          "value": "ち"
+        },
+        {
+          "field": "std_kanji",
+          "value": "血"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/235\" title=\"See ちぃ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "マクド"
+        },
+        {
+          "field": "meaning",
+          "value": "McDonald's&trade;"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "マック(ドナルド)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/250\" title=\"See マクド on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほんで"
+        },
+        {
+          "field": "meaning",
+          "value": "and; so that; therefore"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "それで"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/168\" title=\"See ほんで on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こしょばい"
+        },
+        {
+          "field": "meaning",
+          "value": "ticklish; be tickled"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "くすぐったい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/342\" title=\"See こしょばい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なおす"
+        },
+        {
+          "field": "meaning",
+          "value": "to put away; to clean up"
+        },
+        {
+          "field": "kanji",
+          "value": "直す"
+        },
+        {
+          "field": "std_word",
+          "value": "かたづける"
+        },
+        {
+          "field": "std_kanji",
+          "value": "片付ける"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/28\" title=\"See なおす on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "てぇ"
+        },
+        {
+          "field": "meaning",
+          "value": "hand"
+        },
+        {
+          "field": "kanji",
+          "value": "手ぇ"
+        },
+        {
+          "field": "std_word",
+          "value": "て"
+        },
+        {
+          "field": "std_kanji",
+          "value": "手"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/233\" title=\"See てぇ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんきん"
+        },
+        {
+          "field": "meaning",
+          "value": "pumpkin"
+        },
+        {
+          "field": "kanji",
+          "value": "南京"
+        },
+        {
+          "field": "std_word",
+          "value": "かぼちゃ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "南瓜"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/26\" title=\"See なんきん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えんりょしい"
+        },
+        {
+          "field": "meaning",
+          "value": "a person who has the tendency to refuse to accept anything you try to give them."
+        },
+        {
+          "field": "kanji",
+          "value": "遠慮しい"
+        },
+        {
+          "field": "std_word",
+          "value": "えんりょしがちなひと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "遠慮しがちな人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/138\" title=\"See えんりょしい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんばきび"
+        },
+        {
+          "field": "meaning",
+          "value": "corn"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "とうもろこし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/19\" title=\"See なんばきび on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほる"
+        },
+        {
+          "field": "meaning",
+          "value": "to throw"
+        },
+        {
+          "field": "kanji",
+          "value": "放る"
+        },
+        {
+          "field": "std_word",
+          "value": "なげる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "投げる"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/188\" title=\"See ほる on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かいもん"
+        },
+        {
+          "field": "meaning",
+          "value": "shopping"
+        },
+        {
+          "field": "kanji",
+          "value": "買いもん"
+        },
+        {
+          "field": "std_word",
+          "value": "かいもの"
+        },
+        {
+          "field": "std_kanji",
+          "value": "買い物"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/151\" title=\"See かいもん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "しばく"
+        },
+        {
+          "field": "meaning",
+          "value": "to beat someone up"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "なぐる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "殴る"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/186\" title=\"See しばく on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "もん"
+        },
+        {
+          "field": "meaning",
+          "value": "\"thing\""
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "もの"
+        },
+        {
+          "field": "std_kanji",
+          "value": "物"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/197\" title=\"See もん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かんてき"
+        },
+        {
+          "field": "meaning",
+          "value": "small cylindrical grill"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "しちりん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "七輪"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/127\" title=\"See かんてき on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おしピン"
+        },
+        {
+          "field": "meaning",
+          "value": "thumbtack; pushpin"
+        },
+        {
+          "field": "kanji",
+          "value": "押しピン"
+        },
+        {
+          "field": "std_word",
+          "value": "がびょう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "画鋲"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/35\" title=\"See おしピン on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほんま"
+        },
+        {
+          "field": "meaning",
+          "value": "really; truly"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ほんとう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "本当"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/41\" title=\"See ほんま on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "かいらし(い)"
+        },
+        {
+          "field": "meaning",
+          "value": "cute; pretty; lovely"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "かわいらしい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "可愛らしい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/47\" title=\"See かいらし(い) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "はんなり"
+        },
+        {
+          "field": "meaning",
+          "value": "humbly graceful and elegant"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "じょうひんではなやか"
+        },
+        {
+          "field": "std_kanji",
+          "value": "上品で華やか"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/227\" title=\"See はんなり on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いっしょくたにする"
+        },
+        {
+          "field": "meaning",
+          "value": "to jumble together; to mix up"
+        },
+        {
+          "field": "kanji",
+          "value": "一緒くたにする"
+        },
+        {
+          "field": "std_word",
+          "value": "ごちゃまぜにする"
+        },
+        {
+          "field": "std_kanji",
+          "value": "ごちゃ混ぜにする"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/207\" title=\"See いっしょくたにする on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "がめつい"
+        },
+        {
+          "field": "meaning",
+          "value": "greedy"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ごうよく／よくばり"
+        },
+        {
+          "field": "std_kanji",
+          "value": "強欲／欲張り"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/126\" title=\"See がめつい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "いぬ"
+        },
+        {
+          "field": "meaning",
+          "value": "to return (home)"
+        },
+        {
+          "field": "kanji",
+          "value": "去ぬ／住ぬ"
+        },
+        {
+          "field": "std_word",
+          "value": "かえる"
+        },
+        {
+          "field": "std_kanji",
+          "value": "帰る"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/105\" title=\"See いぬ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "さかい"
+        },
+        {
+          "field": "meaning",
+          "value": "so; therefore"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "から"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/285\" title=\"See さかい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "べんきょうする"
+        },
+        {
+          "field": "meaning",
+          "value": "discount"
+        },
+        {
+          "field": "kanji",
+          "value": "勉強する"
+        },
+        {
+          "field": "std_word",
+          "value": "まける"
+        },
+        {
+          "field": "std_kanji",
+          "value": "負ける"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/213\" title=\"See べんきょうする on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "うっとこ"
+        },
+        {
+          "field": "meaning",
+          "value": "my house"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "わたしのいえ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "私の家"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/203\" title=\"See うっとこ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "チャリンコ"
+        },
+        {
+          "field": "meaning",
+          "value": "bicycle"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "じてんしゃ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "自転車"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/211\" title=\"See チャリンコ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そんで"
+        },
+        {
+          "field": "meaning",
+          "value": "and; and then"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "それで"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/209\" title=\"See そんで on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "わい"
+        },
+        {
+          "field": "meaning",
+          "value": "I/me (masculine)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おれ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "俺"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/192\" title=\"See わい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぼちぼち"
+        },
+        {
+          "field": "meaning",
+          "value": "alright; soon"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "まあまあ／そろそろ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/74\" title=\"See ぼちぼち on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "はんじかん"
+        },
+        {
+          "field": "meaning",
+          "value": "half an hour"
+        },
+        {
+          "field": "kanji",
+          "value": "半時間"
+        },
+        {
+          "field": "std_word",
+          "value": "30ぷん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "30分"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/27\" title=\"See はんじかん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "こら"
+        },
+        {
+          "field": "meaning",
+          "value": "this"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "これは"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/204\" title=\"See こら on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "がさ"
+        },
+        {
+          "field": "meaning",
+          "value": "fidgety/restless person"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "がさつなひと"
+        },
+        {
+          "field": "std_kanji",
+          "value": "がさつな人"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/92\" title=\"See がさ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんば"
+        },
+        {
+          "field": "meaning",
+          "value": "corn"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "とうもろこし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/18\" title=\"See なんば on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぎょうたましい"
+        },
+        {
+          "field": "meaning",
+          "value": "exaggerated; overdone"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おおげさ(な)"
+        },
+        {
+          "field": "std_kanji",
+          "value": "大袈裟(な)"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/50\" title=\"See ぎょうたましい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ずっこい"
+        },
+        {
+          "field": "meaning",
+          "value": "cunning; sly; play unfair; foul"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ずるい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "狡い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/57\" title=\"See ずっこい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "せやかて"
+        },
+        {
+          "field": "meaning",
+          "value": "So you say, but... / Yeah, but..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうはいっても／そうだけど"
+        },
+        {
+          "field": "std_kanji",
+          "value": "そうは言っても／そうだけど"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/290\" title=\"See せやかて on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "けったくそわるい"
+        },
+        {
+          "field": "meaning",
+          "value": "irritating; infuriating"
+        },
+        {
+          "field": "kanji",
+          "value": "けった糞悪い"
+        },
+        {
+          "field": "std_word",
+          "value": "しゃくにさわる／いまいましい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "癪に障る／忌々しい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/129\" title=\"See けったくそわるい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あんま"
+        },
+        {
+          "field": "meaning",
+          "value": "not very; too much"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あんまり"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/143\" title=\"See あんま on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あない"
+        },
+        {
+          "field": "meaning",
+          "value": "that (over there) sort/kind of...; ...such as that (over there)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あんなに"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/142\" title=\"See あない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "めっちゃ"
+        },
+        {
+          "field": "meaning",
+          "value": "very; extremely"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "すごく"
+        },
+        {
+          "field": "std_kanji",
+          "value": "凄く"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/160\" title=\"See めっちゃ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "けぇ"
+        },
+        {
+          "field": "meaning",
+          "value": "hair"
+        },
+        {
+          "field": "kanji",
+          "value": "毛ぇ"
+        },
+        {
+          "field": "std_word",
+          "value": "け"
+        },
+        {
+          "field": "std_kanji",
+          "value": "毛"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/231\" title=\"See けぇ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ちゃらんぽらん"
+        },
+        {
+          "field": "meaning",
+          "value": "irresponsible; half-hearted"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いいかげん／むせきにん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "いい加減／無責任"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/93\" title=\"See ちゃらんぽらん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おいでやす"
+        },
+        {
+          "field": "meaning",
+          "value": "welcome"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "いらっしゃい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/148\" title=\"See おいでやす on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ごっつ(い)"
+        },
+        {
+          "field": "meaning",
+          "value": "amazing; big; large; strong; great"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "でかい／つよい／すごい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "でかい／強い／凄い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/52\" title=\"See ごっつ(い) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あほほど"
+        },
+        {
+          "field": "meaning",
+          "value": "way too much; a lot"
+        },
+        {
+          "field": "kanji",
+          "value": "阿呆程"
+        },
+        {
+          "field": "std_word",
+          "value": "ばかみたいに"
+        },
+        {
+          "field": "std_kanji",
+          "value": "ばかみたいに"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/97\" title=\"See あほほど on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おもろい"
+        },
+        {
+          "field": "meaning",
+          "value": "interesting; funny"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おもしろい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "面白い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/46\" title=\"See おもろい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "どないした"
+        },
+        {
+          "field": "meaning",
+          "value": "What happened?/What's wrong?/So what?"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "どうした"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/180\" title=\"See どないした on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えげつない"
+        },
+        {
+          "field": "meaning",
+          "value": "mean-spirited; terrible; nasty"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あくどい／ひどい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "あくどい／酷い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/77\" title=\"See えげつない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ちょける"
+        },
+        {
+          "field": "meaning",
+          "value": "to joke; to clown"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ふざける"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/221\" title=\"See ちょける on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あんまし"
+        },
+        {
+          "field": "meaning",
+          "value": "not very; too much"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あんまり"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/144\" title=\"See あんまし on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ぼんさん"
+        },
+        {
+          "field": "meaning",
+          "value": "a Buddhist priest"
+        },
+        {
+          "field": "kanji",
+          "value": "坊さん"
+        },
+        {
+          "field": "std_word",
+          "value": "おぼうさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お坊さん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/249\" title=\"See ぼんさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんで"
+        },
+        {
+          "field": "meaning",
+          "value": "why"
+        },
+        {
+          "field": "kanji",
+          "value": "何で"
+        },
+        {
+          "field": "std_word",
+          "value": "なぜ／どうして"
+        },
+        {
+          "field": "std_kanji",
+          "value": "何故／どうして"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/293\" title=\"See なんで on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "きぃつける"
+        },
+        {
+          "field": "meaning",
+          "value": "to pay attention to; to be careful"
+        },
+        {
+          "field": "kanji",
+          "value": "気ぃつける"
+        },
+        {
+          "field": "std_word",
+          "value": "きをつける"
+        },
+        {
+          "field": "std_kanji",
+          "value": "気をつける"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/153\" title=\"See きぃつける on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あんな"
+        },
+        {
+          "field": "meaning",
+          "value": "Guess what? / Listen..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あのね"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/288\" title=\"See あんな on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "せや"
+        },
+        {
+          "field": "meaning",
+          "value": "like you said; oh yeah...; well..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/162\" title=\"See せや on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ほな"
+        },
+        {
+          "field": "meaning",
+          "value": "Alright then"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "じゃあ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/169\" title=\"See ほな on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ねちこい"
+        },
+        {
+          "field": "meaning",
+          "value": "persistent; stubborn; sticky"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "しつこい／ねばっている"
+        },
+        {
+          "field": "std_kanji",
+          "value": "しつこい／粘っている"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/260\" title=\"See ねちこい  on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おない"
+        },
+        {
+          "field": "meaning",
+          "value": "same aged; in the same cohort"
+        },
+        {
+          "field": "kanji",
+          "value": "同い"
+        },
+        {
+          "field": "std_word",
+          "value": "おないどし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "同い年"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/118\" title=\"See おない on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "カッターシャツ"
+        },
+        {
+          "field": "meaning",
+          "value": "dress shirt"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ワイシャツ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/30\" title=\"See カッターシャツ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あんばい"
+        },
+        {
+          "field": "meaning",
+          "value": "(in a good) condition; (well) adjusted"
+        },
+        {
+          "field": "kanji",
+          "value": "塩梅"
+        },
+        {
+          "field": "std_word",
+          "value": "ぐあい／かげん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "具合／加減"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/367\" title=\"See あんばい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "せやさかい"
+        },
+        {
+          "field": "meaning",
+          "value": "so; because of (that); therefore"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうだから"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/175\" title=\"See せやさかい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "えぐい"
+        },
+        {
+          "field": "meaning",
+          "value": "terrible; cruel; awful"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ひどい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "酷い"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/44\" title=\"See えぐい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ねちっこい"
+        },
+        {
+          "field": "meaning",
+          "value": "persistent; stubborn; sticky"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "しつこい／ねばっている"
+        },
+        {
+          "field": "std_kanji",
+          "value": "しつこい／粘っている"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/62\" title=\"See ねちっこい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あんた"
+        },
+        {
+          "field": "meaning",
+          "value": "you"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あなた"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/214\" title=\"See あんた on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ええし"
+        },
+        {
+          "field": "meaning",
+          "value": "rich family; good family"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "かねもちのいえ／りょうけ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "金持ちの家／良家"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/108\" title=\"See ええし on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "まっさら(な)"
+        },
+        {
+          "field": "meaning",
+          "value": "brand new (thing)"
+        },
+        {
+          "field": "kanji",
+          "value": "真っ新(な)"
+        },
+        {
+          "field": "std_word",
+          "value": "まあたらしい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "真新しい"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/70\" title=\"See まっさら(な) on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "ごんた"
+        },
+        {
+          "field": "meaning",
+          "value": "mischievous boy; boy who's hard to handle"
+        },
+        {
+          "field": "kanji",
+          "value": "権太"
+        },
+        {
+          "field": "std_word",
+          "value": "わんぱくぼうず／やんちゃぼうず"
+        },
+        {
+          "field": "std_kanji",
+          "value": "腕白坊主／やんちゃ坊主"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/134\" title=\"See ごんた on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "よせてもらう"
+        },
+        {
+          "field": "meaning",
+          "value": "to visit"
+        },
+        {
+          "field": "kanji",
+          "value": "寄せてもらう"
+        },
+        {
+          "field": "std_word",
+          "value": "ほうもんする"
+        },
+        {
+          "field": "std_kanji",
+          "value": "訪問する"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/29\" title=\"See よせてもらう on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おかん"
+        },
+        {
+          "field": "meaning",
+          "value": "mom; mother"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おかあさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "お母さん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/113\" title=\"See おかん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "まぶし"
+        },
+        {
+          "field": "meaning",
+          "value": "barbecued eel on rice"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "うなぎめし"
+        },
+        {
+          "field": "std_kanji",
+          "value": "鰻飯"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/10\" title=\"See まぶし on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おっさん"
+        },
+        {
+          "field": "meaning",
+          "value": "uncle; middle-aged man"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "おじさん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "叔父さん"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/255\" title=\"See おっさん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おちょける"
+        },
+        {
+          "field": "meaning",
+          "value": "to joke; to clown"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ふざける"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/365\" title=\"See おちょける on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "おこうこ"
+        },
+        {
+          "field": "meaning",
+          "value": "pickled radish"
+        },
+        {
+          "field": "kanji",
+          "value": "御香香"
+        },
+        {
+          "field": "std_word",
+          "value": "たくあん"
+        },
+        {
+          "field": "std_kanji",
+          "value": "沢庵"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/12\" title=\"See おこうこ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "そやかて"
+        },
+        {
+          "field": "meaning",
+          "value": "So you say, but... / Yeah, but..."
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "そうはいっても／そうだけど"
+        },
+        {
+          "field": "std_kanji",
+          "value": "そうは言っても／そうだけど"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/292\" title=\"See そやかて on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あほくさい"
+        },
+        {
+          "field": "meaning",
+          "value": "foolish; ridiculous (negative meaning)"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ばからしい"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/43\" title=\"See あほくさい on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あかん"
+        },
+        {
+          "field": "meaning",
+          "value": "bad; impossible; hopeless; no; cannot"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "だめ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "駄目"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/39\" title=\"See あかん on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "モータープール"
+        },
+        {
+          "field": "meaning",
+          "value": "parking lot"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "ちゅうしゃじょう"
+        },
+        {
+          "field": "std_kanji",
+          "value": "駐車場"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/31\" title=\"See モータープール on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "なんしか"
+        },
+        {
+          "field": "meaning",
+          "value": "anyhow; at any rate; anyways"
+        },
+        {
+          "field": "kanji",
+          "value": "何しか"
+        },
+        {
+          "field": "std_word",
+          "value": "なにしろ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "何しろ"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/243\" title=\"See なんしか on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "word",
+          "value": "あっこ"
+        },
+        {
+          "field": "meaning",
+          "value": "over there"
+        },
+        {
+          "field": "kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "std_word",
+          "value": "あそこ"
+        },
+        {
+          "field": "std_kanji",
+          "value": "n/a"
+        },
+        {
+          "field": "link",
+          "value": "<a href=\"http://kansaibenkyou.net/node/210\" title=\"See あっこ on kansaibenkyou.net\">See on KB.net</a>"
+        }
+      ]
+    }
+  ],
+  "description": "Simple card set for studying Kansaibenkyou.net vocabulary."
+}
