@@ -1,0 +1,3002 @@
+{
+  "id": "hsk_2",
+  "name": "HSK 2 Vocabulary (汉语水平考试)",
+  "description": "Mandarin Chinese vocabulary for HSK 2. Source: drkameleon/complete-hsk-vocabulary (MIT), derived from CC-CEDICT (CC-BY-SA 4.0).",
+  "source_language": "zh",
+  "field_definitions": [
+    {
+      "name": "characters",
+      "label": "Characters",
+      "language": "zh-Hans",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "pinyin",
+      "label": "Pinyin",
+      "language": "zh-Latn",
+      "field_type": "representation",
+      "default_face": "back"
+    },
+    {
+      "name": "meaning",
+      "label": "Meaning",
+      "language": "en",
+      "field_type": "sense",
+      "default_face": "back"
+    }
+  ],
+  "default_display": {
+    "front": [
+      "characters"
+    ],
+    "back": [
+      "pinyin",
+      "meaning"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "吧"
+        },
+        {
+          "field": "pinyin",
+          "value": "bā"
+        },
+        {
+          "field": "meaning",
+          "value": "bar (loanword) (serving drinks, or providing Internet access etc); to puff (on a pipe etc); (onom.) bang; abbr. for 贴吧"
+        }
+      ],
+      "tags": [
+        "y"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "白"
+        },
+        {
+          "field": "pinyin",
+          "value": "Bái"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Bai"
+        }
+      ],
+      "tags": [
+        "a",
+        "nr",
+        "d",
+        "b",
+        "v",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "百"
+        },
+        {
+          "field": "pinyin",
+          "value": "Bǎi"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Bai"
+        }
+      ],
+      "tags": [
+        "m",
+        "t"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "帮助"
+        },
+        {
+          "field": "pinyin",
+          "value": "bāng zhù"
+        },
+        {
+          "field": "meaning",
+          "value": "assistance; aid; to help; to assist"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "报纸"
+        },
+        {
+          "field": "pinyin",
+          "value": "bào zhǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "newspaper; newsprint"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "比"
+        },
+        {
+          "field": "pinyin",
+          "value": "Bǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "Belgium; Belgian; abbr. for 比利时"
+        }
+      ],
+      "tags": [
+        "p",
+        "v",
+        "n",
+        "b"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "便宜"
+        },
+        {
+          "field": "pinyin",
+          "value": "biàn yí"
+        },
+        {
+          "field": "meaning",
+          "value": "convenient"
+        }
+      ],
+      "tags": [
+        "a",
+        "v",
+        "an"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "别"
+        },
+        {
+          "field": "pinyin",
+          "value": "Bié"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Bie"
+        }
+      ],
+      "tags": [
+        "d",
+        "v",
+        "r",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "唱歌"
+        },
+        {
+          "field": "pinyin",
+          "value": "chàng gē"
+        },
+        {
+          "field": "meaning",
+          "value": "to sing a song"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "出"
+        },
+        {
+          "field": "pinyin",
+          "value": "chū"
+        },
+        {
+          "field": "meaning",
+          "value": "to go out; to come out; to occur; to produce; to go beyond; to rise; to put forth; to happen; (used after a verb to indicate an outward direction or a positive result); classifier for dramas, plays, operas etc"
+        }
+      ],
+      "tags": [
+        "v",
+        "q"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "穿"
+        },
+        {
+          "field": "pinyin",
+          "value": "chuān"
+        },
+        {
+          "field": "meaning",
+          "value": "to wear; to put on; to dress; to bore through; to pierce; to perforate; to penetrate; to pass through; to thread"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "船"
+        },
+        {
+          "field": "pinyin",
+          "value": "chuán"
+        },
+        {
+          "field": "meaning",
+          "value": "variant of 船"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "次"
+        },
+        {
+          "field": "pinyin",
+          "value": "cì"
+        },
+        {
+          "field": "meaning",
+          "value": "next in sequence; second; the second (day, time etc); secondary; vice-; sub-; infra-; inferior quality; substandard; order; sequence; hypo- (chemistry); classifier for enumerated events: time"
+        }
+      ],
+      "tags": [
+        "qv",
+        "a",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "从"
+        },
+        {
+          "field": "pinyin",
+          "value": "cóng"
+        },
+        {
+          "field": "meaning",
+          "value": "variant of 从"
+        }
+      ],
+      "tags": [
+        "p",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "错"
+        },
+        {
+          "field": "pinyin",
+          "value": "Cuò"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Cuo"
+        }
+      ],
+      "tags": [
+        "v",
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "打篮球"
+        },
+        {
+          "field": "pinyin",
+          "value": "dǎ lán qiú"
+        },
+        {
+          "field": "meaning",
+          "value": "to play basketball"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "大家"
+        },
+        {
+          "field": "pinyin",
+          "value": "dà jiā"
+        },
+        {
+          "field": "meaning",
+          "value": "everyone; influential family; great expert"
+        }
+      ],
+      "tags": [
+        "r",
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "但是"
+        },
+        {
+          "field": "pinyin",
+          "value": "dàn shì"
+        },
+        {
+          "field": "meaning",
+          "value": "but; however"
+        }
+      ],
+      "tags": [
+        "c"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "到"
+        },
+        {
+          "field": "pinyin",
+          "value": "dào"
+        },
+        {
+          "field": "meaning",
+          "value": "to reach; to arrive; to leave for; to go to; to (a place); until (a time); up to (a point); (verb complement indicating arriving at a place or reaching a point); considerate; thoughtful; thorough"
+        }
+      ],
+      "tags": [
+        "v",
+        "p"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "得"
+        },
+        {
+          "field": "pinyin",
+          "value": "dé"
+        },
+        {
+          "field": "meaning",
+          "value": "to obtain; to get; to gain; to catch (a disease); proper; suitable; proud; contented; to allow; to permit; ready; finished"
+        }
+      ],
+      "tags": [
+        "u",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "得"
+        },
+        {
+          "field": "pinyin",
+          "value": "dé"
+        },
+        {
+          "field": "meaning",
+          "value": "to obtain; to get; to gain; to catch (a disease); proper; suitable; proud; contented; to allow; to permit; ready; finished"
+        }
+      ],
+      "tags": [
+        "u",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "弟弟"
+        },
+        {
+          "field": "pinyin",
+          "value": "dì di"
+        },
+        {
+          "field": "meaning",
+          "value": "younger brother"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "第一"
+        },
+        {
+          "field": "pinyin",
+          "value": "dì yī"
+        },
+        {
+          "field": "meaning",
+          "value": "first; number one; primary"
+        }
+      ],
+      "tags": [
+        "m"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "懂"
+        },
+        {
+          "field": "pinyin",
+          "value": "dǒng"
+        },
+        {
+          "field": "meaning",
+          "value": "to understand; to comprehend"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "房间"
+        },
+        {
+          "field": "pinyin",
+          "value": "fáng jiān"
+        },
+        {
+          "field": "meaning",
+          "value": "room"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "非常"
+        },
+        {
+          "field": "pinyin",
+          "value": "fēi cháng"
+        },
+        {
+          "field": "meaning",
+          "value": "very; really; unusual; extraordinary"
+        }
+      ],
+      "tags": [
+        "d",
+        "b"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "服务员"
+        },
+        {
+          "field": "pinyin",
+          "value": "fú wù yuán"
+        },
+        {
+          "field": "meaning",
+          "value": "waiter; waitress; attendant; customer service personnel"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "高"
+        },
+        {
+          "field": "pinyin",
+          "value": "Gāo"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Gao"
+        }
+      ],
+      "tags": [
+        "a",
+        "ad",
+        "v",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "告诉"
+        },
+        {
+          "field": "pinyin",
+          "value": "gào sù"
+        },
+        {
+          "field": "meaning",
+          "value": "to press charges; to file a complaint"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "哥哥"
+        },
+        {
+          "field": "pinyin",
+          "value": "gē ge"
+        },
+        {
+          "field": "meaning",
+          "value": "older brother"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "给"
+        },
+        {
+          "field": "pinyin",
+          "value": "gěi"
+        },
+        {
+          "field": "meaning",
+          "value": "to; for; for the benefit of; to give; to allow; to do sth (for sb); (grammatical equivalent of 被); (grammatical equivalent of 把); (sentence intensifier)"
+        }
+      ],
+      "tags": [
+        "p",
+        "v",
+        "u"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "公共汽车"
+        },
+        {
+          "field": "pinyin",
+          "value": "gōng gòng qì chē"
+        },
+        {
+          "field": "meaning",
+          "value": "bus"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "公斤"
+        },
+        {
+          "field": "pinyin",
+          "value": "gōng jīn"
+        },
+        {
+          "field": "meaning",
+          "value": "kilogram (kg)"
+        }
+      ],
+      "tags": [
+        "q"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "公司"
+        },
+        {
+          "field": "pinyin",
+          "value": "gōng sī"
+        },
+        {
+          "field": "meaning",
+          "value": "company; firm; corporation"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "贵"
+        },
+        {
+          "field": "pinyin",
+          "value": "guì"
+        },
+        {
+          "field": "meaning",
+          "value": "expensive; noble; precious; (honorific) your"
+        }
+      ],
+      "tags": [
+        "a",
+        "r",
+        "b",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "还"
+        },
+        {
+          "field": "pinyin",
+          "value": "Huán"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Huan"
+        }
+      ],
+      "tags": [
+        "d",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "还"
+        },
+        {
+          "field": "pinyin",
+          "value": "Huán"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Huan"
+        }
+      ],
+      "tags": [
+        "d",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "孩子"
+        },
+        {
+          "field": "pinyin",
+          "value": "hái zi"
+        },
+        {
+          "field": "meaning",
+          "value": "child"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "好吃"
+        },
+        {
+          "field": "pinyin",
+          "value": "hǎo chī"
+        },
+        {
+          "field": "meaning",
+          "value": "tasty; delicious"
+        }
+      ],
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "号"
+        },
+        {
+          "field": "pinyin",
+          "value": "háo"
+        },
+        {
+          "field": "meaning",
+          "value": "roar; cry"
+        }
+      ],
+      "tags": [
+        "q",
+        "n",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "黑"
+        },
+        {
+          "field": "pinyin",
+          "value": "Hēi"
+        },
+        {
+          "field": "meaning",
+          "value": "abbr. for Heilongjiang province 黑龙江"
+        }
+      ],
+      "tags": [
+        "a",
+        "g",
+        "b"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "红"
+        },
+        {
+          "field": "pinyin",
+          "value": "Hóng"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Hong"
+        }
+      ],
+      "tags": [
+        "a",
+        "v",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "欢迎"
+        },
+        {
+          "field": "pinyin",
+          "value": "huān yíng"
+        },
+        {
+          "field": "meaning",
+          "value": "to welcome; welcome"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "回答"
+        },
+        {
+          "field": "pinyin",
+          "value": "huí dá"
+        },
+        {
+          "field": "meaning",
+          "value": "to reply; to answer; reply; answer"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "机场"
+        },
+        {
+          "field": "pinyin",
+          "value": "jī chǎng"
+        },
+        {
+          "field": "meaning",
+          "value": "airport; airfield; (slang) service provider for Shadowsocks or similar software for circumventing Internet censorship"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "鸡蛋"
+        },
+        {
+          "field": "pinyin",
+          "value": "jī dàn"
+        },
+        {
+          "field": "meaning",
+          "value": "(chicken) egg; hen's egg"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "件"
+        },
+        {
+          "field": "pinyin",
+          "value": "jiàn"
+        },
+        {
+          "field": "meaning",
+          "value": "item; component; classifier for events, things, clothes etc"
+        }
+      ],
+      "tags": [
+        "q",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "教室"
+        },
+        {
+          "field": "pinyin",
+          "value": "jiào shì"
+        },
+        {
+          "field": "meaning",
+          "value": "classroom"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "介绍"
+        },
+        {
+          "field": "pinyin",
+          "value": "jiè shào"
+        },
+        {
+          "field": "meaning",
+          "value": "to introduce (sb to sb); to give a presentation; to present (sb for a job etc); introduction"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "姐姐"
+        },
+        {
+          "field": "pinyin",
+          "value": "jiě jie"
+        },
+        {
+          "field": "meaning",
+          "value": "older sister"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "近"
+        },
+        {
+          "field": "pinyin",
+          "value": "jìn"
+        },
+        {
+          "field": "meaning",
+          "value": "near; close to; approximately"
+        }
+      ],
+      "tags": [
+        "a",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "进"
+        },
+        {
+          "field": "pinyin",
+          "value": "jìn"
+        },
+        {
+          "field": "meaning",
+          "value": "to go forward; to advance; to go in; to enter; to put in; to submit; to take in; to admit; (math.) base of a number system; classifier for sections in a building or residential compound"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "就"
+        },
+        {
+          "field": "pinyin",
+          "value": "jiù"
+        },
+        {
+          "field": "meaning",
+          "value": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after; (same as 是) merely; nothing else but; simply; just; precisely; exactly; only; as little as; as much as; as many as; to approach; to move towards; to undertake; to engage in; (often followed by 着) taking advantage of; (of food) to go with; with regard to; concerning; (pattern: 就 ... 也 ...) even if ... still ...; (pattern: 不 ... 就 ...) if not ... then must be ..."
+        }
+      ],
+      "tags": [
+        "d",
+        "p",
+        "c",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "觉得"
+        },
+        {
+          "field": "pinyin",
+          "value": "jué de"
+        },
+        {
+          "field": "meaning",
+          "value": "to think that ...; to feel that ...; to feel (uncomfortable etc)"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "咖啡"
+        },
+        {
+          "field": "pinyin",
+          "value": "kā fēi"
+        },
+        {
+          "field": "meaning",
+          "value": "coffee (loanword)"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "开始"
+        },
+        {
+          "field": "pinyin",
+          "value": "kāi shǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "to begin; beginning; to start; initial"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "考试"
+        },
+        {
+          "field": "pinyin",
+          "value": "kǎo shì"
+        },
+        {
+          "field": "meaning",
+          "value": "to take an exam; exam"
+        }
+      ],
+      "tags": [
+        "vn",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "可能"
+        },
+        {
+          "field": "pinyin",
+          "value": "kě néng"
+        },
+        {
+          "field": "meaning",
+          "value": "might (happen); possible; probable; possibility; probability; maybe; perhaps"
+        }
+      ],
+      "tags": [
+        "v",
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "可以"
+        },
+        {
+          "field": "pinyin",
+          "value": "kě yǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "can; may; possible; able to; not bad; pretty good"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "课"
+        },
+        {
+          "field": "pinyin",
+          "value": "kè"
+        },
+        {
+          "field": "meaning",
+          "value": "subject; course; class; lesson; to levy; tax; form of divination"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "快"
+        },
+        {
+          "field": "pinyin",
+          "value": "kuài"
+        },
+        {
+          "field": "meaning",
+          "value": "rapid; quick; speed; rate; soon; almost; to make haste; clever; sharp (of knives or wits); forthright; plainspoken; gratified; pleased; pleasant"
+        }
+      ],
+      "tags": [
+        "a",
+        "d",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "快乐"
+        },
+        {
+          "field": "pinyin",
+          "value": "kuài lè"
+        },
+        {
+          "field": "meaning",
+          "value": "happy; joyful"
+        }
+      ],
+      "tags": [
+        "a",
+        "an"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "累"
+        },
+        {
+          "field": "pinyin",
+          "value": "lěi"
+        },
+        {
+          "field": "meaning",
+          "value": "to accumulate; to involve or implicate (Taiwan pr. [lèi]); continuous; repeated"
+        }
+      ],
+      "tags": [
+        "a",
+        "v",
+        "an"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "离"
+        },
+        {
+          "field": "pinyin",
+          "value": "chī"
+        },
+        {
+          "field": "meaning",
+          "value": "mythical beast (archaic)"
+        }
+      ],
+      "tags": [
+        "v",
+        "p"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "两"
+        },
+        {
+          "field": "pinyin",
+          "value": "liǎng"
+        },
+        {
+          "field": "meaning",
+          "value": "two; both; some; a few; tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤 (old)"
+        }
+      ],
+      "tags": [
+        "m",
+        "t"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "路"
+        },
+        {
+          "field": "pinyin",
+          "value": "Lù"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Lu"
+        }
+      ],
+      "tags": [
+        "n",
+        "qv"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "旅游"
+        },
+        {
+          "field": "pinyin",
+          "value": "lǚ yóu"
+        },
+        {
+          "field": "meaning",
+          "value": "trip; journey; tourism; travel; tour; to travel"
+        }
+      ],
+      "tags": [
+        "vn",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "卖"
+        },
+        {
+          "field": "pinyin",
+          "value": "mài"
+        },
+        {
+          "field": "meaning",
+          "value": "to sell; to betray; to spare no effort; to show off or flaunt"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "慢"
+        },
+        {
+          "field": "pinyin",
+          "value": "màn"
+        },
+        {
+          "field": "meaning",
+          "value": "slow"
+        }
+      ],
+      "tags": [
+        "a",
+        "ad"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "忙"
+        },
+        {
+          "field": "pinyin",
+          "value": "máng"
+        },
+        {
+          "field": "meaning",
+          "value": "busy; hurriedly; to hurry; to rush"
+        }
+      ],
+      "tags": [
+        "v",
+        "a",
+        "ad",
+        "g",
+        "an"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "每"
+        },
+        {
+          "field": "pinyin",
+          "value": "měi"
+        },
+        {
+          "field": "meaning",
+          "value": "each; every"
+        }
+      ],
+      "tags": [
+        "r"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "妹妹"
+        },
+        {
+          "field": "pinyin",
+          "value": "mèi mei"
+        },
+        {
+          "field": "meaning",
+          "value": "younger sister; young woman"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "门"
+        },
+        {
+          "field": "pinyin",
+          "value": "Mén"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Men"
+        }
+      ],
+      "tags": [
+        "n",
+        "q"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "男人"
+        },
+        {
+          "field": "pinyin",
+          "value": "nán rén"
+        },
+        {
+          "field": "meaning",
+          "value": "a man; a male; men"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "您"
+        },
+        {
+          "field": "pinyin",
+          "value": "nín"
+        },
+        {
+          "field": "meaning",
+          "value": "you (courteous, as opposed to informal 你)"
+        }
+      ],
+      "tags": [
+        "r"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "牛奶"
+        },
+        {
+          "field": "pinyin",
+          "value": "niú nǎi"
+        },
+        {
+          "field": "meaning",
+          "value": "cow's milk"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "女人"
+        },
+        {
+          "field": "pinyin",
+          "value": "nǚ rén"
+        },
+        {
+          "field": "meaning",
+          "value": "woman"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "旁边"
+        },
+        {
+          "field": "pinyin",
+          "value": "páng biān"
+        },
+        {
+          "field": "meaning",
+          "value": "side; adjacent place"
+        }
+      ],
+      "tags": [
+        "f"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "跑步"
+        },
+        {
+          "field": "pinyin",
+          "value": "pǎo bù"
+        },
+        {
+          "field": "meaning",
+          "value": "to run; to jog; (military) to march at the double"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "票"
+        },
+        {
+          "field": "pinyin",
+          "value": "piào"
+        },
+        {
+          "field": "meaning",
+          "value": "ticket; ballot; banknote; person held for ransom; amateur performance of Chinese opera; classifier for groups, batches, business transactions"
+        }
+      ],
+      "tags": [
+        "n",
+        "q"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "妻子"
+        },
+        {
+          "field": "pinyin",
+          "value": "qī zǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "wife and children"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "起床"
+        },
+        {
+          "field": "pinyin",
+          "value": "qǐ chuáng"
+        },
+        {
+          "field": "meaning",
+          "value": "to get out of bed; to get up"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "千"
+        },
+        {
+          "field": "pinyin",
+          "value": "qiān"
+        },
+        {
+          "field": "meaning",
+          "value": "thousand"
+        }
+      ],
+      "tags": [
+        "m",
+        "t"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "晴"
+        },
+        {
+          "field": "pinyin",
+          "value": "qíng"
+        },
+        {
+          "field": "meaning",
+          "value": "clear; fine (weather)"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "去年"
+        },
+        {
+          "field": "pinyin",
+          "value": "qù nián"
+        },
+        {
+          "field": "meaning",
+          "value": "last year"
+        }
+      ],
+      "tags": [
+        "t"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "让"
+        },
+        {
+          "field": "pinyin",
+          "value": "ràng"
+        },
+        {
+          "field": "meaning",
+          "value": "to yield; to permit; to let sb do sth; to have sb do sth; to make sb (feel sad etc); by (indicates the agent in a passive clause, like 被)"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "上班"
+        },
+        {
+          "field": "pinyin",
+          "value": "shàng bān"
+        },
+        {
+          "field": "meaning",
+          "value": "to go to work; to be on duty; to start work; to go to the office"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "身体"
+        },
+        {
+          "field": "pinyin",
+          "value": "shēn tǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "the body; one's health; in person"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "生病"
+        },
+        {
+          "field": "pinyin",
+          "value": "shēng bìng"
+        },
+        {
+          "field": "meaning",
+          "value": "to fall ill"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "生日"
+        },
+        {
+          "field": "pinyin",
+          "value": "shēng rì"
+        },
+        {
+          "field": "meaning",
+          "value": "birthday"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "时间"
+        },
+        {
+          "field": "pinyin",
+          "value": "shí jiān"
+        },
+        {
+          "field": "meaning",
+          "value": "time; period"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "事情"
+        },
+        {
+          "field": "pinyin",
+          "value": "shì qing"
+        },
+        {
+          "field": "meaning",
+          "value": "affair; matter; thing; business"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "手表"
+        },
+        {
+          "field": "pinyin",
+          "value": "shǒu biǎo"
+        },
+        {
+          "field": "meaning",
+          "value": "wristwatch"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "手机"
+        },
+        {
+          "field": "pinyin",
+          "value": "shǒu jī"
+        },
+        {
+          "field": "meaning",
+          "value": "cell phone; mobile phone"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "送"
+        },
+        {
+          "field": "pinyin",
+          "value": "sòng"
+        },
+        {
+          "field": "meaning",
+          "value": "to send; to deliver; to transmit; to give (as a present); to see (sb) off; to accompany; to go along with"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "所以"
+        },
+        {
+          "field": "pinyin",
+          "value": "suǒ yǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "therefore; as a result; so; the reason why"
+        }
+      ],
+      "tags": [
+        "c"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "它"
+        },
+        {
+          "field": "pinyin",
+          "value": "tā"
+        },
+        {
+          "field": "meaning",
+          "value": "it"
+        }
+      ],
+      "tags": [
+        "r"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "踢"
+        },
+        {
+          "field": "pinyin",
+          "value": "tī"
+        },
+        {
+          "field": "meaning",
+          "value": "to kick; to play (e.g. soccer); (slang) butch (in a lesbian relationship)"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "题"
+        },
+        {
+          "field": "pinyin",
+          "value": "Tí"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Ti"
+        }
+      ],
+      "tags": [
+        "n",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "跳舞"
+        },
+        {
+          "field": "pinyin",
+          "value": "tiào wǔ"
+        },
+        {
+          "field": "meaning",
+          "value": "to dance"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "外"
+        },
+        {
+          "field": "pinyin",
+          "value": "wài"
+        },
+        {
+          "field": "meaning",
+          "value": "outside; in addition; foreign; external"
+        }
+      ],
+      "tags": [
+        "f"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "完"
+        },
+        {
+          "field": "pinyin",
+          "value": "wán"
+        },
+        {
+          "field": "meaning",
+          "value": "to finish; to be over; whole; complete; entire"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "玩"
+        },
+        {
+          "field": "pinyin",
+          "value": "wán"
+        },
+        {
+          "field": "meaning",
+          "value": "to play; to have fun; to trifle with; toy; sth used for amusement; curio or antique (Taiwan pr. [wàn]); to keep sth for entertainment"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "晚上"
+        },
+        {
+          "field": "pinyin",
+          "value": "wǎn shang"
+        },
+        {
+          "field": "meaning",
+          "value": "evening; night; in the evening"
+        }
+      ],
+      "tags": [
+        "t"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "为"
+        },
+        {
+          "field": "pinyin",
+          "value": "wéi"
+        },
+        {
+          "field": "meaning",
+          "value": "as (in the capacity of); to take sth as; to act as; to serve as; to behave as; to become; to be; to do; by (in the passive voice)"
+        }
+      ],
+      "tags": [
+        "p",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "问"
+        },
+        {
+          "field": "pinyin",
+          "value": "wèn"
+        },
+        {
+          "field": "meaning",
+          "value": "to ask; to inquire"
+        }
+      ],
+      "tags": [
+        "v",
+        "g",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "问题"
+        },
+        {
+          "field": "pinyin",
+          "value": "wèn tí"
+        },
+        {
+          "field": "meaning",
+          "value": "question; problem; issue; topic"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "希望"
+        },
+        {
+          "field": "pinyin",
+          "value": "xī wàng"
+        },
+        {
+          "field": "meaning",
+          "value": "to hope; a hope; a wish"
+        }
+      ],
+      "tags": [
+        "v",
+        "n",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "洗"
+        },
+        {
+          "field": "pinyin",
+          "value": "xǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "to wash; to bathe; to develop (photographs); to shuffle (cards etc); to erase (a recording)"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "西瓜"
+        },
+        {
+          "field": "pinyin",
+          "value": "xī guā"
+        },
+        {
+          "field": "meaning",
+          "value": "watermelon"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "向"
+        },
+        {
+          "field": "pinyin",
+          "value": "Xiàng"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Xiang"
+        }
+      ],
+      "tags": [
+        "p",
+        "v",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "小时"
+        },
+        {
+          "field": "pinyin",
+          "value": "xiǎo shí"
+        },
+        {
+          "field": "meaning",
+          "value": "hour"
+        }
+      ],
+      "tags": [
+        "n",
+        "q"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "笑"
+        },
+        {
+          "field": "pinyin",
+          "value": "xiào"
+        },
+        {
+          "field": "meaning",
+          "value": "old variant of 笑"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "新"
+        },
+        {
+          "field": "pinyin",
+          "value": "Xīn"
+        },
+        {
+          "field": "meaning",
+          "value": "abbr. for Xinjiang 疆 or Singapore 坡; surname Xin"
+        }
+      ],
+      "tags": [
+        "a",
+        "d",
+        "b"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "姓"
+        },
+        {
+          "field": "pinyin",
+          "value": "xìng"
+        },
+        {
+          "field": "meaning",
+          "value": "family name; surname; to be surnamed"
+        }
+      ],
+      "tags": [
+        "v",
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "休息"
+        },
+        {
+          "field": "pinyin",
+          "value": "xiū xi"
+        },
+        {
+          "field": "meaning",
+          "value": "rest; to rest"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "雪"
+        },
+        {
+          "field": "pinyin",
+          "value": "Xuě"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Xue"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "颜色"
+        },
+        {
+          "field": "pinyin",
+          "value": "yán sè"
+        },
+        {
+          "field": "meaning",
+          "value": "color; countenance; appearance; facial expression; pigment; dyestuff"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "眼睛"
+        },
+        {
+          "field": "pinyin",
+          "value": "yǎn jing"
+        },
+        {
+          "field": "meaning",
+          "value": "eye"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "羊肉"
+        },
+        {
+          "field": "pinyin",
+          "value": "yáng ròu"
+        },
+        {
+          "field": "meaning",
+          "value": "mutton; goat meat"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "药"
+        },
+        {
+          "field": "pinyin",
+          "value": "yào"
+        },
+        {
+          "field": "meaning",
+          "value": "leaf of the iris; variant of 药"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "要"
+        },
+        {
+          "field": "pinyin",
+          "value": "yāo"
+        },
+        {
+          "field": "meaning",
+          "value": "(bound form) to demand; to coerce"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "也"
+        },
+        {
+          "field": "pinyin",
+          "value": "Yě"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Ye"
+        }
+      ],
+      "tags": [
+        "d",
+        "y",
+        "u",
+        "b"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "一起"
+        },
+        {
+          "field": "pinyin",
+          "value": "yī qǐ"
+        },
+        {
+          "field": "meaning",
+          "value": "in the same place; together; with; altogether (in total)"
+        }
+      ],
+      "tags": [
+        "s",
+        "d",
+        "nr"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "已经"
+        },
+        {
+          "field": "pinyin",
+          "value": "yǐ jīng"
+        },
+        {
+          "field": "meaning",
+          "value": "already"
+        }
+      ],
+      "tags": [
+        "d"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "意思"
+        },
+        {
+          "field": "pinyin",
+          "value": "yì si"
+        },
+        {
+          "field": "meaning",
+          "value": "idea; opinion; meaning; wish; desire; interest; fun; token of appreciation, affection etc; to give as a small token; to do sth as a gesture of goodwill etc"
+        }
+      ],
+      "tags": [
+        "n",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "因为"
+        },
+        {
+          "field": "pinyin",
+          "value": "yīn wèi"
+        },
+        {
+          "field": "meaning",
+          "value": "because; owing to; on account of"
+        }
+      ],
+      "tags": [
+        "p",
+        "c"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "阴"
+        },
+        {
+          "field": "pinyin",
+          "value": "Yīn"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Yin"
+        }
+      ],
+      "tags": [
+        "a",
+        "g",
+        "ad",
+        "b"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "游泳"
+        },
+        {
+          "field": "pinyin",
+          "value": "yóu yǒng"
+        },
+        {
+          "field": "meaning",
+          "value": "swimming; to swim"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "右边"
+        },
+        {
+          "field": "pinyin",
+          "value": "yòu bian"
+        },
+        {
+          "field": "meaning",
+          "value": "right side; right, to the right"
+        }
+      ],
+      "tags": [
+        "f"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "鱼"
+        },
+        {
+          "field": "pinyin",
+          "value": "Yú"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Yu"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "元"
+        },
+        {
+          "field": "pinyin",
+          "value": "Yuán"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Yuan; the Yuan or Mongol dynasty (1279-1368)"
+        }
+      ],
+      "tags": [
+        "q",
+        "tg"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "远"
+        },
+        {
+          "field": "pinyin",
+          "value": "yuǎn"
+        },
+        {
+          "field": "meaning",
+          "value": "far; distant; remote; (intensifier in a comparison) by far; much (lower etc)"
+        }
+      ],
+      "tags": [
+        "a",
+        "ad"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "运动"
+        },
+        {
+          "field": "pinyin",
+          "value": "yùn dòng"
+        },
+        {
+          "field": "meaning",
+          "value": "to move; to exercise; sports; exercise; motion; movement; campaign"
+        }
+      ],
+      "tags": [
+        "vn",
+        "n",
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "再"
+        },
+        {
+          "field": "pinyin",
+          "value": "zài"
+        },
+        {
+          "field": "meaning",
+          "value": "again; once more; re-; second; another; then (after sth, and not until then); no matter how ... (followed by an adjective or verb, and then (usually) 也 or 都 for emphasis)"
+        }
+      ],
+      "tags": [
+        "d",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "早上"
+        },
+        {
+          "field": "pinyin",
+          "value": "zǎo shang"
+        },
+        {
+          "field": "meaning",
+          "value": "early morning"
+        }
+      ],
+      "tags": [
+        "t"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "张"
+        },
+        {
+          "field": "pinyin",
+          "value": "Zhāng"
+        },
+        {
+          "field": "meaning",
+          "value": "surname Zhang"
+        }
+      ],
+      "tags": [
+        "q",
+        "nr",
+        "v",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "长"
+        },
+        {
+          "field": "pinyin",
+          "value": "cháng"
+        },
+        {
+          "field": "meaning",
+          "value": "length; long; forever; always; constantly"
+        }
+      ],
+      "tags": [
+        "a",
+        "v",
+        "ad",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "长"
+        },
+        {
+          "field": "pinyin",
+          "value": "cháng"
+        },
+        {
+          "field": "meaning",
+          "value": "length; long; forever; always; constantly"
+        }
+      ],
+      "tags": [
+        "a",
+        "v",
+        "ad",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "丈夫"
+        },
+        {
+          "field": "pinyin",
+          "value": "zhàng fu"
+        },
+        {
+          "field": "meaning",
+          "value": "husband"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "找"
+        },
+        {
+          "field": "pinyin",
+          "value": "zhǎo"
+        },
+        {
+          "field": "meaning",
+          "value": "to try to find; to look for; to call on sb; to find; to seek; to return; to give change"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "着"
+        },
+        {
+          "field": "pinyin",
+          "value": "zhāo"
+        },
+        {
+          "field": "meaning",
+          "value": "(chess) move; trick; all right!; (dialect) to add"
+        }
+      ],
+      "tags": [
+        "u",
+        "v",
+        "n",
+        "q"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "真"
+        },
+        {
+          "field": "pinyin",
+          "value": "zhēn"
+        },
+        {
+          "field": "meaning",
+          "value": "really; truly; indeed; real; true; genuine"
+        }
+      ],
+      "tags": [
+        "d",
+        "a",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "正在"
+        },
+        {
+          "field": "pinyin",
+          "value": "zhèng zài"
+        },
+        {
+          "field": "meaning",
+          "value": "just at (that time); right in (that place); right in the middle of (doing sth)"
+        }
+      ],
+      "tags": [
+        "d"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "知道"
+        },
+        {
+          "field": "pinyin",
+          "value": "zhī dào"
+        },
+        {
+          "field": "meaning",
+          "value": "to know; to become aware of; also pr. [zhī dao]"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "准备"
+        },
+        {
+          "field": "pinyin",
+          "value": "zhǔn bèi"
+        },
+        {
+          "field": "meaning",
+          "value": "preparation; to prepare; to intend; to be about to; reserve (fund)"
+        }
+      ],
+      "tags": [
+        "v",
+        "vn"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "自行车"
+        },
+        {
+          "field": "pinyin",
+          "value": "zì xíng chē"
+        },
+        {
+          "field": "meaning",
+          "value": "bicycle; bike"
+        }
+      ],
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "走"
+        },
+        {
+          "field": "pinyin",
+          "value": "zǒu"
+        },
+        {
+          "field": "meaning",
+          "value": "to walk; to go; to run; to move (of vehicle); to visit; to leave; to go away; to die (euph.); from; through; away (in compound verbs, such as 走); to change (shape, form, meaning)"
+        }
+      ],
+      "tags": [
+        "v"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "最"
+        },
+        {
+          "field": "pinyin",
+          "value": "zuì"
+        },
+        {
+          "field": "meaning",
+          "value": "variant of 最"
+        }
+      ],
+      "tags": [
+        "d",
+        "g"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "characters",
+          "value": "左边"
+        },
+        {
+          "field": "pinyin",
+          "value": "zuǒ bian"
+        },
+        {
+          "field": "meaning",
+          "value": "left; the left side; to the left of"
+        }
+      ],
+      "tags": [
+        "f"
+      ]
+    }
+  ]
+}

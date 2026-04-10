@@ -1,0 +1,3888 @@
+{
+  "id": "grade_2",
+  "name": "Grade 2 Kanji (Kanken 9)",
+  "description": "Kanji taught in Japanese schools at grade level 2. Source: KANJIDIC2 (EDRDG/Jim Breen, CC-BY-SA 4.0) via scriptin/jmdict-simplified.",
+  "source_language": "ja",
+  "field_definitions": [
+    {
+      "name": "kanji",
+      "label": "Kanji",
+      "language": "ja",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "on_reading",
+      "label": "On'yomi",
+      "language": "ja-Kana",
+      "field_type": "representation",
+      "default_face": "back"
+    },
+    {
+      "name": "kun_reading",
+      "label": "Kun'yomi",
+      "language": "ja-Hira",
+      "field_type": "representation",
+      "default_face": "back"
+    },
+    {
+      "name": "meaning",
+      "label": "Meaning",
+      "language": "en",
+      "field_type": "sense",
+      "default_face": "back"
+    }
+  ],
+  "default_display": {
+    "front": [
+      "kanji"
+    ],
+    "back": [
+      "on_reading",
+      "kun_reading",
+      "meaning"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "引"
+        },
+        {
+          "field": "on_reading",
+          "value": "イン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ひ.く、ひ.ける"
+        },
+        {
+          "field": "meaning",
+          "value": "pull; tug; jerk; admit; install; quote; refer to"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-218"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "羽"
+        },
+        {
+          "field": "on_reading",
+          "value": "ウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "は、わ、はね"
+        },
+        {
+          "field": "meaning",
+          "value": "feathers; counter for birds, rabbits"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-748"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "雲"
+        },
+        {
+          "field": "on_reading",
+          "value": "ウン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "くも、-ぐも"
+        },
+        {
+          "field": "meaning",
+          "value": "cloud"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1256"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "園"
+        },
+        {
+          "field": "on_reading",
+          "value": "エン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "その"
+        },
+        {
+          "field": "meaning",
+          "value": "park; garden; yard; farm"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-628"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "遠"
+        },
+        {
+          "field": "on_reading",
+          "value": "エン、オン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "とお.い"
+        },
+        {
+          "field": "meaning",
+          "value": "distant; far"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-887"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "黄"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ、オウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "き、こ-"
+        },
+        {
+          "field": "meaning",
+          "value": "yellow"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1240"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "何"
+        },
+        {
+          "field": "on_reading",
+          "value": "カ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "なに、なん、なに-、なん-"
+        },
+        {
+          "field": "meaning",
+          "value": "what"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-340"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "夏"
+        },
+        {
+          "field": "on_reading",
+          "value": "カ、ガ、ゲ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "なつ"
+        },
+        {
+          "field": "meaning",
+          "value": "summer"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-659"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "家"
+        },
+        {
+          "field": "on_reading",
+          "value": "カ、ケ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "いえ、や、うち"
+        },
+        {
+          "field": "meaning",
+          "value": "house; home; family; professional; expert; performer"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-133"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "科"
+        },
+        {
+          "field": "on_reading",
+          "value": "カ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "department; course; section"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-531"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "歌"
+        },
+        {
+          "field": "on_reading",
+          "value": "カ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うた、うた.う"
+        },
+        {
+          "field": "meaning",
+          "value": "song; sing"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-519"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "画"
+        },
+        {
+          "field": "on_reading",
+          "value": "ガ、カク、エ、カイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "えが.く、かく.する、かぎ.る、はかりごと、はか.る"
+        },
+        {
+          "field": "meaning",
+          "value": "brush-stroke; picture"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-199"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "会"
+        },
+        {
+          "field": "on_reading",
+          "value": "カイ、エ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あ.う、あ.わせる、あつ.まる"
+        },
+        {
+          "field": "meaning",
+          "value": "meeting; meet; party; association; interview; join"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-4"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "回"
+        },
+        {
+          "field": "on_reading",
+          "value": "カイ、エ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "まわ.る、-まわ.る、-まわ.り、まわ.す、-まわ.す、まわ.し-、-まわ.し、もとお.る、か.える"
+        },
+        {
+          "field": "meaning",
+          "value": "-times; round; game; revolve; counter for occurrences"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-50"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "海"
+        },
+        {
+          "field": "on_reading",
+          "value": "カイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うみ"
+        },
+        {
+          "field": "meaning",
+          "value": "sea; ocean"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-200"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "絵"
+        },
+        {
+          "field": "on_reading",
+          "value": "カイ、エ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "picture; drawing; painting; sketch"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-895"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "外"
+        },
+        {
+          "field": "on_reading",
+          "value": "ガイ、ゲ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "そと、ほか、はず.す、はず.れる、と-"
+        },
+        {
+          "field": "meaning",
+          "value": "outside"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-81"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "角"
+        },
+        {
+          "field": "on_reading",
+          "value": "カク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かど、つの"
+        },
+        {
+          "field": "meaning",
+          "value": "angle; corner; square; horn; antlers"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-805"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "楽"
+        },
+        {
+          "field": "on_reading",
+          "value": "ガク、ラク、ゴウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "たの.しい、たの.しむ、この.む"
+        },
+        {
+          "field": "meaning",
+          "value": "music; comfort; ease"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-373"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "活"
+        },
+        {
+          "field": "on_reading",
+          "value": "カツ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "い.きる、い.かす、い.ける"
+        },
+        {
+          "field": "meaning",
+          "value": "lively; resuscitation; being helped; living"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-171"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "間"
+        },
+        {
+          "field": "on_reading",
+          "value": "カン、ケン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あいだ、ま、あい"
+        },
+        {
+          "field": "meaning",
+          "value": "interval; space"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-33"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "丸"
+        },
+        {
+          "field": "on_reading",
+          "value": "ガン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "まる、まる.める、まる.い"
+        },
+        {
+          "field": "meaning",
+          "value": "round; full (month); perfection; -ship; pills; make round; roll up; curl up; seduce; explain away"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-542"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "岩"
+        },
+        {
+          "field": "on_reading",
+          "value": "ガン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "いわ"
+        },
+        {
+          "field": "meaning",
+          "value": "boulder; rock; cliff"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-787"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "顔"
+        },
+        {
+          "field": "on_reading",
+          "value": "ガン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かお"
+        },
+        {
+          "field": "meaning",
+          "value": "face; expression"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-676"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "帰"
+        },
+        {
+          "field": "on_reading",
+          "value": "キ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かえ.る、かえ.す、おく.る、とつ.ぐ"
+        },
+        {
+          "field": "meaning",
+          "value": "homecoming; arrive at; lead to; result in"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-504"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "汽"
+        },
+        {
+          "field": "on_reading",
+          "value": "キ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "vapor; steam"
+        }
+      ],
+      "tags": [
+        "JLPT-old-1",
+        "freq-2020"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "記"
+        },
+        {
+          "field": "on_reading",
+          "value": "キ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "しる.す"
+        },
+        {
+          "field": "meaning",
+          "value": "scribe; account; narrative"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-149"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "弓"
+        },
+        {
+          "field": "on_reading",
+          "value": "キュウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ゆみ"
+        },
+        {
+          "field": "meaning",
+          "value": "bow; bow (archery, violin)"
+        }
+      ],
+      "tags": [
+        "JLPT-old-1",
+        "freq-1802"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "牛"
+        },
+        {
+          "field": "on_reading",
+          "value": "ギュウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うし"
+        },
+        {
+          "field": "meaning",
+          "value": "cow"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1202"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "魚"
+        },
+        {
+          "field": "on_reading",
+          "value": "ギョ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うお、さかな、-ざかな"
+        },
+        {
+          "field": "meaning",
+          "value": "fish"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-1208"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "京"
+        },
+        {
+          "field": "on_reading",
+          "value": "キョウ、ケイ、キン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "みやこ"
+        },
+        {
+          "field": "meaning",
+          "value": "capital; 10**16"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-74"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "強"
+        },
+        {
+          "field": "on_reading",
+          "value": "キョウ、ゴウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "つよ.い、つよ.まる、つよ.める、し.いる、こわ.い"
+        },
+        {
+          "field": "meaning",
+          "value": "strong"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-112"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "教"
+        },
+        {
+          "field": "on_reading",
+          "value": "キョウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "おし.える、おそ.わる"
+        },
+        {
+          "field": "meaning",
+          "value": "teach; faith; doctrine"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-166"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "近"
+        },
+        {
+          "field": "on_reading",
+          "value": "キン、コン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ちか.い"
+        },
+        {
+          "field": "meaning",
+          "value": "near; early; akin; tantamount"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-194"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "兄"
+        },
+        {
+          "field": "on_reading",
+          "value": "ケイ、キョウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あに"
+        },
+        {
+          "field": "meaning",
+          "value": "elder brother; big brother"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1219"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "形"
+        },
+        {
+          "field": "on_reading",
+          "value": "ケイ、ギョウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かた、-がた、かたち、なり"
+        },
+        {
+          "field": "meaning",
+          "value": "shape; form; style"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-418"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "計"
+        },
+        {
+          "field": "on_reading",
+          "value": "ケイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "はか.る、はか.らう"
+        },
+        {
+          "field": "meaning",
+          "value": "plot; plan; scheme; measure"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-228"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "元"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゲン、ガン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "もと"
+        },
+        {
+          "field": "meaning",
+          "value": "beginning; former time; origin"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-192"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "原"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゲン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "はら"
+        },
+        {
+          "field": "meaning",
+          "value": "meadow; original; primitive; field; plain; prairie; tundra; wilderness"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-172"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "言"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゲン、ゴン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "い.う、こと"
+        },
+        {
+          "field": "meaning",
+          "value": "say; word"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-83"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "古"
+        },
+        {
+          "field": "on_reading",
+          "value": "コ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ふる.い、ふる-、-ふる.す"
+        },
+        {
+          "field": "meaning",
+          "value": "old"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-509"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "戸"
+        },
+        {
+          "field": "on_reading",
+          "value": "コ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "と"
+        },
+        {
+          "field": "meaning",
+          "value": "door; counter for houses; door radical (no. 63)"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-575"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "午"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゴ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うま"
+        },
+        {
+          "field": "meaning",
+          "value": "noon; sign of the horse; 11AM-1PM; seventh sign of Chinese zodiac"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-154"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "後"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゴ、コウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "のち、うし.ろ、うしろ、あと、おく.れる"
+        },
+        {
+          "field": "meaning",
+          "value": "behind; back; later"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-26"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "語"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゴ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かた.る、かた.らう"
+        },
+        {
+          "field": "meaning",
+          "value": "word; speech; language"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-301"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "交"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "まじ.わる、まじ.える、ま.じる、まじ.る、ま.ざる、ま.ぜる、-か.う、か.わす、かわ.す、こもごも"
+        },
+        {
+          "field": "meaning",
+          "value": "mingle; mixing; association; coming & going"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-178"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "光"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ひか.る、ひかり"
+        },
+        {
+          "field": "meaning",
+          "value": "ray; light"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-527"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "公"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ、ク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "おおやけ"
+        },
+        {
+          "field": "meaning",
+          "value": "public; prince; official; governmental"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-118"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "工"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ、ク、グ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "craft; construction; katakana e radical (no. 48)"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-299"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "広"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ひろ.い、ひろ.まる、ひろ.める、ひろ.がる、ひろ.げる"
+        },
+        {
+          "field": "meaning",
+          "value": "wide; broad; spacious"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-263"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "考"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かんが.える、かんが.え"
+        },
+        {
+          "field": "meaning",
+          "value": "consider; think over"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-196"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "行"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ、ギョウ、アン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "い.く、ゆ.く、-ゆ.き、-ゆき、-い.き、-いき、おこな.う、おこ.なう"
+        },
+        {
+          "field": "meaning",
+          "value": "going; journey; carry out; conduct; act; line; row; bank"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-20"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "高"
+        },
+        {
+          "field": "on_reading",
+          "value": "コウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "たか.い、たか、-だか、たか.まる、たか.める"
+        },
+        {
+          "field": "meaning",
+          "value": "tall; high; expensive"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-65"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "合"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゴウ、ガッ、カッ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あ.う、-あ.う、あ.い、あい-、-あ.い、-あい、あ.わす、あ.わせる、-あ.わせる"
+        },
+        {
+          "field": "meaning",
+          "value": "fit; suit; join; 0.1"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-41"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "国"
+        },
+        {
+          "field": "on_reading",
+          "value": "コク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "くに"
+        },
+        {
+          "field": "meaning",
+          "value": "country"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-3"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "黒"
+        },
+        {
+          "field": "on_reading",
+          "value": "コク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "くろ、くろ.ずむ、くろ.い"
+        },
+        {
+          "field": "meaning",
+          "value": "black"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-573"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "今"
+        },
+        {
+          "field": "on_reading",
+          "value": "コン、キン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "いま"
+        },
+        {
+          "field": "meaning",
+          "value": "now"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-49"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "才"
+        },
+        {
+          "field": "on_reading",
+          "value": "サイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "genius; years old; cubic shaku"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1497"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "細"
+        },
+        {
+          "field": "on_reading",
+          "value": "サイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ほそ.い、ほそ.る、こま.か、こま.かい"
+        },
+        {
+          "field": "meaning",
+          "value": "dainty; get thin; taper; slender; narrow; detailed; precise"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-537"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "作"
+        },
+        {
+          "field": "on_reading",
+          "value": "サク、サ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "つく.る、つく.り、-づく.り"
+        },
+        {
+          "field": "meaning",
+          "value": "make; production; prepare; build"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-103"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "算"
+        },
+        {
+          "field": "on_reading",
+          "value": "サン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "そろ"
+        },
+        {
+          "field": "meaning",
+          "value": "calculate; divining; number; abacus; probability"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-361"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "姉"
+        },
+        {
+          "field": "on_reading",
+          "value": "シ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あね、はは"
+        },
+        {
+          "field": "meaning",
+          "value": "elder sister"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1473"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "市"
+        },
+        {
+          "field": "on_reading",
+          "value": "シ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "いち"
+        },
+        {
+          "field": "meaning",
+          "value": "market; city; town"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-42"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "思"
+        },
+        {
+          "field": "on_reading",
+          "value": "シ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "おも.う、おもえら.く、おぼ.す"
+        },
+        {
+          "field": "meaning",
+          "value": "think"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-132"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "止"
+        },
+        {
+          "field": "on_reading",
+          "value": "シ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "と.まる、-ど.まり、と.める、-と.める、-ど.め、とど.める、とど.め、とど.まる、や.める、や.む、-や.む、よ.す、-さ.す、-さ.し"
+        },
+        {
+          "field": "meaning",
+          "value": "stop; halt"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-310"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "紙"
+        },
+        {
+          "field": "on_reading",
+          "value": "シ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かみ"
+        },
+        {
+          "field": "meaning",
+          "value": "paper"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-559"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "寺"
+        },
+        {
+          "field": "on_reading",
+          "value": "ジ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "てら"
+        },
+        {
+          "field": "meaning",
+          "value": "Buddhist temple"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-879"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "時"
+        },
+        {
+          "field": "on_reading",
+          "value": "ジ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "とき、-どき"
+        },
+        {
+          "field": "meaning",
+          "value": "time; hour"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-16"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "自"
+        },
+        {
+          "field": "on_reading",
+          "value": "ジ、シ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "みずか.ら、おの.ずから、おの.ずと"
+        },
+        {
+          "field": "meaning",
+          "value": "oneself"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-19"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "室"
+        },
+        {
+          "field": "on_reading",
+          "value": "シツ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "むろ"
+        },
+        {
+          "field": "meaning",
+          "value": "room; apartment; chamber; greenhouse; cellar"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-550"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "社"
+        },
+        {
+          "field": "on_reading",
+          "value": "シャ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "やしろ"
+        },
+        {
+          "field": "meaning",
+          "value": "company; firm; office; association; shrine"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-21"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "弱"
+        },
+        {
+          "field": "on_reading",
+          "value": "ジャク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "よわ.い、よわ.る、よわ.まる、よわ.める"
+        },
+        {
+          "field": "meaning",
+          "value": "weak; frail"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-958"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "首"
+        },
+        {
+          "field": "on_reading",
+          "value": "シュ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "くび"
+        },
+        {
+          "field": "meaning",
+          "value": "neck; counter for songs and poems"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-98"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "秋"
+        },
+        {
+          "field": "on_reading",
+          "value": "シュウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あき、とき"
+        },
+        {
+          "field": "meaning",
+          "value": "autumn"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-635"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "週"
+        },
+        {
+          "field": "on_reading",
+          "value": "シュウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "week"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-540"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "春"
+        },
+        {
+          "field": "on_reading",
+          "value": "シュン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "はる"
+        },
+        {
+          "field": "meaning",
+          "value": "springtime; spring (season)"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-579"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "書"
+        },
+        {
+          "field": "on_reading",
+          "value": "ショ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "か.く、-が.き、-がき"
+        },
+        {
+          "field": "meaning",
+          "value": "write"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-169"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "少"
+        },
+        {
+          "field": "on_reading",
+          "value": "ショウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "すく.ない、すこ.し"
+        },
+        {
+          "field": "meaning",
+          "value": "few; little"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-287"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "場"
+        },
+        {
+          "field": "on_reading",
+          "value": "ジョウ、チョウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ば"
+        },
+        {
+          "field": "meaning",
+          "value": "location; place"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-52"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "色"
+        },
+        {
+          "field": "on_reading",
+          "value": "ショク、シキ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "いろ"
+        },
+        {
+          "field": "meaning",
+          "value": "color"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-621"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "食"
+        },
+        {
+          "field": "on_reading",
+          "value": "ショク、ジキ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "く.う、く.らう、た.べる、は.む"
+        },
+        {
+          "field": "meaning",
+          "value": "eat; food"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-328"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "心"
+        },
+        {
+          "field": "on_reading",
+          "value": "シン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "こころ、-ごころ"
+        },
+        {
+          "field": "meaning",
+          "value": "heart; mind; spirit; heart radical (no. 61)"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-157"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "新"
+        },
+        {
+          "field": "on_reading",
+          "value": "シン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あたら.しい、あら.た、あら-、にい-"
+        },
+        {
+          "field": "meaning",
+          "value": "new"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-51"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "親"
+        },
+        {
+          "field": "on_reading",
+          "value": "シン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "おや、おや-、した.しい、した.しむ"
+        },
+        {
+          "field": "meaning",
+          "value": "parent; intimacy; relative; familiarity; dealer (cards)"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-406"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "図"
+        },
+        {
+          "field": "on_reading",
+          "value": "ズ、ト"
+        },
+        {
+          "field": "kun_reading",
+          "value": "え、はか.る"
+        },
+        {
+          "field": "meaning",
+          "value": "map; drawing; plan; extraordinary; audacious"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-539"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "数"
+        },
+        {
+          "field": "on_reading",
+          "value": "スウ、ス、サク、ソク、シュ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かず、かぞ.える、しばしば、せ.める、わずらわ.しい"
+        },
+        {
+          "field": "meaning",
+          "value": "number; strength; fate; law; figures"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-148"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "星"
+        },
+        {
+          "field": "on_reading",
+          "value": "セイ、ショウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ほし、-ぼし"
+        },
+        {
+          "field": "meaning",
+          "value": "star; spot; dot; mark"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-844"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "晴"
+        },
+        {
+          "field": "on_reading",
+          "value": "セイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "は.れる、は.れ、は.れ-、-ば.れ、は.らす"
+        },
+        {
+          "field": "meaning",
+          "value": "clear up"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1022"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "声"
+        },
+        {
+          "field": "on_reading",
+          "value": "セイ、ショウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "こえ、こわ-"
+        },
+        {
+          "field": "meaning",
+          "value": "voice"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-388"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "西"
+        },
+        {
+          "field": "on_reading",
+          "value": "セイ、サイ、ス"
+        },
+        {
+          "field": "kun_reading",
+          "value": "にし"
+        },
+        {
+          "field": "meaning",
+          "value": "west; Spain"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-259"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "切"
+        },
+        {
+          "field": "on_reading",
+          "value": "セツ、サイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "き.る、-き.る、き.り、-き.り、-ぎ.り、き.れる、-き.れる、き.れ、-き.れ、-ぎ.れ"
+        },
+        {
+          "field": "meaning",
+          "value": "cut; cutoff; be sharp"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-324"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "雪"
+        },
+        {
+          "field": "on_reading",
+          "value": "セツ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ゆき"
+        },
+        {
+          "field": "meaning",
+          "value": "snow"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1131"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "線"
+        },
+        {
+          "field": "on_reading",
+          "value": "セン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "すじ"
+        },
+        {
+          "field": "meaning",
+          "value": "line; track"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-382"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "船"
+        },
+        {
+          "field": "on_reading",
+          "value": "セン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ふね、ふな-"
+        },
+        {
+          "field": "meaning",
+          "value": "ship; boat"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-713"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "前"
+        },
+        {
+          "field": "on_reading",
+          "value": "ゼン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "まえ、-まえ"
+        },
+        {
+          "field": "meaning",
+          "value": "in front; before"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-27"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "組"
+        },
+        {
+          "field": "on_reading",
+          "value": "ソ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "く.む、くみ、-ぐみ"
+        },
+        {
+          "field": "meaning",
+          "value": "association; braid; plait; construct; assemble; unite; cooperate; grapple"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-204"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "走"
+        },
+        {
+          "field": "on_reading",
+          "value": "ソウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "はし.る"
+        },
+        {
+          "field": "meaning",
+          "value": "run"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-626"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "多"
+        },
+        {
+          "field": "on_reading",
+          "value": "タ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "おお.い、まさ.に、まさ.る"
+        },
+        {
+          "field": "meaning",
+          "value": "many; frequent; much"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-139"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "太"
+        },
+        {
+          "field": "on_reading",
+          "value": "タイ、タ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ふと.い、ふと.る"
+        },
+        {
+          "field": "meaning",
+          "value": "plump; thick; big around"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-552"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "体"
+        },
+        {
+          "field": "on_reading",
+          "value": "タイ、テイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "からだ、かたち"
+        },
+        {
+          "field": "meaning",
+          "value": "body; substance; object; reality; counter for images"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-88"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "台"
+        },
+        {
+          "field": "on_reading",
+          "value": "ダイ、タイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うてな、われ、つかさ"
+        },
+        {
+          "field": "meaning",
+          "value": "pedestal; a stand; counter for machines and vehicles"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-262"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "谷"
+        },
+        {
+          "field": "on_reading",
+          "value": "コク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "たに、きわ.まる"
+        },
+        {
+          "field": "meaning",
+          "value": "valley"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-508"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "知"
+        },
+        {
+          "field": "on_reading",
+          "value": "チ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "し.る、し.らせる"
+        },
+        {
+          "field": "meaning",
+          "value": "know; wisdom"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-205"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "地"
+        },
+        {
+          "field": "on_reading",
+          "value": "チ、ジ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "ground; earth"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-40"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "池"
+        },
+        {
+          "field": "on_reading",
+          "value": "チ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "いけ"
+        },
+        {
+          "field": "meaning",
+          "value": "pond; cistern; pool; reservoir"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-827"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "茶"
+        },
+        {
+          "field": "on_reading",
+          "value": "チャ、サ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "tea"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1116"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "昼"
+        },
+        {
+          "field": "on_reading",
+          "value": "チュウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ひる"
+        },
+        {
+          "field": "meaning",
+          "value": "daytime; noon"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1115"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "朝"
+        },
+        {
+          "field": "on_reading",
+          "value": "チョウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あさ"
+        },
+        {
+          "field": "meaning",
+          "value": "morning; dynasty; regime; epoch; period; (North) Korea"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-248"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "長"
+        },
+        {
+          "field": "on_reading",
+          "value": "チョウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "なが.い、おさ"
+        },
+        {
+          "field": "meaning",
+          "value": "long; leader; superior; senior"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-12"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "鳥"
+        },
+        {
+          "field": "on_reading",
+          "value": "チョウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "とり"
+        },
+        {
+          "field": "meaning",
+          "value": "bird; chicken"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1043"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "直"
+        },
+        {
+          "field": "on_reading",
+          "value": "チョク、ジキ、ジカ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ただ.ちに、なお.す、-なお.す、なお.る、なお.き、す.ぐ"
+        },
+        {
+          "field": "meaning",
+          "value": "straightaway; honesty; frankness; fix; repair"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-246"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "通"
+        },
+        {
+          "field": "on_reading",
+          "value": "ツウ、ツ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "とお.る、とお.り、-とお.り、-どお.り、とお.す、とお.し、-どお.し、かよ.う"
+        },
+        {
+          "field": "meaning",
+          "value": "traffic; pass through; avenue; commute; counter for letters, notes, documents, etc."
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-80"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "弟"
+        },
+        {
+          "field": "on_reading",
+          "value": "テイ、ダイ、デ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "おとうと"
+        },
+        {
+          "field": "meaning",
+          "value": "younger brother; faithful service to elders"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1161"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "店"
+        },
+        {
+          "field": "on_reading",
+          "value": "テン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "みせ、たな"
+        },
+        {
+          "field": "meaning",
+          "value": "store; shop"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-378"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "点"
+        },
+        {
+          "field": "on_reading",
+          "value": "テン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "つ.ける、つ.く、た.てる、さ.す、とぼ.す、とも.す、ぼち"
+        },
+        {
+          "field": "meaning",
+          "value": "spot; point; mark; speck; decimal point"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-165"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "電"
+        },
+        {
+          "field": "on_reading",
+          "value": "デン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "electricity"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-268"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "冬"
+        },
+        {
+          "field": "on_reading",
+          "value": "トウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ふゆ"
+        },
+        {
+          "field": "meaning",
+          "value": "winter"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1090"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "刀"
+        },
+        {
+          "field": "on_reading",
+          "value": "トウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かたな、そり"
+        },
+        {
+          "field": "meaning",
+          "value": "sword; saber; knife"
+        }
+      ],
+      "tags": [
+        "JLPT-old-1",
+        "freq-1794"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "東"
+        },
+        {
+          "field": "on_reading",
+          "value": "トウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ひがし"
+        },
+        {
+          "field": "meaning",
+          "value": "east"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-37"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "当"
+        },
+        {
+          "field": "on_reading",
+          "value": "トウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あ.たる、あ.たり、あ.てる、あ.て、まさ.に、まさ.にべし"
+        },
+        {
+          "field": "meaning",
+          "value": "hit; right; appropriate; himself"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-91"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "答"
+        },
+        {
+          "field": "on_reading",
+          "value": "トウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "こた.える、こた.え"
+        },
+        {
+          "field": "meaning",
+          "value": "solution; answer"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-486"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "頭"
+        },
+        {
+          "field": "on_reading",
+          "value": "トウ、ズ、ト"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あたま、かしら、-がしら、かぶり"
+        },
+        {
+          "field": "meaning",
+          "value": "head; counter for large animals"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-433"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "同"
+        },
+        {
+          "field": "on_reading",
+          "value": "ドウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "おな.じ"
+        },
+        {
+          "field": "meaning",
+          "value": "same; agree; equal"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-15"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "道"
+        },
+        {
+          "field": "on_reading",
+          "value": "ドウ、トウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "みち、いう"
+        },
+        {
+          "field": "meaning",
+          "value": "road-way; street; district; journey; course; moral; teachings"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-207"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "読"
+        },
+        {
+          "field": "on_reading",
+          "value": "ドク、トク、トウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "よ.む、-よ.み"
+        },
+        {
+          "field": "meaning",
+          "value": "read"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-618"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "内"
+        },
+        {
+          "field": "on_reading",
+          "value": "ナイ、ダイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うち"
+        },
+        {
+          "field": "meaning",
+          "value": "inside; within; between; among; house; home"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-44"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "南"
+        },
+        {
+          "field": "on_reading",
+          "value": "ナン、ナ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "みなみ"
+        },
+        {
+          "field": "meaning",
+          "value": "south"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-341"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "肉"
+        },
+        {
+          "field": "on_reading",
+          "value": "ニク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "しし"
+        },
+        {
+          "field": "meaning",
+          "value": "meat"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-986"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "馬"
+        },
+        {
+          "field": "on_reading",
+          "value": "バ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "うま、うま-、ま"
+        },
+        {
+          "field": "meaning",
+          "value": "horse"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-639"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "買"
+        },
+        {
+          "field": "on_reading",
+          "value": "バイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "か.う"
+        },
+        {
+          "field": "meaning",
+          "value": "buy"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-520"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "売"
+        },
+        {
+          "field": "on_reading",
+          "value": "バイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "う.る、う.れる"
+        },
+        {
+          "field": "meaning",
+          "value": "sell"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-202"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "麦"
+        },
+        {
+          "field": "on_reading",
+          "value": "バク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "むぎ"
+        },
+        {
+          "field": "meaning",
+          "value": "barley; wheat"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1615"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "半"
+        },
+        {
+          "field": "on_reading",
+          "value": "ハン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "なか.ば"
+        },
+        {
+          "field": "meaning",
+          "value": "half; middle; odd number; semi-; part-"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-224"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "番"
+        },
+        {
+          "field": "on_reading",
+          "value": "バン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "つが.い"
+        },
+        {
+          "field": "meaning",
+          "value": "turn; number in a series"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-348"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "父"
+        },
+        {
+          "field": "on_reading",
+          "value": "フ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ちち"
+        },
+        {
+          "field": "meaning",
+          "value": "father"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-646"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "風"
+        },
+        {
+          "field": "on_reading",
+          "value": "フウ、フ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かぜ、かざ-"
+        },
+        {
+          "field": "meaning",
+          "value": "wind; air; style; manner"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-558"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "分"
+        },
+        {
+          "field": "on_reading",
+          "value": "ブン、フン、ブ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "わ.ける、わ.け、わ.かれる、わ.かる、わ.かつ"
+        },
+        {
+          "field": "meaning",
+          "value": "part; minute of time; segment; share; degree; one's lot; duty; understand; know; rate; 1%; chances; shaku/100"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-24"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "聞"
+        },
+        {
+          "field": "on_reading",
+          "value": "ブン、モン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "き.く、き.こえる"
+        },
+        {
+          "field": "meaning",
+          "value": "hear; ask; listen"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-319"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "米"
+        },
+        {
+          "field": "on_reading",
+          "value": "ベイ、マイ、メエトル"
+        },
+        {
+          "field": "kun_reading",
+          "value": "こめ、よね"
+        },
+        {
+          "field": "meaning",
+          "value": "rice; USA; metre"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-61"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "歩"
+        },
+        {
+          "field": "on_reading",
+          "value": "ホ、ブ、フ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ある.く、あゆ.む"
+        },
+        {
+          "field": "meaning",
+          "value": "walk; counter for steps"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-554"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "母"
+        },
+        {
+          "field": "on_reading",
+          "value": "ボ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "はは、も"
+        },
+        {
+          "field": "meaning",
+          "value": "mother"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-570"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "方"
+        },
+        {
+          "field": "on_reading",
+          "value": "ホウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かた、-かた、-がた"
+        },
+        {
+          "field": "meaning",
+          "value": "direction; person; alternative"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-46"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "北"
+        },
+        {
+          "field": "on_reading",
+          "value": "ホク"
+        },
+        {
+          "field": "kun_reading",
+          "value": "きた"
+        },
+        {
+          "field": "meaning",
+          "value": "north"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-153"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "妹"
+        },
+        {
+          "field": "on_reading",
+          "value": "マイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "いもうと"
+        },
+        {
+          "field": "meaning",
+          "value": "younger sister"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-1446"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "毎"
+        },
+        {
+          "field": "on_reading",
+          "value": "マイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ごと、-ごと.に"
+        },
+        {
+          "field": "meaning",
+          "value": "every"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-436"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "万"
+        },
+        {
+          "field": "on_reading",
+          "value": "マン、バン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "よろず"
+        },
+        {
+          "field": "meaning",
+          "value": "ten thousand; 10,000"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-375"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "明"
+        },
+        {
+          "field": "on_reading",
+          "value": "メイ、ミョウ、ミン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "あ.かり、あか.るい、あか.るむ、あか.らむ、あき.らか、あ.ける、-あ.け、あ.く、あ.くる、あ.かす"
+        },
+        {
+          "field": "meaning",
+          "value": "bright; light"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-67"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "鳴"
+        },
+        {
+          "field": "on_reading",
+          "value": "メイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "な.く、な.る、な.らす"
+        },
+        {
+          "field": "meaning",
+          "value": "chirp; cry; bark; sound; ring; echo; honk"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1279"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "毛"
+        },
+        {
+          "field": "on_reading",
+          "value": "モウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "け"
+        },
+        {
+          "field": "meaning",
+          "value": "fur; hair; feather; down"
+        }
+      ],
+      "tags": [
+        "JLPT-old-2",
+        "freq-1179"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "門"
+        },
+        {
+          "field": "on_reading",
+          "value": "モン"
+        },
+        {
+          "field": "kun_reading",
+          "value": "かど、と"
+        },
+        {
+          "field": "meaning",
+          "value": "gate; counter for cannons"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-452"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "夜"
+        },
+        {
+          "field": "on_reading",
+          "value": "ヤ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "よ、よる"
+        },
+        {
+          "field": "meaning",
+          "value": "night; evening"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-487"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "野"
+        },
+        {
+          "field": "on_reading",
+          "value": "ヤ、ショ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "の、の-"
+        },
+        {
+          "field": "meaning",
+          "value": "plains; field; rustic; civilian life"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-120"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "矢"
+        },
+        {
+          "field": "on_reading",
+          "value": "シ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "や"
+        },
+        {
+          "field": "meaning",
+          "value": "dart; arrow"
+        }
+      ],
+      "tags": [
+        "JLPT-old-1",
+        "freq-1294"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "友"
+        },
+        {
+          "field": "on_reading",
+          "value": "ユウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "とも"
+        },
+        {
+          "field": "meaning",
+          "value": "friend"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-622"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "曜"
+        },
+        {
+          "field": "on_reading",
+          "value": "ヨウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "n/a"
+        },
+        {
+          "field": "meaning",
+          "value": "weekday"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-940"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "用"
+        },
+        {
+          "field": "on_reading",
+          "value": "ヨウ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "もち.いる"
+        },
+        {
+          "field": "meaning",
+          "value": "utilize; business; service; use; employ"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-107"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "来"
+        },
+        {
+          "field": "on_reading",
+          "value": "ライ、タイ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "く.る、きた.る、きた.す、き.たす、き.たる、き、こ"
+        },
+        {
+          "field": "meaning",
+          "value": "come; due; next; cause; become"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-102"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "理"
+        },
+        {
+          "field": "on_reading",
+          "value": "リ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "ことわり"
+        },
+        {
+          "field": "meaning",
+          "value": "logic; arrangement; reason; justice; truth"
+        }
+      ],
+      "tags": [
+        "JLPT-old-3",
+        "freq-86"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "里"
+        },
+        {
+          "field": "on_reading",
+          "value": "リ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "さと"
+        },
+        {
+          "field": "meaning",
+          "value": "ri; village; parent's home; league"
+        }
+      ],
+      "tags": [
+        "JLPT-old-1",
+        "freq-1096"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "kanji",
+          "value": "話"
+        },
+        {
+          "field": "on_reading",
+          "value": "ワ"
+        },
+        {
+          "field": "kun_reading",
+          "value": "はな.す、はなし"
+        },
+        {
+          "field": "meaning",
+          "value": "tale; talk"
+        }
+      ],
+      "tags": [
+        "JLPT-old-4",
+        "freq-134"
+      ]
+    }
+  ]
+}
