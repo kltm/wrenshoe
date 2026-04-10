@@ -95,4 +95,4 @@ If you use wrenshoe decks in your work, please cite the upstream data sources li
 
 **Data** (`data/`): Each deck carries its own license in the `license` field of the deck JSON. Most derived decks are `CC-BY-SA-4.0`; original decks are `CC-BY-4.0`. See each deck file and [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md) for details.
 
-Code and data are licensed separately per best practices for research data (see [Williams et al. 2012](https://doi.org/10.1371/journal.pcbi.1002706), [Carbon et al. 2019](https://doi.org/10.1371/journal.pone.0213090)).
+Code and data are licensed separately.
