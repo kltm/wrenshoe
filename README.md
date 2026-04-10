@@ -13,16 +13,49 @@ Both frontends share a common data model.
 
 Deck schemas are defined in [LinkML](https://linkml.io/) (`schema/wrenshoe.yaml`), grounded in [OntoLex-Lemon](https://www.w3.org/2016/05/ontolex/) and [SKOS](https://www.w3.org/TR/skos-reference/). Language tags follow [BCP 47](https://www.rfc-editor.org/info/bcp47).
 
-Each deck defines **field definitions** (with language, semantic type, and display defaults) and **cards** (with field values and optional tags/weights).
+Each deck defines **field definitions** (with language, semantic type, and display defaults) and **cards** (with field values and optional tags/weights). Each deck carries its own `license` (SPDX identifier) and `sources` (attribution for upstream data).
 
 ## Included Decks
 
-| Deck | Cards | Language |
-|------|-------|----------|
-| Kansaiben vocabulary | 279 | Japanese (Kansai dialect) |
-| Hiragana | 73 | Japanese |
-| Katakana | 76 | Japanese |
-| Mandarin vocabulary | 393 | Chinese (Simplified) |
+### Japanese
+
+| Deck | Cards | License (SPDX) |
+|------|-------|----------------|
+| JLPT N5 | 710 | `CC-BY-SA-4.0 AND CC-BY-4.0` |
+| JLPT N4 | 663 | `CC-BY-SA-4.0 AND CC-BY-4.0` |
+| JLPT N3 | 2,078 | `CC-BY-SA-4.0 AND CC-BY-4.0` |
+| JLPT N2 | 1,790 | `CC-BY-SA-4.0 AND CC-BY-4.0` |
+| JLPT N1 | 2,655 | `CC-BY-SA-4.0 AND CC-BY-4.0` |
+| Grade 1 Kanji (Kanken 10) | 80 | `CC-BY-SA-4.0` |
+| Grade 2 Kanji (Kanken 9) | 160 | `CC-BY-SA-4.0` |
+| Grade 3 Kanji (Kanken 8) | 200 | `CC-BY-SA-4.0` |
+| Grade 4 Kanji (Kanken 7) | 202 | `CC-BY-SA-4.0` |
+| Grade 5 Kanji (Kanken 6) | 193 | `CC-BY-SA-4.0` |
+| Grade 6 Kanji (Kanken 5) | 191 | `CC-BY-SA-4.0` |
+| Jouyou Secondary School | 1,110 | `CC-BY-SA-4.0` |
+| Kansaiben vocabulary | 279 | `CC-BY-SA-3.0` |
+| Hiragana | 73 | `CC-BY-4.0` |
+| Katakana | 76 | `CC-BY-4.0` |
+
+### Chinese
+
+| Deck | Cards | License (SPDX) |
+|------|-------|----------------|
+| HSK 1 | 150 | `CC-BY-SA-4.0` |
+| HSK 2 | 150 | `CC-BY-SA-4.0` |
+| HSK 3 | 299 | `CC-BY-SA-4.0` |
+| HSK 4 | 601 | `CC-BY-SA-4.0` |
+| HSK 5 | 1,298 | `CC-BY-SA-4.0` |
+| HSK 6 | 2,500 | `CC-BY-SA-4.0` |
+| Mandarin vocabulary | 393 | `CC-BY-4.0` |
+
+### Korean
+
+| Deck | Cards | License (SPDX) |
+|------|-------|----------------|
+| Hangul Reading Practice | 200 | `CC-BY-SA-3.0` |
+
+Full source attribution for each deck is in the deck JSON itself (`sources` field) and in [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md).
 
 ## Claude Code Status Line Setup
 
@@ -41,10 +74,25 @@ Each deck defines **field definitions** (with language, semantic type, and displ
    }
    ```
 
+Or use the `/wrenshoe install` skill to do all of the above automatically.
+
 ## Tools
 
 - `tools/convert-legacy.py` — converts legacy Wrenshoe `.meta`/`.data` deck pairs to the new JSON format.
+- `tools/build-jlpt-decks.py` — builds JLPT and kanji decks from JMdict/KANJIDIC2.
+- `tools/build-hsk-decks.py` — builds HSK decks from complete-hsk-vocabulary.
+- `tools/build-korean-decks.py` — builds Korean hangul deck from cc-kedict.
+
+## How to Cite
+
+If you use wrenshoe decks in your work, please cite the upstream data sources listed in each deck's `sources` field. For the wrenshoe project itself:
+
+> Wrenshoe: Ambient passive flashcard system. https://github.com/kltm/wrenshoe
 
 ## License
 
-BSD-3-Clause. See [LICENSE](LICENSE).
+**Code** (`terminal/`, `tools/`, `schema/`): BSD-3-Clause (SPDX: `BSD-3-Clause`). See [LICENSE](LICENSE).
+
+**Data** (`data/`): Each deck carries its own license in the `license` field of the deck JSON. Most derived decks are `CC-BY-SA-4.0`; original decks are `CC-BY-4.0`. See each deck file and [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md) for details.
+
+Code and data are licensed separately per best practices for research data (see [Williams et al. 2012](https://doi.org/10.1371/journal.pcbi.1002706), [Carbon et al. 2019](https://doi.org/10.1371/journal.pone.0213090)).

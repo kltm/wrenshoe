@@ -1,7 +1,18 @@
 {
   "id": "v_k_ccc",
   "name": "Mandarin Vocabulary (中文)",
+  "description": "Simple learning Mandarin vocabulary set.",
   "source_language": "zh",
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "name": "Wrenshoe project",
+      "license": "CC-BY-4.0",
+      "authors": [
+        "Seth Carbon"
+      ]
+    }
+  ],
   "field_definitions": [
     {
       "name": "pinyin",
@@ -7507,6 +7518,5 @@
         "time"
       ]
     }
-  ],
-  "description": "Simple learning Mandarin vocabulary set."
+  ]
 }

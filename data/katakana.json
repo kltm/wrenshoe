@@ -1,7 +1,18 @@
 {
   "id": "q_katakana",
   "name": "Katakana (カタカナ)",
+  "description": "The Japanese katakana alphabet.",
   "source_language": "ja",
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "name": "Wrenshoe project",
+      "license": "CC-BY-4.0",
+      "authors": [
+        "Seth Carbon"
+      ]
+    }
+  ],
   "field_definitions": [
     {
       "name": "glyph",
@@ -1167,6 +1178,5 @@
         "Level 15 (w+)"
       ]
     }
-  ],
-  "description": "The Japanese katakana alphabet."
+  ]
 }

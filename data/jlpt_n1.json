@@ -3,6 +3,22 @@
   "name": "JLPT N1 Vocabulary",
   "description": "Japanese vocabulary for JLPT N1. Sources: JLPT word lists (Jonathan Waller, CC-BY) via jamsinclair/open-anki-jlpt-decks (MIT), cross-referenced with JMdict (EDRDG, CC-BY-SA 4.0).",
   "source_language": "ja",
+  "license": "CC-BY-SA-4.0 AND CC-BY-4.0",
+  "sources": [
+    {
+      "name": "open-anki-jlpt-decks",
+      "url": "https://github.com/jamsinclair/open-anki-jlpt-decks",
+      "license": "MIT"
+    },
+    {
+      "name": "Jonathan Waller's JLPT Resources",
+      "url": "http://www.tanos.co.uk/jlpt/",
+      "license": "CC-BY-4.0",
+      "authors": [
+        "Jonathan Waller"
+      ]
+    }
+  ],
   "field_definitions": [
     {
       "name": "word",

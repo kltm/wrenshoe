@@ -38,6 +38,19 @@ classes:
       source_language:
         required: true
         description: Primary source language (BCP 47 tag).
+      license:
+        slot_uri: schema:license
+        description: >-
+          SPDX license expression for the deck data
+          (e.g. "CC-BY-SA-4.0", "CC-BY-4.0", "CC0-1.0").
+          May be a compound expression for multi-source decks
+          (e.g. "CC-BY-SA-4.0 AND CC-BY-4.0").
+      sources:
+        range: SourceAttribution
+        multivalued: true
+        inlined_as_list: true
+        description: >-
+          Attribution for data sources used to build this deck.
       field_definitions:
         range: FieldDefinition
         multivalued: true
@@ -165,6 +178,23 @@ classes:
       card_order:
         range: CardOrder
         ifabsent: string(weighted_random)
+
+  SourceAttribution:
+    description: >-
+      Attribution for a data source used to build a deck.
+    attributes:
+      name:
+        required: true
+        description: Human-readable name of the source.
+      url:
+        range: uri
+        description: URL for the source project or download.
+      license:
+        description: SPDX license identifier for this source.
+      authors:
+        range: string
+        multivalued: true
+        description: Authors or maintainers of the source.
 
   SessionConfig:
     description: >-

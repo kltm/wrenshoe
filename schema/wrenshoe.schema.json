@@ -44,6 +44,15 @@
             "title": "CardOrder",
             "type": "string"
         },
+        "CycleMode": {
+            "description": "",
+            "enum": [
+                "front_back",
+                "front_back_both"
+            ],
+            "title": "CycleMode",
+            "type": "string"
+        },
         "Deck": {
             "additionalProperties": false,
             "description": "A collection of flashcards organized as a study deck.",
@@ -89,6 +98,13 @@
                         "null"
                     ]
                 },
+                "license": {
+                    "description": "SPDX license expression for the deck data (e.g. \"CC-BY-SA-4.0\", \"CC-BY-4.0\", \"CC0-1.0\"). May be a compound expression for multi-source decks (e.g. \"CC-BY-SA-4.0 AND CC-BY-4.0\").",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
                 "name": {
                     "description": "Human-readable deck name.",
                     "type": "string"
@@ -96,6 +112,16 @@
                 "source_language": {
                     "description": "Primary source language (BCP 47 tag).",
                     "type": "string"
+                },
+                "sources": {
+                    "description": "Attribution for data sources used to build this deck.",
+                    "items": {
+                        "$ref": "#/$defs/SourceAttribution"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
                 }
             },
             "required": [
@@ -133,6 +159,10 @@
                 },
                 "card_order": {
                     "$ref": "#/$defs/CardOrder"
+                },
+                "cycle_mode": {
+                    "$ref": "#/$defs/CycleMode",
+                    "description": "Whether to cycle front/back only, or front/back/both."
                 },
                 "front": {
                     "description": "Field names to show on the front face.",
@@ -314,6 +344,45 @@
             ],
             "title": "SessionConfig",
             "type": "object"
+        },
+        "SourceAttribution": {
+            "additionalProperties": false,
+            "description": "Attribution for a data source used to build a deck.",
+            "properties": {
+                "authors": {
+                    "description": "Authors or maintainers of the source.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "license": {
+                    "description": "SPDX license identifier for this source.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "description": "Human-readable name of the source.",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "URL for the source project or download.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "title": "SourceAttribution",
+            "type": "object"
         }
     },
     "$id": "https://w3id.org/wrenshoe",
@@ -363,6 +432,13 @@
                 "null"
             ]
         },
+        "license": {
+            "description": "SPDX license expression for the deck data (e.g. \"CC-BY-SA-4.0\", \"CC-BY-4.0\", \"CC0-1.0\"). May be a compound expression for multi-source decks (e.g. \"CC-BY-SA-4.0 AND CC-BY-4.0\").",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
         "name": {
             "description": "Human-readable deck name.",
             "type": "string"
@@ -370,6 +446,16 @@
         "source_language": {
             "description": "Primary source language (BCP 47 tag).",
             "type": "string"
+        },
+        "sources": {
+            "description": "Attribution for data sources used to build this deck.",
+            "items": {
+                "$ref": "#/$defs/SourceAttribution"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
         }
     },
     "required": [

@@ -1,7 +1,20 @@
 {
   "id": "kb_net_vocab",
   "name": "Kansaibenkyou.net Vocabulary (関西弁)",
+  "description": "Simple card set for studying Kansaibenkyou.net vocabulary.",
   "source_language": "ja-x-kansai",
+  "license": "CC-BY-SA-3.0",
+  "sources": [
+    {
+      "name": "kansaibenkyou.net",
+      "url": "http://kansaibenkyou.net",
+      "license": "CC-BY-SA-3.0",
+      "authors": [
+        "Keiko Yukawa",
+        "Seth Carbon"
+      ]
+    }
+  ],
   "field_definitions": [
     {
       "name": "word",
@@ -7871,6 +7884,5 @@
         }
       ]
     }
-  ],
-  "description": "Simple card set for studying Kansaibenkyou.net vocabulary."
+  ]
 }

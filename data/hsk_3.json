@@ -3,6 +3,22 @@
   "name": "HSK 3 Vocabulary (汉语水平考试)",
   "description": "Mandarin Chinese vocabulary for HSK 3. Source: drkameleon/complete-hsk-vocabulary (MIT), derived from CC-CEDICT (CC-BY-SA 4.0).",
   "source_language": "zh",
+  "license": "CC-BY-SA-4.0",
+  "sources": [
+    {
+      "name": "complete-hsk-vocabulary",
+      "url": "https://github.com/drkameleon/complete-hsk-vocabulary",
+      "license": "MIT"
+    },
+    {
+      "name": "CC-CEDICT",
+      "url": "https://cc-cedict.org",
+      "license": "CC-BY-SA-4.0",
+      "authors": [
+        "MDBG"
+      ]
+    }
+  ],
   "field_definitions": [
     {
       "name": "characters",

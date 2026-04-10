@@ -3,6 +3,23 @@
   "name": "Grade 5 Kanji (Kanken 6)",
   "description": "Kanji taught in Japanese schools at grade level 5. Source: KANJIDIC2 (EDRDG/Jim Breen, CC-BY-SA 4.0) via scriptin/jmdict-simplified.",
   "source_language": "ja",
+  "license": "CC-BY-SA-4.0",
+  "sources": [
+    {
+      "name": "KANJIDIC2",
+      "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+      "license": "CC-BY-SA-4.0",
+      "authors": [
+        "Jim Breen",
+        "EDRDG"
+      ]
+    },
+    {
+      "name": "jmdict-simplified",
+      "url": "https://github.com/scriptin/jmdict-simplified",
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
   "field_definitions": [
     {
       "name": "kanji",

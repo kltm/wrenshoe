@@ -31,6 +31,13 @@ All sources are used under their respective open licenses.
   - License: CC-BY-SA 3.0
   - URL: https://github.com/mhagiwara/cc-kedict
 
-## Legacy Decks (hiragana.json, katakana.json, kansaiben.json, vocab.json)
+## Legacy Decks — Kansaiben (kansaiben.json)
 
-- Original Wrenshoe project data, compiled by the project author.
+- **kansaibenkyou.net**: Keiko Yukawa and Seth Carbon
+  - License: CC-BY-SA 3.0
+  - URL: http://kansaibenkyou.net
+
+## Legacy Decks — Hiragana, Katakana, Mandarin Vocab (hiragana.json, katakana.json, vocab.json)
+
+- Original Wrenshoe project data, compiled by Seth Carbon.
+  - License: CC-BY 4.0

@@ -3,6 +3,17 @@
   "name": "Korean Hangul Reading Practice (한글)",
   "description": "Curated Korean food and elementary vocabulary for hangul sight-reading practice. Selected for maximum hangul jamo coverage. Source: mhagiwara/cc-kedict (CC-BY-SA 3.0).",
   "source_language": "ko",
+  "license": "CC-BY-SA-3.0",
+  "sources": [
+    {
+      "name": "cc-kedict",
+      "url": "https://github.com/mhagiwara/cc-kedict",
+      "license": "CC-BY-SA-3.0",
+      "authors": [
+        "Masato Hagiwara"
+      ]
+    }
+  ],
   "field_definitions": [
     {
       "name": "hangul",

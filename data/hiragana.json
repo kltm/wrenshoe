@@ -1,7 +1,18 @@
 {
   "id": "q_hiragana",
   "name": "Hiragana (ひらがな)",
+  "description": "The Japanese hirgana alphabet.",
   "source_language": "ja",
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "name": "Wrenshoe project",
+      "license": "CC-BY-4.0",
+      "authors": [
+        "Seth Carbon"
+      ]
+    }
+  ],
   "field_definitions": [
     {
       "name": "glyph",
@@ -1122,6 +1133,5 @@
         "Level 15 (w)"
       ]
     }
-  ],
-  "description": "The Japanese hirgana alphabet."
+  ]
 }
