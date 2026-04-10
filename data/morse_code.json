@@ -1,0 +1,470 @@
+{
+  "id": "morse_code",
+  "name": "Morse Code (-- --- .-. ... .)",
+  "description": "International Morse code for letters and numbers.",
+  "source_language": "en",
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "name": "Wrenshoe project",
+      "license": "CC-BY-4.0",
+      "authors": [
+        "Seth Carbon"
+      ]
+    }
+  ],
+  "field_definitions": [
+    {
+      "name": "code",
+      "label": "Code",
+      "language": "en",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "letter",
+      "label": "Letter",
+      "language": "en",
+      "field_type": "representation",
+      "default_face": "back"
+    }
+  ],
+  "default_display": {
+    "front": [
+      "code"
+    ],
+    "back": [
+      "letter"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·-"
+        },
+        {
+          "field": "letter",
+          "value": "a"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-···"
+        },
+        {
+          "field": "letter",
+          "value": "b"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-·-·"
+        },
+        {
+          "field": "letter",
+          "value": "c"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-··"
+        },
+        {
+          "field": "letter",
+          "value": "d"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·"
+        },
+        {
+          "field": "letter",
+          "value": "e"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "··-·"
+        },
+        {
+          "field": "letter",
+          "value": "f"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "--·"
+        },
+        {
+          "field": "letter",
+          "value": "g"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "····"
+        },
+        {
+          "field": "letter",
+          "value": "h"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "··"
+        },
+        {
+          "field": "letter",
+          "value": "i"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·---"
+        },
+        {
+          "field": "letter",
+          "value": "j"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-·-"
+        },
+        {
+          "field": "letter",
+          "value": "k"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·-··"
+        },
+        {
+          "field": "letter",
+          "value": "l"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "--"
+        },
+        {
+          "field": "letter",
+          "value": "m"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-·"
+        },
+        {
+          "field": "letter",
+          "value": "n"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "---"
+        },
+        {
+          "field": "letter",
+          "value": "o"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·--·"
+        },
+        {
+          "field": "letter",
+          "value": "p"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "--·-"
+        },
+        {
+          "field": "letter",
+          "value": "q"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·-·"
+        },
+        {
+          "field": "letter",
+          "value": "r"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "···"
+        },
+        {
+          "field": "letter",
+          "value": "s"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-"
+        },
+        {
+          "field": "letter",
+          "value": "t"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "··-"
+        },
+        {
+          "field": "letter",
+          "value": "u"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "···-"
+        },
+        {
+          "field": "letter",
+          "value": "v"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·--"
+        },
+        {
+          "field": "letter",
+          "value": "w"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-··-"
+        },
+        {
+          "field": "letter",
+          "value": "x"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-·--"
+        },
+        {
+          "field": "letter",
+          "value": "y"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "--··"
+        },
+        {
+          "field": "letter",
+          "value": "z"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-----"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·----"
+        },
+        {
+          "field": "letter",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "··---"
+        },
+        {
+          "field": "letter",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "···--"
+        },
+        {
+          "field": "letter",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "····-"
+        },
+        {
+          "field": "letter",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "·····"
+        },
+        {
+          "field": "letter",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "-····"
+        },
+        {
+          "field": "letter",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "--···"
+        },
+        {
+          "field": "letter",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "---··"
+        },
+        {
+          "field": "letter",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "code",
+          "value": "----·"
+        },
+        {
+          "field": "letter",
+          "value": "9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "id": "pinyin_reference",
+  "name": "Pinyin Reference (拼音)",
+  "description": "Pinyin sounds with English pronunciation approximations. From Wikipedia.",
+  "source_language": "zh",
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "name": "Wrenshoe project",
+      "license": "CC-BY-4.0",
+      "authors": [
+        "Seth Carbon"
+      ]
+    }
+  ],
+  "field_definitions": [
+    {
+      "name": "pinyin",
+      "label": "Pinyin",
+      "language": "zh-Latn",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "approximation",
+      "label": "English Approximation",
+      "language": "en",
+      "field_type": "sense",
+      "default_face": "back"
+    },
+    {
+      "name": "description_field",
+      "label": "Description",
+      "language": "en",
+      "field_type": "sense"
+    }
+  ],
+  "default_display": {
+    "front": [
+      "pinyin"
+    ],
+    "back": [
+      "approximation"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "b"
+        },
+        {
+          "field": "approximation",
+          "value": "s<u>p</u>it"
+        },
+        {
+          "field": "description_field",
+          "value": "unaspirated <b>p</b>, as in s<b>p</b>it"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "p"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>p</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "strongly aspirated <b>p</b>, as in <b>p</b>it"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "m"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>m</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "as in English <b>m</b>u<b>mm</b>y"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "f"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>f</u>air"
+        },
+        {
+          "field": "description_field",
+          "value": "as in English <b>f</b>un"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "d"
+        },
+        {
+          "field": "approximation",
+          "value": "s<u>t</u>op"
+        },
+        {
+          "field": "description_field",
+          "value": "unaspirated <b>t</b>, as in s<b>t</b>op"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "t"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>t</u>ake"
+        },
+        {
+          "field": "description_field",
+          "value": "strongly aspirated <b>t</b>, as in <b>t</b>op"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "n"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>n</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "as in English <b>n</b>it"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "l"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>l</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "as in English <b>l</b>ove"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "g"
+        },
+        {
+          "field": "approximation",
+          "value": "s<u>k</u>ill"
+        },
+        {
+          "field": "description_field",
+          "value": "unaspirated <b>k</b>, as in s<b>k</b>ill"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "k"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>k</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "strongly aspirated <b>k</b>, as in <b>k</b>ill"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "h"
+        },
+        {
+          "field": "approximation",
+          "value": "lo<u>ch</u>"
+        },
+        {
+          "field": "description_field",
+          "value": "roughly like the Scots <b>ch</b>. English <b>h</b> as in <b>h</b>ay or, more closely in some American dialects, <b>h</b>ero is an acceptable approximation. The best way to produce this sound is by very slowly making a \"k\" sound, pausing at the point where there is just restricted air flowing over the back of your tongue (after the release at the beginning of a \"k\")"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "j"
+        },
+        {
+          "field": "approximation",
+          "value": "chur<u>ch</u>yard"
+        },
+        {
+          "field": "description_field",
+          "value": "No equivalent in English, but similar to an unaspirated \"-chy-\" sound when said quickly. Like \"q\", but unaspirated. Not the <b>s</b> in A<b>s</b>ia, despite the common English pronunciation of \"Beijing\". The sequence \"ji\" word-initially is the same as the Japanese pronunciation of <b>じ(ジ)</b> \"ji\"."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "q"
+        },
+        {
+          "field": "approximation",
+          "value": "pun<u>ch y</u>ourself"
+        },
+        {
+          "field": "description_field",
+          "value": "No equivalent in English. Like pun<b>ch y</b>ourself, with the lips spread wide with \"ee\". Curl the tip of the tongue downwards to stick it at the back of the teeth and strongly aspirate. The sequence \"qi\" word-initially is the same as the Japanese pronunciation of <b>ち(チ)</b> \"chi\"."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "x"
+        },
+        {
+          "field": "approximation",
+          "value": "pu<u>sh y</u>ourself"
+        },
+        {
+          "field": "description_field",
+          "value": "No equivalent in English. Like <b>-sh y-</b>, with the lips spread and the tip of your tongue curled downwards and stuck to the back of teeth when you say \"ee\". The sequence \"xi\" is the same as the Japanese pronunciation of <b>し(シ)</b> \"shi\"."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "zh"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>j</u>unk"
+        },
+        {
+          "field": "description_field",
+          "value": "Rather like <b>ch</b> (a sound between <b>ch</b>oke, <b>j</b>oke, <b>tr</b>ue, and <b>dr</b>ew, tongue tip curled more upwards). Voiced in a toneless syllable."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ch"
+        },
+        {
+          "field": "approximation",
+          "value": "chur<u>ch</u>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in <b>ch</b>in, but with the tongue curled upwards; very similar to nur<b>tu</b>re in American English, but strongly aspirated."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "sh"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>sh</u>irt"
+        },
+        {
+          "field": "description_field",
+          "value": "as in <b>sh</b>oe, but with the tongue curled upwards; very similar to mar<b>sh</b> in American English"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "r"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>r</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "Similar to the English <b>z</b> in a<b>z</b>ure and <b>r</b> in <b>r</b>educe, but with the tongue curled upwards, like a cross between English \"r\" and French \"j\". InCyrillised Chinese the sound is rendered with the letter \"ж\"."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "z"
+        },
+        {
+          "field": "approximation",
+          "value": "rea<u>ds</u>"
+        },
+        {
+          "field": "description_field",
+          "value": "unaspirated <b>c</b>, similar to something between su<b>ds</b> and ca<b>ts</b>; as in su<b>ds</b> in a toneless syllable"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "c"
+        },
+        {
+          "field": "approximation",
+          "value": "ha<u>ts</u>"
+        },
+        {
+          "field": "description_field",
+          "value": "like the English <b>ts</b> in ca<b>ts</b>, but strongly aspirated, very similar to the Czech and Polish <b>c</b>."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "s"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>s</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "as in <b>s</b>un"
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "w"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>w</u>ay"
+        },
+        {
+          "field": "description_field",
+          "value": "as in <b>w</b>ater."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "y"
+        },
+        {
+          "field": "approximation",
+          "value": "<u>y</u>ea"
+        },
+        {
+          "field": "description_field",
+          "value": "as in <b>y</b>es. Before a \"u\", pronounce it with rounded lips."
+        }
+      ],
+      "tags": [
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "-i"
+        },
+        {
+          "field": "approximation",
+          "value": "(n/a)"
+        },
+        {
+          "field": "description_field",
+          "value": "-i is a buzzed continuation of the consonant following z-, c-, s-, zh-, ch-, sh- or r-. In all other cases, -i has the sound of b<b>ee</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "a"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>a<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in \"f<b>a</b>ther\""
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "e"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>e<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "a diphthong consisting first of a back, unrounded semivowel (which can be formed by first pronouncing \"w\" and then spreading the lips without changing the position of the tongue) followed by a vowel similar to English \"d<b>uh</b>\". Many unstressed syllables in Chinese use the schwa (ide<b>a</b>), and this is also written as \"e\"."
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ai"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ai<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "like English \"eye\", but a bit lighter"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ei"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ei<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in \"h<b>ey</b>\""
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ao"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ao<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "approximately as in \"c<b>ow</b>\"; the \"a\" is much more audible than the \"o\""
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ou"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ou<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in \"s<b>o</b>\""
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "an"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>an<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in \"b<b>an</b>\" in British English (a more open fronted \"a\")"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "en"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>en<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in \"tak<b>en</b>\""
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ang"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ang<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in German \"Angst\" (starts with the vowel sound in f<b>a</b>ther and ends in the [[velar nasal]]; like s<b>ong</b> in some dialects of American English)"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "eng"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>eng<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "like \"e\" in \"en\" above but with ng added to it at the back"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "er"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>er<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "similar to the sound in \"b<b>ar</b>\" in American English"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "i"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yi<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "like English b<b>ee</b>."
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ia"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ya<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>a</b>; like English \"<b>ya</b>rd\""
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ie"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ye<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>ê</b>; but is very short; \"e\" (pronounced like \"ê\") is pronounced longer and carries the main stress (similar to the initial sound <b>ye</b> in <b>yet</b>)"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "iao"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yao<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>ao</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "iu"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>you<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>ou</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ian"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yan<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>ê</b> + <b>n</b>; like English <b>yen</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "in"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yin<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>n</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "iang"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yang<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>ang</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ing"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>ying<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>ng</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "u"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wu<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "like English \"oo\""
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ua"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wa<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>u</b> + <b>a</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "uo/o"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wo<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>u</b> + <b>o</b> where the \"o\" (compare with the \"o\" interjection) is pronounced shorter and lighter (spelled as <b>o</b> after b, p, m or f)."
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "uai"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wai<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>u</b> + <b>ai</b> like as in <b>why</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ui"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wei<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>u</b> + <b>ei</b>;"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "uan"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wan<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>u</b> + <b>an</b>;"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "un"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wen<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>u</b> + <b>en</b>; like the \"on\" in the English \"won\";"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "uang"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>wang<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>u</b> + <b>ang</b>;"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ong"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>weng<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "starts with the vowel sound in b<b>oo</b>k and ends with the velar nasal sound in si<b>ng</b>; as <b>u</b> + <b>eng</b> in zero initial."
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "u/ü"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yu<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as in German \"<b>ü</b>ber\" or French \"l<b>u</b>ne\" (To pronounce this sound, say \"ee\" with rounded lips)"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ue, üe"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yue<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>ü</b> + <b>ê</b>; the \"ü\" is short and light"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "uan"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yuan<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>ü</b> + <b>ê</b> + <b>n</b>;"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "un"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yun<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>ü</b> + <b>n</b>;"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "iong"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yong<b/>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + <b>ong</b>"
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "ê"
+        },
+        {
+          "field": "approximation",
+          "value": "(n/a)"
+        },
+        {
+          "field": "description_field",
+          "value": "as in \"b<b>e</b>t\"."
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "o"
+        },
+        {
+          "field": "approximation",
+          "value": "(n/a)"
+        },
+        {
+          "field": "description_field",
+          "value": "Approximately as in \"<b>o</b>ffice\" in British accent; the lips are much more rounded."
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "pinyin",
+          "value": "io"
+        },
+        {
+          "field": "approximation",
+          "value": "<b>yo</b>"
+        },
+        {
+          "field": "description_field",
+          "value": "as <b>i</b> + plain continental \"o\"."
+        }
+      ],
+      "tags": [
+        "final"
+      ]
+    }
+  ]
+}

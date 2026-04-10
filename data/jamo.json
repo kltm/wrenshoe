@@ -1,0 +1,1114 @@
+{
+  "id": "jamo",
+  "name": "Korean Jamo (자모)",
+  "description": "Korean jamo (consonants and vowels) for hangul alphabet practice.",
+  "source_language": "ko",
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "name": "Wrenshoe project",
+      "license": "CC-BY-4.0",
+      "authors": [
+        "Seth Carbon"
+      ]
+    }
+  ],
+  "field_definitions": [
+    {
+      "name": "glyph",
+      "label": "Glyph",
+      "language": "ko",
+      "field_type": "representation",
+      "default_face": "front"
+    },
+    {
+      "name": "gloss",
+      "label": "Romanization",
+      "language": "ko-Latn",
+      "field_type": "representation",
+      "default_face": "back"
+    }
+  ],
+  "default_display": {
+    "front": [
+      "glyph"
+    ],
+    "back": [
+      "gloss"
+    ]
+  },
+  "cards": [
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄱ"
+        },
+        {
+          "field": "gloss",
+          "value": "g"
+        }
+      ],
+      "tags": [
+        "initial sound easy",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄴ"
+        },
+        {
+          "field": "gloss",
+          "value": "n"
+        }
+      ],
+      "tags": [
+        "initial sound easy",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄷ"
+        },
+        {
+          "field": "gloss",
+          "value": "d"
+        }
+      ],
+      "tags": [
+        "initial sound easy",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄹ"
+        },
+        {
+          "field": "gloss",
+          "value": "r"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅁ"
+        },
+        {
+          "field": "gloss",
+          "value": "m"
+        }
+      ],
+      "tags": [
+        "initial sound easy",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅂ"
+        },
+        {
+          "field": "gloss",
+          "value": "b"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅅ"
+        },
+        {
+          "field": "gloss",
+          "value": "s"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅇ"
+        },
+        {
+          "field": "gloss",
+          "value": "-"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅈ"
+        },
+        {
+          "field": "gloss",
+          "value": "j"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅊ"
+        },
+        {
+          "field": "gloss",
+          "value": "ch"
+        }
+      ],
+      "tags": [
+        "initial sound easy",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅋ"
+        },
+        {
+          "field": "gloss",
+          "value": "k"
+        }
+      ],
+      "tags": [
+        "initial sound easy",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅌ"
+        },
+        {
+          "field": "gloss",
+          "value": "t"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅍ"
+        },
+        {
+          "field": "gloss",
+          "value": "p"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅎ"
+        },
+        {
+          "field": "gloss",
+          "value": "h"
+        }
+      ],
+      "tags": [
+        "initial sound easy",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄲ"
+        },
+        {
+          "field": "gloss",
+          "value": "kk"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄸ"
+        },
+        {
+          "field": "gloss",
+          "value": "tt"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅃ"
+        },
+        {
+          "field": "gloss",
+          "value": "pp"
+        }
+      ],
+      "tags": [
+        "initial sound more",
+        "initial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅆ"
+        },
+        {
+          "field": "gloss",
+          "value": "ss"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅉ"
+        },
+        {
+          "field": "gloss",
+          "value": "jj"
+        }
+      ],
+      "tags": [
+        "initial",
+        "initial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅏ"
+        },
+        {
+          "field": "gloss",
+          "value": "a"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅓ"
+        },
+        {
+          "field": "gloss",
+          "value": "eo"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅗ"
+        },
+        {
+          "field": "gloss",
+          "value": "o"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅜ"
+        },
+        {
+          "field": "gloss",
+          "value": "u"
+        }
+      ],
+      "tags": [
+        "medial sound easy",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅡ"
+        },
+        {
+          "field": "gloss",
+          "value": "eu"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅣ"
+        },
+        {
+          "field": "gloss",
+          "value": "i"
+        }
+      ],
+      "tags": [
+        "medial sound easy",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅐ"
+        },
+        {
+          "field": "gloss",
+          "value": "ae"
+        }
+      ],
+      "tags": [
+        "medial sound easy",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅔ"
+        },
+        {
+          "field": "gloss",
+          "value": "e"
+        }
+      ],
+      "tags": [
+        "medial sound easy",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅚ"
+        },
+        {
+          "field": "gloss",
+          "value": "oe"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅟ"
+        },
+        {
+          "field": "gloss",
+          "value": "wi"
+        }
+      ],
+      "tags": [
+        "medial sound more",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅢ"
+        },
+        {
+          "field": "gloss",
+          "value": "ui"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅑ"
+        },
+        {
+          "field": "gloss",
+          "value": "ya"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅕ"
+        },
+        {
+          "field": "gloss",
+          "value": "yeo"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅛ"
+        },
+        {
+          "field": "gloss",
+          "value": "yo"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅠ"
+        },
+        {
+          "field": "gloss",
+          "value": "yu"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅒ"
+        },
+        {
+          "field": "gloss",
+          "value": "yae"
+        }
+      ],
+      "tags": [
+        "medial sound more",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅖ"
+        },
+        {
+          "field": "gloss",
+          "value": "ye"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅘ"
+        },
+        {
+          "field": "gloss",
+          "value": "wa"
+        }
+      ],
+      "tags": [
+        "medial sound more",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅝ"
+        },
+        {
+          "field": "gloss",
+          "value": "wo"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅙ"
+        },
+        {
+          "field": "gloss",
+          "value": "wae"
+        }
+      ],
+      "tags": [
+        "medial",
+        "medial sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅞ"
+        },
+        {
+          "field": "gloss",
+          "value": "we"
+        }
+      ],
+      "tags": [
+        "medial sound more",
+        "medial"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄱ"
+        },
+        {
+          "field": "gloss",
+          "value": "g"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄴ"
+        },
+        {
+          "field": "gloss",
+          "value": "n"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄷ"
+        },
+        {
+          "field": "gloss",
+          "value": "d"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄹ"
+        },
+        {
+          "field": "gloss",
+          "value": "l"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅁ"
+        },
+        {
+          "field": "gloss",
+          "value": "m"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅂ"
+        },
+        {
+          "field": "gloss",
+          "value": "b"
+        }
+      ],
+      "tags": [
+        "final sound easy",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅅ"
+        },
+        {
+          "field": "gloss",
+          "value": "s"
+        }
+      ],
+      "tags": [
+        "final sound easy",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅇ"
+        },
+        {
+          "field": "gloss",
+          "value": "ng"
+        }
+      ],
+      "tags": [
+        "final sound easy",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅈ"
+        },
+        {
+          "field": "gloss",
+          "value": "j"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅊ"
+        },
+        {
+          "field": "gloss",
+          "value": "ch"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅋ"
+        },
+        {
+          "field": "gloss",
+          "value": "k"
+        }
+      ],
+      "tags": [
+        "final sound easy",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅌ"
+        },
+        {
+          "field": "gloss",
+          "value": "t"
+        }
+      ],
+      "tags": [
+        "final sound easy",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅍ"
+        },
+        {
+          "field": "gloss",
+          "value": "p"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound easy"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅎ"
+        },
+        {
+          "field": "gloss",
+          "value": "h"
+        }
+      ],
+      "tags": [
+        "final sound easy",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄲ"
+        },
+        {
+          "field": "gloss",
+          "value": "kk"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄵ"
+        },
+        {
+          "field": "gloss",
+          "value": "nj"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄺ"
+        },
+        {
+          "field": "gloss",
+          "value": "lg"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅄ"
+        },
+        {
+          "field": "gloss",
+          "value": "bs"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅆ"
+        },
+        {
+          "field": "gloss",
+          "value": "ss"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄳ"
+        },
+        {
+          "field": "gloss",
+          "value": "gs"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄶ"
+        },
+        {
+          "field": "gloss",
+          "value": "nh"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄻ"
+        },
+        {
+          "field": "gloss",
+          "value": "lm"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄼ"
+        },
+        {
+          "field": "gloss",
+          "value": "lb"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄽ"
+        },
+        {
+          "field": "gloss",
+          "value": "ls"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄾ"
+        },
+        {
+          "field": "gloss",
+          "value": "lt"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㄿ"
+        },
+        {
+          "field": "gloss",
+          "value": "lp"
+        }
+      ],
+      "tags": [
+        "final",
+        "final sound more"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "glyph",
+          "value": "ㅀ"
+        },
+        {
+          "field": "gloss",
+          "value": "lh"
+        }
+      ],
+      "tags": [
+        "final sound more",
+        "final"
+      ]
+    }
+  ]
+}
