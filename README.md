@@ -47,13 +47,23 @@ Each deck defines **field definitions** (with language, semantic type, and displ
 | HSK 4 | 601 | `CC-BY-SA-4.0` |
 | HSK 5 | 1,298 | `CC-BY-SA-4.0` |
 | HSK 6 | 2,500 | `CC-BY-SA-4.0` |
-| Mandarin vocabulary | 393 | `CC-BY-4.0` |
+| Chit-Chat Chinese | 391 | `CC-BY-4.0` |
+| Boya Chinese Elementary Starter II | 718 | `CC-BY-4.0` |
+| Short-term Spoken Chinese: Threshold | 1,136 | `CC-BY-4.0` |
+| Pinyin Reference | 61 | `CC-BY-4.0` |
 
 ### Korean
 
 | Deck | Cards | License (SPDX) |
 |------|-------|----------------|
-| Hangul Reading Practice | 200 | `CC-BY-SA-3.0` |
+| Hangul Reading Practice | 157 | `CC-BY-4.0` |
+| Korean Jamo | 67 | `CC-BY-4.0` |
+
+### Other
+
+| Deck | Cards | License (SPDX) |
+|------|-------|----------------|
+| Morse Code | 36 | `CC-BY-4.0` |
 
 Full source attribution for each deck is in the deck JSON itself (`sources` field) and in [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md).
 
@@ -81,7 +91,7 @@ Or use the `/wrenshoe install` skill to do all of the above automatically.
 - `tools/convert-legacy.py` — converts legacy Wrenshoe `.meta`/`.data` deck pairs to the new JSON format.
 - `tools/build-jlpt-decks.py` — builds JLPT and kanji decks from JMdict/KANJIDIC2.
 - `tools/build-hsk-decks.py` — builds HSK decks from complete-hsk-vocabulary.
-- `tools/build-korean-decks.py` — builds Korean hangul deck from cc-kedict.
+- `tools/build-korean-decks.py` — builds Korean hangul deck (historical; current deck is hand-curated).
 
 ## How to Cite
 

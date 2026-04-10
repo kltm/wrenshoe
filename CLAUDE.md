@@ -90,6 +90,9 @@ Not all open licenses are compatible when combining data into a single derivativ
 - **JLPT word lists**: MIT (jamsinclair), underlying data CC-BY (Jonathan Waller)
 - **HSK vocabulary**: MIT (drkameleon), underlying data from CC-CEDICT
 - **Legacy decks** (hiragana, katakana, mandarin vocab): CC-BY-4.0, Seth Carbon
+- **Chinese textbook decks** (Chit-Chat Chinese, Boya Chinese, Short-term Spoken Chinese): CC-BY-4.0, hand-entered by Seth Carbon
+- **Korean hangul deck**: CC-BY-4.0, hand-curated by Seth Carbon (food/restaurant/elementary vocab for jamo coverage)
+- **Jamo, Pinyin Reference, Morse Code**: CC-BY-4.0, Seth Carbon
 
 ## Legacy Data
 
