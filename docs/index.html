@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Ambient flashcards for language learning">
+  <title>Wrenshoe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <div id="screen-decks" class="screen active">
+    <header class="app-header">
+      <h1>Wrenshoe</h1>
+      <p class="subtitle">Ambient flashcards</p>
+    </header>
+    <div id="deck-filters" class="deck-filters"></div>
+    <div id="deck-grid" class="deck-grid"></div>
+    <footer class="app-footer">
+      <p class="about-text">
+        Ambient, passive flashcards for language learning. Cards cycle
+        automatically&hairsp;&mdash;&hairsp;no interaction required.
+        Or quiz yourself in flashcard mode.
+      </p>
+      <p class="license-text">
+        Code: <a href="https://github.com/kltm/wrenshoe/blob/main/LICENSE">BSD-3-Clause</a>.
+        Data: each deck carries its own license (see deck JSON).
+        Most derived decks are CC-BY-SA-4.0; originals are CC-BY-4.0.
+      </p>
+      <p class="footer-links">
+        <a href="https://github.com/kltm/wrenshoe">GitHub</a>
+      </p>
+    </footer>
+  </div>
+
+  <div id="screen-mode" class="screen">
+    <button class="back-btn" id="btn-back-decks">&larr;</button>
+    <h2 id="mode-deck-name"></h2>
+    <p id="mode-deck-info" class="muted"></p>
+    <div id="field-config" class="field-config"></div>
+    <div class="mode-buttons">
+      <button id="btn-ambient" class="mode-btn">
+        <span class="mode-icon">&#9684;</span>
+        <span class="mode-label">Ambient</span>
+        <span class="mode-desc">Passive cycling</span>
+      </button>
+      <button id="btn-flashcard" class="mode-btn">
+        <span class="mode-icon">&#10022;</span>
+        <span class="mode-label">Flashcard</span>
+        <span class="mode-desc">Quiz yourself</span>
+      </button>
+    </div>
+  </div>
+
+  <div id="screen-ambient" class="screen">
+    <div id="ambient-card" class="card-display"></div>
+    <div class="hint" id="ambient-hint">Tap to exit</div>
+  </div>
+
+  <div id="screen-flashcard" class="screen">
+    <div id="flashcard-progress" class="progress-bar"></div>
+    <div id="flashcard-card" class="card-display"></div>
+    <div id="flashcard-actions" class="actions">
+      <button id="btn-dont-know" class="action-btn dont-know">Don't Know</button>
+      <button id="btn-know" class="action-btn know">Know</button>
+    </div>
+    <div id="flashcard-next" class="actions hidden">
+      <button id="btn-next" class="action-btn next">Next</button>
+    </div>
+    <div class="hint" id="flashcard-hint"></div>
+  </div>
+
+  <div id="screen-score" class="screen">
+    <h2 class="score-title">Results</h2>
+    <div id="score-ring" class="score-ring"></div>
+    <div id="score-text" class="score-text"></div>
+    <div class="mode-buttons">
+      <button id="btn-replay" class="mode-btn">
+        <span class="mode-label">Play Again</span>
+      </button>
+      <button id="btn-home" class="mode-btn">
+        <span class="mode-label">Decks</span>
+      </button>
+    </div>
+  </div>
+
+  <noscript>
+    <p style="color:#888;text-align:center;padding:4rem 2rem">
+      Wrenshoe requires JavaScript.
+    </p>
+  </noscript>
+  <script src="app.js"></script>
+</body>
+</html>

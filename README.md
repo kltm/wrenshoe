@@ -4,10 +4,10 @@ Ambient, passive flashcard system for language learning. Cards cycle automatical
 
 ## Frontends
 
+- **Web app** ([wrenshoe.org](https://wrenshoe.org)) — ambient mode (passive cycling) and flashcard mode (space = know, any key = don't know, score at end). PWA-installable for iOS StandBy / Android home screen. Dark, portrait-optimized.
 - **Claude Code status line** — cards cycle in the status bar while you work. Configurable timing, field assignment, and cycle modes.
-- **iPhone PWA** (planned) — portrait-oriented web app for iOS StandBy mode.
 
-Both frontends share a common data model.
+Both frontends share a common data model and deck format.
 
 ## Data Model
 
@@ -67,6 +67,37 @@ Each deck defines **field definitions** (with language, semantic type, and displ
 
 Full source attribution for each deck is in the deck JSON itself (`sources` field) and in [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md).
 
+## Web App
+
+### Using wrenshoe.org
+
+Visit [wrenshoe.org](https://wrenshoe.org), pick a deck, and choose Ambient or Flashcard mode. On iOS, tap Share > Add to Home Screen to install as a PWA for StandBy mode.
+
+### Running your own instance
+
+Clone the repo, generate the deck manifest, and serve locally:
+
+```bash
+git clone https://github.com/kltm/wrenshoe.git
+cd wrenshoe
+python3 tools/build-manifest.py    # generates docs/deck-manifest.json
+ln -s ../data docs/data             # make deck data available to the app
+cd docs && python3 -m http.server   # open http://localhost:8000
+```
+
+Add your own decks to `data/` (following the schema in `schema/wrenshoe.yaml`), re-run `build-manifest.py`, and refresh.
+
+### Deploying to GitHub Pages
+
+If you fork this repo and want your own hosted instance:
+
+1. Go to your fork's **Settings > Pages**.
+2. Under **Build and deployment > Source**, select **GitHub Actions**.
+3. Push to `main` — the included workflow (`.github/workflows/pages.yml`) will build the site and deploy it automatically.
+4. (Optional) Under **Settings > Pages > Custom domain**, add your domain and configure DNS per [GitHub's docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-github-pages).
+
+The workflow runs `tools/build-manifest.py` to generate the deck index, then combines `docs/` (the app) and `data/` (the decks) into the deployed site.
+
 ## Claude Code Status Line Setup
 
 1. Ensure `wrenshoe.py` and deck data are in place.
@@ -88,6 +119,7 @@ Or use the `/wrenshoe install` skill to do all of the above automatically.
 
 ## Tools
 
+- `tools/build-manifest.py` — generates `docs/deck-manifest.json` from `data/*.json` for the web app.
 - `tools/convert-legacy.py` — converts legacy Wrenshoe `.meta`/`.data` deck pairs to the new JSON format.
 - `tools/build-jlpt-decks.py` — builds JLPT and kanji decks from JMdict/KANJIDIC2.
 - `tools/build-hsk-decks.py` — builds HSK decks from complete-hsk-vocabulary.
