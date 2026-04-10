@@ -17,6 +17,8 @@ Two frontends, one shared data model:
 
 The schema is grounded in OntoLex-Lemon (lexical entries, forms, senses) and SKOS (labels, definitions). Language tags use BCP 47.
 
+Both `source_language` (on Deck) and `language` (on FieldDefinition) may use BCP 47 private-use subtags for dialects (e.g., `ja-x-kansai` for Kansai dialect Japanese). Any code that groups or filters by language must use prefix matching, not exact equality — `ja-x-kansai` is Japanese, not a separate language.
+
 Key classes:
 - **Deck** — contains field_definitions, default_display, and cards
 - **FieldDefinition** — defines a named field with language tag, semantic type (representation/sense/reference), and display defaults
