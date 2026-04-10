@@ -1,16 +1,15 @@
 {
   "id": "korean_hangul",
   "name": "Korean Hangul Reading Practice (한글)",
-  "description": "Curated Korean food and elementary vocabulary for hangul sight-reading practice. Selected for maximum hangul jamo coverage. Source: mhagiwara/cc-kedict (CC-BY-SA 3.0).",
+  "description": "Curated Korean food, restaurant, and elementary vocabulary for hangul sight-reading practice. Selected for jamo coverage using practical vocabulary.",
   "source_language": "ko",
-  "license": "CC-BY-SA-3.0",
+  "license": "CC-BY-4.0",
   "sources": [
     {
-      "name": "cc-kedict",
-      "url": "https://github.com/mhagiwara/cc-kedict",
-      "license": "CC-BY-SA-3.0",
+      "name": "Wrenshoe project",
+      "license": "CC-BY-4.0",
       "authors": [
-        "Masato Hagiwara"
+        "Seth Carbon"
       ]
     }
   ],
@@ -51,304 +50,57 @@
       "field_values": [
         {
           "field": "hangul",
-          "value": "강주걱양태"
+          "value": "김치"
         },
         {
           "field": "romanization",
-          "value": "gangjugeogyangtae"
+          "value": "gimchi"
         },
         {
           "field": "meaning",
-          "value": "The dragonet fish, Repomucenus olidus."
+          "value": "kimchi (fermented vegetables)"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "미쳐버리는"
+          "value": "비빔밥"
         },
         {
           "field": "romanization",
-          "value": "michida"
+          "value": "bibimbap"
         },
         {
           "field": "meaning",
-          "value": "to go crazy, to become insane"
+          "value": "bibimbap (mixed rice bowl)"
         }
       ],
       "tags": [
-        "v"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "달콤하다"
+          "value": "불고기"
         },
         {
           "field": "romanization",
-          "value": "dalkomhada"
+          "value": "bulgogi"
         },
         {
           "field": "meaning",
-          "value": "to have sweet taste, to have sugared taste"
+          "value": "bulgogi (marinated grilled beef)"
         }
       ],
       "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "슈퍼마켓"
-        },
-        {
-          "field": "romanization",
-          "value": "syupeomaket"
-        },
-        {
-          "field": "meaning",
-          "value": "supermarket (a store)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "까마귓과"
-        },
-        {
-          "field": "romanization",
-          "value": "kkamagwitgwa"
-        },
-        {
-          "field": "meaning",
-          "value": "Corvidae; the crow family"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "뙤약볕"
-        },
-        {
-          "field": "romanization",
-          "value": "ttoeyakbyeot"
-        },
-        {
-          "field": "meaning",
-          "value": "the blazing sun; the burning sunshine"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "했어요"
-        },
-        {
-          "field": "romanization",
-          "value": "hada"
-        },
-        {
-          "field": "meaning",
-          "value": "…을 하다 to do\nto make; to arrange; to cook\nto express feeling or attitude\nto take; to eat; to drink\nto wear\nto work in/as; to operate\nto play a role; to take a responsibility for\nto get a result\nto buy; to arrange\nto reach a certain price\n(in the form of '…값을 하다') to meet an expectation\n(in the form of 'A B 할 것 없이') to say separately; to do"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "괜찮다"
-        },
-        {
-          "field": "romanization",
-          "value": "gwaenchanta"
-        },
-        {
-          "field": "meaning",
-          "value": "to be nice, good, passable, OK, all right; (of a person) to be allowed to ...; may, can; it is OK to ..."
-        }
-      ],
-      "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "입맞추다"
-        },
-        {
-          "field": "romanization",
-          "value": "immatchuda"
-        },
-        {
-          "field": "meaning",
-          "value": "to kiss (on the lips, other body parts, or other objects, e.g. a trophy), to press one's lips against; to arrange to give the same story"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "닭싸움"
-        },
-        {
-          "field": "romanization",
-          "value": "dakssaum"
-        },
-        {
-          "field": "meaning",
-          "value": "cockfighting; A Korean children's game in which two or more people hop on one leg and try to knock each other over."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "예쁘다"
-        },
-        {
-          "field": "romanization",
-          "value": "yeppeuda"
-        },
-        {
-          "field": "meaning",
-          "value": "to be pretty, lovely, beautiful, comely; to be adorable"
-        }
-      ],
-      "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "뒤쫓다"
-        },
-        {
-          "field": "romanization",
-          "value": "dwijjotda"
-        },
-        {
-          "field": "meaning",
-          "value": "to pursue, to run after, to chase"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "좋다"
-        },
-        {
-          "field": "romanization",
-          "value": "jota"
-        },
-        {
-          "field": "meaning",
-          "value": "to be good; great; excellent (Excellent and satisfactory in features and content.); good; nice (Well-rounded and kind in personality.)"
-        }
-      ],
-      "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "얇다"
-        },
-        {
-          "field": "romanization",
-          "value": "yalda"
-        },
-        {
-          "field": "meaning",
-          "value": "(to be) thin (of something flat, like a book or a slice of meat)"
-        }
-      ],
-      "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "일컫다"
-        },
-        {
-          "field": "romanization",
-          "value": "ilkeotda"
-        },
-        {
-          "field": "meaning",
-          "value": "to call (person or thing) (as); to give a name to; to name (as); to refer to (as); to designate (as); to praise (one's virtue); to laud; to extol"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "굶다"
-        },
-        {
-          "field": "romanization",
-          "value": "gumda"
-        },
-        {
-          "field": "meaning",
-          "value": "to skip (a meal), to starve, to fast; to skip one's turn"
-        }
-      ],
-      "tags": [
-        "v"
+        "food"
       ]
     },
     {
@@ -363,1113 +115,11 @@
         },
         {
           "field": "meaning",
-          "value": "tteokbokki (stir-fried tteoks seasoned with red pepper paste)"
+          "value": "tteokbokki (spicy stir-fried rice cakes)"
         }
       ],
       "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "연월일"
-        },
-        {
-          "field": "romanization",
-          "value": "yeonworil"
-        },
-        {
-          "field": "meaning",
-          "value": "date (year, month, day)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "짚다"
-        },
-        {
-          "field": "romanization",
-          "value": "jipda"
-        },
-        {
-          "field": "meaning",
-          "value": "To rely, rest (on a cane, stick, etc.); To dip (a dipstick to stand on the bottom)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "채식주의자"
-        },
-        {
-          "field": "romanization",
-          "value": "chaesikjuuija"
-        },
-        {
-          "field": "meaning",
-          "value": "vegetarian (person who does not eat any animal flesh)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "음식값"
-        },
-        {
-          "field": "romanization",
-          "value": "eumsikgap"
-        },
-        {
-          "field": "meaning",
-          "value": "food price, cost of food/meal"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "잃어버리다"
-        },
-        {
-          "field": "romanization",
-          "value": "ireobeorida"
-        },
-        {
-          "field": "meaning",
-          "value": "to lose: to no longer have in one's possession"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "훑어보다"
-        },
-        {
-          "field": "romanization",
-          "value": "hulteoboda"
-        },
-        {
-          "field": "meaning",
-          "value": "to look (a person) up and down, to survey (a person) from top to bottom; to look through, to pass an eye over (a page, a manuscript)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가라앉다"
-        },
-        {
-          "field": "romanization",
-          "value": "garaanda"
-        },
-        {
-          "field": "meaning",
-          "value": "to sink, to go down; to cool off, to cool down, to settle down"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "녘"
-        },
-        {
-          "field": "romanization",
-          "value": "nyeok"
-        },
-        {
-          "field": "meaning",
-          "value": "area, direction, part, side, vicinity (in space); proximity (in time)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "릴롱궤"
-        },
-        {
-          "field": "romanization",
-          "value": "Rillonggwe"
-        },
-        {
-          "field": "meaning",
-          "value": "Lilongwe (a city, the capital city of Malawi)"
-        }
-      ],
-      "tags": [
-        "propn"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "하다"
-        },
-        {
-          "field": "romanization",
-          "value": "hada"
-        },
-        {
-          "field": "meaning",
-          "value": "(…을 하다) to do; to do"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "합니다"
-        },
-        {
-          "field": "romanization",
-          "value": "hada"
-        },
-        {
-          "field": "meaning",
-          "value": "…을 하다 to do\nto make; to arrange; to cook\nto express feeling or attitude\nto take; to eat; to drink\nto wear\nto work in/as; to operate\nto play a role; to take a responsibility for\nto get a result\nto buy; to arrange\nto reach a certain price\n(in the form of '…값을 하다') to meet an expectation\n(in the form of 'A B 할 것 없이') to say separately; to do"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "들다"
-        },
-        {
-          "field": "romanization",
-          "value": "deulda"
-        },
-        {
-          "field": "meaning",
-          "value": "(inside from outside) to come in; to get in; to enter; (light or water) to come in; to get in; to enter"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "맞다"
-        },
-        {
-          "field": "romanization",
-          "value": "matda"
-        },
-        {
-          "field": "meaning",
-          "value": "(to agree, to suit) to be correct, right; to be correct, right"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "박다"
-        },
-        {
-          "field": "romanization",
-          "value": "bakda"
-        },
-        {
-          "field": "meaning",
-          "value": "to drive; to ram; to hammer; to hit; to bump; to crash"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "냉면"
-        },
-        {
-          "field": "romanization",
-          "value": "naengmyeon"
-        },
-        {
-          "field": "meaning",
-          "value": "a cold Korean noodle dish, usually in a tangy broth with a slice of a pear, a boiled egg, and beef"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "보다"
-        },
-        {
-          "field": "romanization",
-          "value": "boda"
-        },
-        {
-          "field": "meaning",
-          "value": "to see, look at 그들은 여러가지 화초를 보고 있다.; to look after (a baby, child, house, etc.)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "보면"
-        },
-        {
-          "field": "romanization",
-          "value": "boda"
-        },
-        {
-          "field": "meaning",
-          "value": "to see, look at 그들은 여러가지 화초를 보고 있다.; to look after (a baby, child, house, etc.)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "흑기사"
-        },
-        {
-          "field": "romanization",
-          "value": "heukgisa"
-        },
-        {
-          "field": "meaning",
-          "value": "black knight; one (especially a man) who volunteers to take a drink for another person (especially a girl)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "달다"
-        },
-        {
-          "field": "romanization",
-          "value": "dalda"
-        },
-        {
-          "field": "meaning",
-          "value": "to become hot; to boil down"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "달라다"
-        },
-        {
-          "field": "romanization",
-          "value": "dalda"
-        },
-        {
-          "field": "meaning",
-          "value": "to become hot; to boil down"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "물냉면"
-        },
-        {
-          "field": "romanization",
-          "value": "mullaengmyeon"
-        },
-        {
-          "field": "meaning",
-          "value": "\"Cold buckwheat noodles\", a variety of cold naengmyeon soup contained in broth made from beef, chicken or dongchimi."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "아는"
-        },
-        {
-          "field": "romanization",
-          "value": "alda"
-        },
-        {
-          "field": "meaning",
-          "value": "to know, understand (To have information or knowledge about an object or situation through education, experience, thoughts, etc.); to know; realize (To realize or feel a fact or situation through awareness or senses.)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "알다"
-        },
-        {
-          "field": "romanization",
-          "value": "alda"
-        },
-        {
-          "field": "meaning",
-          "value": "to know, understand (To have information or knowledge about an object or situation through education, experience, thoughts, etc.); to know; realize (To realize or feel a fact or situation through awareness or senses.)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "어미"
-        },
-        {
-          "field": "romanization",
-          "value": "eomi"
-        },
-        {
-          "field": "meaning",
-          "value": "mother; A casual way used by a father to address his wife in front of elders."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "찌개"
-        },
-        {
-          "field": "romanization",
-          "value": "jjigae"
-        },
-        {
-          "field": "meaning",
-          "value": "jjigae, a Korean dish similar to a stew, typically consisting of vegetables and meat or seafood boiled in water seasoned with soy sauce and gochujang or doenjang."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "검둥이"
-        },
-        {
-          "field": "romanization",
-          "value": "geomdung-i"
-        },
-        {
-          "field": "meaning",
-          "value": "(friendly, sometimes outdated) nickname for a black animal, especially a dog, or a tanned person; nigger"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "글피"
-        },
-        {
-          "field": "romanization",
-          "value": "geulpi"
-        },
-        {
-          "field": "meaning",
-          "value": "three days from today; two days after tomorrow"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "끊다"
-        },
-        {
-          "field": "romanization",
-          "value": "kkeunta"
-        },
-        {
-          "field": "meaning",
-          "value": "to cut, to sever; to cut off, to break off, to shut off, to turn off, to intercept"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "대다"
-        },
-        {
-          "field": "romanization",
-          "value": "daeda"
-        },
-        {
-          "field": "meaning",
-          "value": "To arrive at a given time, to make it on time; To target, to face"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "데리다"
-        },
-        {
-          "field": "romanization",
-          "value": "derida"
-        },
-        {
-          "field": "meaning",
-          "value": "To bring or take along an animal or lower-status person, such as a child."
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "돌"
-        },
-        {
-          "field": "romanization",
-          "value": "dol"
-        },
-        {
-          "field": "meaning",
-          "value": "stone, pebble; (building) stone"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "두서너"
-        },
-        {
-          "field": "romanization",
-          "value": "duseoneo"
-        },
-        {
-          "field": "meaning",
-          "value": "two, three or four; a few"
-        }
-      ],
-      "tags": [
-        "num"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "두서넛"
-        },
-        {
-          "field": "romanization",
-          "value": "duseoneot"
-        },
-        {
-          "field": "meaning",
-          "value": "two, three or four; a few"
-        }
-      ],
-      "tags": [
-        "num"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "두어서넛"
-        },
-        {
-          "field": "romanization",
-          "value": "dueoseoneot"
-        },
-        {
-          "field": "meaning",
-          "value": "two, three or four; a few"
-        }
-      ],
-      "tags": [
-        "num"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "떡국"
-        },
-        {
-          "field": "romanization",
-          "value": "tteokguk"
-        },
-        {
-          "field": "meaning",
-          "value": "a Korean dish consisting of sliced 떡, beef, and egg, traditionally eaten during the Korean New Year"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "먹다"
-        },
-        {
-          "field": "romanization",
-          "value": "meokda"
-        },
-        {
-          "field": "meaning",
-          "value": "to eat, to have; to drink, to take, to have"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "먹었다"
-        },
-        {
-          "field": "romanization",
-          "value": "meokda"
-        },
-        {
-          "field": "meaning",
-          "value": "to eat, to have; to drink, to take, to have"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "발바리"
-        },
-        {
-          "field": "romanization",
-          "value": "balbari"
-        },
-        {
-          "field": "meaning",
-          "value": "collective name for any small pet dog, such as Pekinese, Shih Tzu, spaniel; one who wanders back and forth frequently and aimlessly"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "백반"
-        },
-        {
-          "field": "romanization",
-          "value": "baekban"
-        },
-        {
-          "field": "meaning",
-          "value": "meal with a bowl of rice, soup, and side dishes; plain, cooked rice"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "부전자전"
-        },
-        {
-          "field": "romanization",
-          "value": "bujeonjajeon"
-        },
-        {
-          "field": "meaning",
-          "value": "transmission from father to son; like father, like son; apple does not fall far from the tree"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "삼신각"
-        },
-        {
-          "field": "romanization",
-          "value": "samsin-gak"
-        },
-        {
-          "field": "meaning",
-          "value": "small building within a Korean Buddhist temple ground that houses a mountain god from folk Taoism (depicted as an old man with a tiger)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "성년"
-        },
-        {
-          "field": "romanization",
-          "value": "seongnyeon"
-        },
-        {
-          "field": "meaning",
-          "value": "legal age, the age of adulthood, age (time of life when one attains full person rights)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "세배"
-        },
-        {
-          "field": "romanization",
-          "value": "sebae"
-        },
-        {
-          "field": "meaning",
-          "value": "New Year's greetings/call/visit; (historically) a bow of respect to one's elders on New Year's Day"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "아리수"
-        },
-        {
-          "field": "romanization",
-          "value": "arisu"
-        },
-        {
-          "field": "meaning",
-          "value": "alleged on the one hand to be the earlier name of 한강 (漢江, han-gang, “Han River”) that flows through Seoul to the west; alleged on the other to be the earlier name of 압록강 (鴨綠江, amnokgang, “Yalu River”) that flows between Manchuria and the Korean peninsular to the west"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "아주머니"
-        },
-        {
-          "field": "romanization",
-          "value": "ajumeoni"
-        },
-        {
-          "field": "meaning",
-          "value": "a woman of one's parents' age; the wife of an older man"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "터지다"
-        },
-        {
-          "field": "romanization",
-          "value": "teojida"
-        },
-        {
-          "field": "meaning",
-          "value": "to explode, blow up; crumble over something that has been blocked."
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "개고기"
-        },
-        {
-          "field": "romanization",
-          "value": "gaegogi"
-        },
-        {
-          "field": "meaning",
-          "value": "dog meat; ill-bred person; pest; plague"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "개벽"
-        },
-        {
-          "field": "romanization",
-          "value": "gaebyeok"
-        },
-        {
-          "field": "meaning",
-          "value": "Creation; The dawn of a new age or order"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "개장국"
-        },
-        {
-          "field": "romanization",
-          "value": "gaejangguk"
-        },
-        {
-          "field": "meaning",
-          "value": "Gaejangguk (a flavored dog-meat soup)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "개학"
-        },
-        {
-          "field": "romanization",
-          "value": "gaehak"
-        },
-        {
-          "field": "meaning",
-          "value": "first day of school; start of a new term"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "고기"
-        },
-        {
-          "field": "romanization",
-          "value": "gogi"
-        },
-        {
-          "field": "meaning",
-          "value": "meat; fish (animal)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "고모"
-        },
-        {
-          "field": "romanization",
-          "value": "gomo"
-        },
-        {
-          "field": "meaning",
-          "value": "paternal aunt (one's father's sister)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "고추장"
-        },
-        {
-          "field": "romanization",
-          "value": "gochujang"
-        },
-        {
-          "field": "meaning",
-          "value": "gochujang: a savory and pungent fermented Korean condiment made from red chili powder, glutinous rice powder mixed with powdered fermented soybeans, and salt."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "곰국"
-        },
-        {
-          "field": "romanization",
-          "value": "gomguk"
-        },
-        {
-          "field": "meaning",
-          "value": "A thick meat soup, with beef usually the main ingredient."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "굶어"
-        },
-        {
-          "field": "romanization",
-          "value": "gumda"
-        },
-        {
-          "field": "meaning",
-          "value": "to skip (a meal), to starve, to fast; to skip one's turn"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "그끄저께"
-        },
-        {
-          "field": "romanization",
-          "value": "geukkeujeokke"
-        },
-        {
-          "field": "meaning",
-          "value": "two days before yesterday; three days ago"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "그끄제"
-        },
-        {
-          "field": "romanization",
-          "value": "geukkeuje"
-        },
-        {
-          "field": "meaning",
-          "value": "Two days before yesterday; three days ago"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "기슭"
-        },
-        {
-          "field": "romanization",
-          "value": "giseuk"
-        },
-        {
-          "field": "meaning",
-          "value": "foot (of a mountain); bank, shore, coast (of a sea or a river)"
-        }
-      ],
-      "tags": [
-        "n"
+        "food"
       ]
     },
     {
@@ -1484,1512 +134,106 @@
         },
         {
           "field": "meaning",
-          "value": "kimbap, gimbap (a Korean dish of steamed white rice and other ingredients rolled in sheets of dried laver seaweed and served in bite-size slices)"
+          "value": "gimbap (seaweed rice roll)"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "나흘"
+          "value": "냉면"
         },
         {
           "field": "romanization",
-          "value": "naheul"
+          "value": "naengmyeon"
         },
         {
           "field": "meaning",
-          "value": "four days; the fourth day of the month"
+          "value": "cold noodle soup"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "녹다"
+          "value": "된장찌개"
         },
         {
           "field": "romanization",
-          "value": "nokda"
+          "value": "doenjang-jjigae"
         },
         {
           "field": "meaning",
-          "value": "to melt; to dissolve"
+          "value": "soybean paste stew"
         }
       ],
       "tags": [
-        "v"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "누나"
+          "value": "김치찌개"
         },
         {
           "field": "romanization",
-          "value": "nuna"
+          "value": "gimchi-jjigae"
         },
         {
           "field": "meaning",
-          "value": "elder sister of a male; close elder female friend, an elder girlfriend"
+          "value": "kimchi stew"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "늙다리"
+          "value": "순두부찌개"
         },
         {
           "field": "romanization",
-          "value": "neukdari"
+          "value": "sundubu-jjigae"
         },
         {
           "field": "meaning",
-          "value": "old animal; aged person, dotard"
+          "value": "soft tofu stew"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "다물다"
+          "value": "갈비"
         },
         {
           "field": "romanization",
-          "value": "damulda"
+          "value": "galbi"
         },
         {
           "field": "meaning",
-          "value": "to shut (mouth), to close (mouth); to keep (one's mouth) shut, to keep quiet, to keep silent"
+          "value": "ribs (grilled short ribs)"
         }
       ],
       "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "닫다"
-        },
-        {
-          "field": "romanization",
-          "value": "datda"
-        },
-        {
-          "field": "meaning",
-          "value": "to close; to shut; to close; to close down, to shut down"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "닷새"
-        },
-        {
-          "field": "romanization",
-          "value": "datsae"
-        },
-        {
-          "field": "meaning",
-          "value": "five days; the fifth day of the month"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "도와주다"
-        },
-        {
-          "field": "romanization",
-          "value": "dowajuda"
-        },
-        {
-          "field": "meaning",
-          "value": "to help, to assist, to aid, to give (somebody) a hand"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "두세"
-        },
-        {
-          "field": "romanization",
-          "value": "duse"
-        },
-        {
-          "field": "meaning",
-          "value": "two or three; a few"
-        }
-      ],
-      "tags": [
-        "num"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "두셋"
-        },
-        {
-          "field": "romanization",
-          "value": "duset"
-        },
-        {
-          "field": "meaning",
-          "value": "two or three; a few"
-        }
-      ],
-      "tags": [
-        "num"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "뚝배기"
-        },
-        {
-          "field": "romanization",
-          "value": "ttukbaegi"
-        },
-        {
-          "field": "meaning",
-          "value": "a pot or a large bowl made of clay which is used to cook various Korean food"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "라면"
-        },
-        {
-          "field": "romanization",
-          "value": "ramyeon"
-        },
-        {
-          "field": "meaning",
-          "value": "instant noodle; ramen (soup noodles of wheat, with various ingredients; usually of Japanese cuisine)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "맵다"
-        },
-        {
-          "field": "romanization",
-          "value": "maepda"
-        },
-        {
-          "field": "meaning",
-          "value": "(to be) spicy, hot (usually of food)"
-        }
-      ],
-      "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "목"
-        },
-        {
-          "field": "romanization",
-          "value": "mok"
-        },
-        {
-          "field": "meaning",
-          "value": "neck; head, especially when it's severed from body."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "밀당"
-        },
-        {
-          "field": "romanization",
-          "value": "mildang"
-        },
-        {
-          "field": "meaning",
-          "value": "\"pushing and pulling\", cold one minute and hot the next; playing hard to get"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "밝히다"
-        },
-        {
-          "field": "romanization",
-          "value": "balkida"
-        },
-        {
-          "field": "meaning",
-          "value": "to make bright, light up, brighten, illuminate; to make clear, reveal, disclose, uncover"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "밥"
-        },
-        {
-          "field": "romanization",
-          "value": "bap"
-        },
-        {
-          "field": "meaning",
-          "value": "cooked rice, sometimes mixed with some minor cereal such as barley; food, meal"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "베테랑"
-        },
-        {
-          "field": "romanization",
-          "value": "beterang"
-        },
-        {
-          "field": "meaning",
-          "value": "old hand, veteran (person with long experience)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "보양탕"
-        },
-        {
-          "field": "romanization",
-          "value": "boyangtang"
-        },
-        {
-          "field": "meaning",
-          "value": "Soup which helps one recuperate; alternative name for 보신탕 (bosintang)."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "부럼"
-        },
-        {
-          "field": "romanization",
-          "value": "bureom"
-        },
-        {
-          "field": "meaning",
-          "value": "nuts eaten on the 15th of the first lunar month (to guard oneself against boils for a year); Alternative form of 부스럼 (buseureom, “swelling; boil”)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "부리다"
-        },
-        {
-          "field": "romanization",
-          "value": "burida"
-        },
-        {
-          "field": "meaning",
-          "value": "to make (horse, cattle) work; to manage; to drive; to make (person) work; to manage; to handle; to control; to work (a person)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "붕어빵"
-        },
-        {
-          "field": "romanization",
-          "value": "bung-eoppang"
-        },
-        {
-          "field": "meaning",
-          "value": "taiyaki; a type of pastry in a form of fish with sweet azuki bean paste inside, popular in Korea and Japan during winter times"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "빨아먹다"
-        },
-        {
-          "field": "romanization",
-          "value": "pparameokda"
-        },
-        {
-          "field": "meaning",
-          "value": "to take/eat/drink by sucking, to suck; to extort, to squeeze, to exploit, to sponge"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "사무치다"
-        },
-        {
-          "field": "romanization",
-          "value": "samuchida"
-        },
-        {
-          "field": "meaning",
-          "value": "to pierce (to one's heart), to penetrate, to touch; to penetrate (into a part of the body), to reach, to extend (to)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "사흘"
-        },
-        {
-          "field": "romanization",
-          "value": "saheul"
-        },
-        {
-          "field": "meaning",
-          "value": "three days; the third day of the month"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "상하다"
-        },
-        {
-          "field": "romanization",
-          "value": "sanghada"
-        },
-        {
-          "field": "meaning",
-          "value": "to go bad (sour, rotten), to get stale; to get hurt"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "서넛"
-        },
-        {
-          "field": "romanization",
-          "value": "seoneot"
-        },
-        {
-          "field": "meaning",
-          "value": "three or four; a few"
-        }
-      ],
-      "tags": [
-        "num"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "설날"
-        },
-        {
-          "field": "romanization",
-          "value": "seollal"
-        },
-        {
-          "field": "meaning",
-          "value": "Korean New Year's Day (same as Chinese New Year)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "설농탕"
-        },
-        {
-          "field": "romanization",
-          "value": "seollongtang"
-        },
-        {
-          "field": "meaning",
-          "value": "seolleongtang, a Korean soup made from ox or beef bones, meat, and other seasonings."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "설렁탕"
-        },
-        {
-          "field": "romanization",
-          "value": "seolleongtang"
-        },
-        {
-          "field": "meaning",
-          "value": "Seolleongtang, a soup made from ox or beef bones, meat, and other seasonings"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "식사하다"
-        },
-        {
-          "field": "romanization",
-          "value": "siksahada"
-        },
-        {
-          "field": "meaning",
-          "value": "to eat, to have/take a meal"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "실시되다"
-        },
-        {
-          "field": "romanization",
-          "value": "silsidoeda"
-        },
-        {
-          "field": "meaning",
-          "value": "to take effect; to go into effect"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "썸팅"
-        },
-        {
-          "field": "romanization",
-          "value": "sseomting"
-        },
-        {
-          "field": "meaning",
-          "value": "a positive relationship or a good vibe between two potential lovers, right before they accept to become lovers"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "안녕하세요"
-        },
-        {
-          "field": "romanization",
-          "value": "annyeonghaseyo"
-        },
-        {
-          "field": "meaning",
-          "value": "How are you?; Hello"
-        }
-      ],
-      "tags": [
-        "intj"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "어렵다"
-        },
-        {
-          "field": "romanization",
-          "value": "eoryeopda"
-        },
-        {
-          "field": "meaning",
-          "value": "difficult, hard; difficult, awkward, particular (e.g. a person's taste in food)"
-        }
-      ],
-      "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "얻다"
-        },
-        {
-          "field": "romanization",
-          "value": "eotda"
-        },
-        {
-          "field": "meaning",
-          "value": "to get, to receive, to obtain, to have (an object); to borrow"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "여가"
-        },
-        {
-          "field": "romanization",
-          "value": "yeoga"
-        },
-        {
-          "field": "meaning",
-          "value": "leasure, free time (time that can be spent on one's own activities rather than work)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "여닫다"
-        },
-        {
-          "field": "romanization",
-          "value": "yeodatda"
-        },
-        {
-          "field": "meaning",
-          "value": "to open and shut (door, window, etc.)"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "오다"
-        },
-        {
-          "field": "romanization",
-          "value": "oda"
-        },
-        {
-          "field": "meaning",
-          "value": "To come; (of rain, snow etc) to fall"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "오면"
-        },
-        {
-          "field": "romanization",
-          "value": "oda"
-        },
-        {
-          "field": "meaning",
-          "value": "To come; (of rain, snow etc) to fall"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "와서"
-        },
-        {
-          "field": "romanization",
-          "value": "oda"
-        },
-        {
-          "field": "meaning",
-          "value": "To come; (of rain, snow etc) to fall"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "음훈"
-        },
-        {
-          "field": "romanization",
-          "value": "eumhun"
-        },
-        {
-          "field": "meaning",
-          "value": "Reading the sound and meaning of a hanja together, “eumhun”.; Both the native translation and the archaic pronunciation of choice of a hanja, additively displayed in that order so as to help learn its meaning and sound."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "이름"
-        },
-        {
-          "field": "romanization",
-          "value": "ireum"
-        },
-        {
-          "field": "meaning",
-          "value": "name (A word used to refer to or address an animal, object, phenomenon, etc., to distinguish it from others.); name; given name"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "이모"
-        },
-        {
-          "field": "romanization",
-          "value": "imo"
-        },
-        {
-          "field": "meaning",
-          "value": "maternal aunt (one's mother's sister); madam (when one calls a middle-aged waitress)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "이삼"
-        },
-        {
-          "field": "romanization",
-          "value": "isam"
-        },
-        {
-          "field": "meaning",
-          "value": "two or three, a few"
-        }
-      ],
-      "tags": [
-        "num"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "이틀"
-        },
-        {
-          "field": "romanization",
-          "value": "iteul"
-        },
-        {
-          "field": "meaning",
-          "value": "two days; the second day of the month"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "인절미"
-        },
-        {
-          "field": "romanization",
-          "value": "injeolmi"
-        },
-        {
-          "field": "meaning",
-          "value": "A kind of Korean dessert made with sugar, rice, and powdered beans."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "자장면"
-        },
-        {
-          "field": "romanization",
-          "value": "jajangmyeon"
-        },
-        {
-          "field": "meaning",
-          "value": "Jajangmyeon, a Korean dish consisting of noodle and savory black bean paste which has its origins in China"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "잡채"
-        },
-        {
-          "field": "romanization",
-          "value": "japchae"
-        },
-        {
-          "field": "meaning",
-          "value": "japchae, a Korean dish made of sweet potato noodles, vegetables and other ingredients"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "장보다"
-        },
-        {
-          "field": "romanization",
-          "value": "jangboda"
-        },
-        {
-          "field": "meaning",
-          "value": "to go to market, to go shopping; to buy groceries"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "죄다"
-        },
-        {
-          "field": "romanization",
-          "value": "joeda"
-        },
-        {
-          "field": "meaning",
-          "value": "to tighten, to make tighter; to put close; to sit close"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "쥐다"
-        },
-        {
-          "field": "romanization",
-          "value": "jwida"
-        },
-        {
-          "field": "meaning",
-          "value": "To clench; To grasp, to grab, to hold, to squeeze"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "지르다"
-        },
-        {
-          "field": "romanization",
-          "value": "jireuda"
-        },
-        {
-          "field": "meaning",
-          "value": "to stir, stick, thrust, insert; to cross, take a short cut"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "찔리다"
-        },
-        {
-          "field": "romanization",
-          "value": "jjillida"
-        },
-        {
-          "field": "meaning",
-          "value": "to get (something) pierced; to be stabbed; to go home to one's heart"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "찰밥"
-        },
-        {
-          "field": "romanization",
-          "value": "chalbap"
-        },
-        {
-          "field": "meaning",
-          "value": "chalbap. Cooked glutinous rice, a rice cooked with a mixture of glutinous rice, red beans, chestnuts, jujubes, black beans, etc."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "키위"
-        },
-        {
-          "field": "romanization",
-          "value": "kiwi"
-        },
-        {
-          "field": "meaning",
-          "value": "kiwi (bird); kiwi (fruit and tree)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "태양절"
-        },
-        {
-          "field": "romanization",
-          "value": "Taeyangjeol"
-        },
-        {
-          "field": "meaning",
-          "value": "Day of the Sun, an annual public holiday in North Korea on 15 April, the birth anniversary of the country's founder Kim Il-sung."
-        }
-      ],
-      "tags": [
-        "propn"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "털어놓다"
-        },
-        {
-          "field": "romanization",
-          "value": "teoreonota"
-        },
-        {
-          "field": "meaning",
-          "value": "to empty out; to shake out; to open one's heart; to confide in"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "파랑새"
-        },
-        {
-          "field": "romanization",
-          "value": "parangsae"
-        },
-        {
-          "field": "meaning",
-          "value": "blue bird (symbol of good luck); Oriental dollarbird (Eurystomus orientalis)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "파이팅"
-        },
-        {
-          "field": "romanization",
-          "value": "paiting"
-        },
-        {
-          "field": "meaning",
-          "value": "good luck!; go for it!, go!, come on!"
-        }
-      ],
-      "tags": [
-        "intj"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "팥빙수"
-        },
-        {
-          "field": "romanization",
-          "value": "patbingsu"
-        },
-        {
-          "field": "meaning",
-          "value": "patbingsu. Red bean shaved ice, a desert made from finely shaved ice topped with well-cooked red beans, sugar, etc."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "풋"
-        },
-        {
-          "field": "romanization",
-          "value": "put"
-        },
-        {
-          "field": "meaning",
-          "value": "green, unripe; novice, inexperienced"
-        }
-      ],
-      "tags": [
-        "pref"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "풋내기"
-        },
-        {
-          "field": "romanization",
-          "value": "punnaegi"
-        },
-        {
-          "field": "meaning",
-          "value": "novice, new hand, beginner; rash person, hotspur"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "한물"
-        },
-        {
-          "field": "romanization",
-          "value": "hanmul"
-        },
-        {
-          "field": "meaning",
-          "value": "flood; prime, season (especially the flood of either green or sea food)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "한잔"
-        },
-        {
-          "field": "romanization",
-          "value": "hanjan"
-        },
-        {
-          "field": "meaning",
-          "value": "one drink (of liquor); one glass"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "한잔의"
-        },
-        {
-          "field": "romanization",
-          "value": "hanjan"
-        },
-        {
-          "field": "meaning",
-          "value": "one drink (of liquor); one glass"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "형부"
-        },
-        {
-          "field": "romanization",
-          "value": "hyeongbu"
-        },
-        {
-          "field": "meaning",
-          "value": "(one's) elder sister's husband, (one's) brother-in-law"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "호리"
-        },
-        {
-          "field": "romanization",
-          "value": "hori"
-        },
-        {
-          "field": "meaning",
-          "value": "plough drawn by one draft animal instead of two yoked draft animals"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "흑"
-        },
-        {
-          "field": "romanization",
-          "value": "heuk"
-        },
-        {
-          "field": "meaning",
-          "value": "The color black.; A black stone used in the game of go."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "흰자위"
-        },
-        {
-          "field": "romanization",
-          "value": "huinjawi"
-        },
-        {
-          "field": "meaning",
-          "value": "egg white; the white of the eye"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가깝다"
-        },
-        {
-          "field": "romanization",
-          "value": "gakkapda"
-        },
-        {
-          "field": "meaning",
-          "value": "To be close, near (in distance, time); To be on friendly terms."
-        }
-      ],
-      "tags": [
-        "a"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가루"
-        },
-        {
-          "field": "romanization",
-          "value": "garu"
-        },
-        {
-          "field": "meaning",
-          "value": "meal, flour (of wheat, etc.); powder"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가르다"
-        },
-        {
-          "field": "romanization",
-          "value": "gareuda"
-        },
-        {
-          "field": "meaning",
-          "value": "to separate; to cut or slice through"
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가르치다"
-        },
-        {
-          "field": "romanization",
-          "value": "gareuchida"
-        },
-        {
-          "field": "meaning",
-          "value": "to teach or impart knowledge.; to send someone to school."
-        }
-      ],
-      "tags": [
-        "v"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가마치"
-        },
-        {
-          "field": "romanization",
-          "value": "gamachi"
-        },
-        {
-          "field": "meaning",
-          "value": "scorched rice, prepared by scraping from the bottom of the rice cooker, mixing with water, and re-cooking."
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가물치"
-        },
-        {
-          "field": "romanization",
-          "value": "gamulchi"
-        },
-        {
-          "field": "meaning",
-          "value": "the snakehead, Channa argus.; a fish caught during a drought, when the water is low"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가시어머니"
-        },
-        {
-          "field": "romanization",
-          "value": "gasieomeoni"
-        },
-        {
-          "field": "meaning",
-          "value": "A man's mother-in-law (wife's mother)"
-        }
-      ],
-      "tags": [
-        "n"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "가야"
-        },
-        {
-          "field": "romanization",
-          "value": "Gaya"
-        },
-        {
-          "field": "meaning",
-          "value": "Gaya, an ancient confederacy of city-states in the Nakdong River valley of central and southern Korea"
-        }
-      ],
-      "tags": [
-        "propn"
-      ]
-    },
-    {
-      "field_values": [
-        {
-          "field": "hangul",
-          "value": "간장"
-        },
-        {
-          "field": "romanization",
-          "value": "ganjang"
-        },
-        {
-          "field": "meaning",
-          "value": "soy sauce made from soybean"
-        }
-      ],
-      "tags": [
-        "n"
+        "food"
       ]
     },
     {
@@ -3004,296 +248,372 @@
         },
         {
           "field": "meaning",
-          "value": "Korean beef-rib soup, galbitang"
+          "value": "beef rib soup"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "감다"
+          "value": "삼겹살"
         },
         {
           "field": "romanization",
-          "value": "gamda"
+          "value": "samgyeopsal"
         },
         {
           "field": "meaning",
-          "value": "to wash oneself; to bathe; to close (one's eyes)"
+          "value": "pork belly (grilled)"
         }
       ],
       "tags": [
-        "v"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "강물"
+          "value": "잡채"
         },
         {
           "field": "romanization",
-          "value": "gangmul"
+          "value": "japchae"
         },
         {
           "field": "meaning",
-          "value": "river water, river"
+          "value": "japchae (stir-fried glass noodles)"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "강정"
+          "value": "떡국"
         },
         {
           "field": "romanization",
-          "value": "gangjeong"
+          "value": "tteokguk"
         },
         {
           "field": "meaning",
-          "value": "Gangjeong, a hard cookie made from glutinous rice and deep-fried in oil."
+          "value": "rice cake soup"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "강화도"
+          "value": "설렁탕"
         },
         {
           "field": "romanization",
-          "value": "ganghwado"
+          "value": "seolleongtang"
         },
         {
           "field": "meaning",
-          "value": "Ganghwa Island, at the mouth of the Han River near Seoul."
+          "value": "ox bone soup"
         }
       ],
       "tags": [
-        "propn"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "갸웃"
+          "value": "팥빙수"
         },
         {
           "field": "romanization",
-          "value": "gyaut"
+          "value": "patbingsu"
         },
         {
           "field": "meaning",
-          "value": "Cocking or tilting one's head to one side."
+          "value": "red bean shaved ice"
         }
       ],
       "tags": [
-        "adv"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "갸웃거리다"
+          "value": "라면"
         },
         {
           "field": "romanization",
-          "value": "gyautgeorida"
+          "value": "ramyeon"
         },
         {
           "field": "meaning",
-          "value": "To cock or tilt one's head."
+          "value": "instant noodles, ramen"
         }
       ],
       "tags": [
-        "v"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "거래"
+          "value": "자장면"
         },
         {
           "field": "romanization",
-          "value": "georae"
+          "value": "jajangmyeon"
         },
         {
           "field": "meaning",
-          "value": "transaction; trade.; more generally, give and take."
+          "value": "black bean sauce noodles"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "거스름돈"
+          "value": "삼계탕"
         },
         {
           "field": "romanization",
-          "value": "geoseureumdon"
+          "value": "samgyetang"
         },
         {
           "field": "meaning",
-          "value": "change (small denominations of money given in exchange for a larger denomination)"
+          "value": "ginseng chicken soup"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "거야"
+          "value": "만두"
         },
         {
           "field": "romanization",
-          "value": "geoya"
+          "value": "mandu"
         },
         {
           "field": "meaning",
-          "value": "last night, yesterday evening"
+          "value": "dumplings"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "건너다"
+          "value": "붕어빵"
         },
         {
           "field": "romanization",
-          "value": "geonneoda"
+          "value": "bung-eoppang"
         },
         {
           "field": "meaning",
-          "value": "to cross (a river, ridge, etc.); to be moved from one side to another"
+          "value": "fish-shaped pastry (like taiyaki)"
         }
       ],
       "tags": [
-        "v"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "건답"
+          "value": "호떡"
         },
         {
           "field": "romanization",
-          "value": "geondap"
+          "value": "hotteok"
         },
         {
           "field": "meaning",
-          "value": "waterless rice paddy; rice paddy lacking in water"
+          "value": "sweet filled pancake"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "걸리다"
+          "value": "백반"
         },
         {
           "field": "romanization",
-          "value": "geollida"
+          "value": "baekban"
         },
         {
           "field": "meaning",
-          "value": "to hang; to be hung; to catch; to be caught"
+          "value": "home-style meal (rice with side dishes)"
         }
       ],
       "tags": [
-        "v"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "걸어가다"
+          "value": "국밥"
         },
         {
           "field": "romanization",
-          "value": "georeogada"
+          "value": "gukbap"
         },
         {
           "field": "meaning",
-          "value": "To walk, to go on foot."
+          "value": "rice in soup"
         }
       ],
       "tags": [
-        "v"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "검은색"
+          "value": "곰탕"
         },
         {
           "field": "romanization",
-          "value": "geomeunsaek"
+          "value": "gomtang"
         },
         {
           "field": "meaning",
-          "value": "black (color)"
+          "value": "thick beef bone soup"
         }
       ],
       "tags": [
-        "n"
+        "food"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "검정색"
+          "value": "깍두기"
         },
         {
           "field": "romanization",
-          "value": "geomjeongsaek"
+          "value": "kkakdugi"
         },
         {
           "field": "meaning",
-          "value": "The color black."
+          "value": "cubed radish kimchi"
         }
       ],
       "tags": [
-        "n"
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "잔치국수"
+        },
+        {
+          "field": "romanization",
+          "value": "janchiguksu"
+        },
+        {
+          "field": "meaning",
+          "value": "banquet noodles (warm noodle soup)"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "칼국수"
+        },
+        {
+          "field": "romanization",
+          "value": "kalguksu"
+        },
+        {
+          "field": "meaning",
+          "value": "knife-cut noodle soup"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "해물탕"
+        },
+        {
+          "field": "romanization",
+          "value": "haemultang"
+        },
+        {
+          "field": "meaning",
+          "value": "seafood stew"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "볶음밥"
+        },
+        {
+          "field": "romanization",
+          "value": "bokkeumbap"
+        },
+        {
+          "field": "meaning",
+          "value": "fried rice"
+        }
+      ],
+      "tags": [
+        "food"
       ]
     },
     {
@@ -3308,11 +628,429 @@
         },
         {
           "field": "meaning",
-          "value": "crabs fermented in soy sauce"
+          "value": "raw crab marinated in soy sauce"
         }
       ],
       "tags": [
-        "n"
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "인절미"
+        },
+        {
+          "field": "romanization",
+          "value": "injeolmi"
+        },
+        {
+          "field": "meaning",
+          "value": "rice cake coated in bean powder"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "강정"
+        },
+        {
+          "field": "romanization",
+          "value": "gangjeong"
+        },
+        {
+          "field": "meaning",
+          "value": "deep-fried sweet rice cookie"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "약식"
+        },
+        {
+          "field": "romanization",
+          "value": "yaksik"
+        },
+        {
+          "field": "meaning",
+          "value": "sweet rice with nuts and jujubes"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "고추장"
+        },
+        {
+          "field": "romanization",
+          "value": "gochujang"
+        },
+        {
+          "field": "meaning",
+          "value": "red pepper paste"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "간장"
+        },
+        {
+          "field": "romanization",
+          "value": "ganjang"
+        },
+        {
+          "field": "meaning",
+          "value": "soy sauce"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "된장"
+        },
+        {
+          "field": "romanization",
+          "value": "doenjang"
+        },
+        {
+          "field": "meaning",
+          "value": "soybean paste"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "참기름"
+        },
+        {
+          "field": "romanization",
+          "value": "chamgireum"
+        },
+        {
+          "field": "meaning",
+          "value": "sesame oil"
+        }
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "밥"
+        },
+        {
+          "field": "romanization",
+          "value": "bap"
+        },
+        {
+          "field": "meaning",
+          "value": "cooked rice"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "쌀"
+        },
+        {
+          "field": "romanization",
+          "value": "ssal"
+        },
+        {
+          "field": "meaning",
+          "value": "uncooked rice"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "고기"
+        },
+        {
+          "field": "romanization",
+          "value": "gogi"
+        },
+        {
+          "field": "meaning",
+          "value": "meat"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "돼지고기"
+        },
+        {
+          "field": "romanization",
+          "value": "dwaejigogi"
+        },
+        {
+          "field": "meaning",
+          "value": "pork"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "소고기"
+        },
+        {
+          "field": "romanization",
+          "value": "sogogi"
+        },
+        {
+          "field": "meaning",
+          "value": "beef"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "닭고기"
+        },
+        {
+          "field": "romanization",
+          "value": "dakgogi"
+        },
+        {
+          "field": "meaning",
+          "value": "chicken (meat)"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "생선"
+        },
+        {
+          "field": "romanization",
+          "value": "saengseon"
+        },
+        {
+          "field": "meaning",
+          "value": "fish (for eating)"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "새우"
+        },
+        {
+          "field": "romanization",
+          "value": "saeu"
+        },
+        {
+          "field": "meaning",
+          "value": "shrimp"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "두부"
+        },
+        {
+          "field": "romanization",
+          "value": "dubu"
+        },
+        {
+          "field": "meaning",
+          "value": "tofu"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "김"
+        },
+        {
+          "field": "romanization",
+          "value": "gim"
+        },
+        {
+          "field": "meaning",
+          "value": "dried seaweed"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "마늘"
+        },
+        {
+          "field": "romanization",
+          "value": "maneul"
+        },
+        {
+          "field": "meaning",
+          "value": "garlic"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "양파"
+        },
+        {
+          "field": "romanization",
+          "value": "yangpa"
+        },
+        {
+          "field": "meaning",
+          "value": "onion"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "고추"
+        },
+        {
+          "field": "romanization",
+          "value": "gochu"
+        },
+        {
+          "field": "meaning",
+          "value": "chili pepper"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "고춧가루"
+        },
+        {
+          "field": "romanization",
+          "value": "gochutgaru"
+        },
+        {
+          "field": "meaning",
+          "value": "chili flakes, red pepper powder"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "깨"
+        },
+        {
+          "field": "romanization",
+          "value": "kkae"
+        },
+        {
+          "field": "meaning",
+          "value": "sesame seeds"
+        }
+      ],
+      "tags": [
+        "ingredient"
       ]
     },
     {
@@ -3327,68 +1065,144 @@
         },
         {
           "field": "meaning",
-          "value": "chicken egg"
+          "value": "egg"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고개"
+          "value": "과일"
         },
         {
           "field": "romanization",
-          "value": "gogae"
+          "value": "gwail"
         },
         {
           "field": "meaning",
-          "value": "nape of the neck; head"
+          "value": "fruit"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고고리"
+          "value": "사과"
         },
         {
           "field": "romanization",
-          "value": "gogori"
+          "value": "sagwa"
         },
         {
           "field": "meaning",
-          "value": "ear of rice"
+          "value": "apple"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고구려"
+          "value": "배"
         },
         {
           "field": "romanization",
-          "value": "Goguryeo"
+          "value": "bae"
         },
         {
           "field": "meaning",
-          "value": "Goguryeo (one of the ancient Three Kingdoms of Korea)"
+          "value": "pear"
         }
       ],
       "tags": [
-        "propn"
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "수박"
+        },
+        {
+          "field": "romanization",
+          "value": "subak"
+        },
+        {
+          "field": "meaning",
+          "value": "watermelon"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "딸기"
+        },
+        {
+          "field": "romanization",
+          "value": "ttalgi"
+        },
+        {
+          "field": "meaning",
+          "value": "strawberry"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "키위"
+        },
+        {
+          "field": "romanization",
+          "value": "kiwi"
+        },
+        {
+          "field": "meaning",
+          "value": "kiwi"
+        }
+      ],
+      "tags": [
+        "ingredient"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "감자"
+        },
+        {
+          "field": "romanization",
+          "value": "gamja"
+        },
+        {
+          "field": "meaning",
+          "value": "potato"
+        }
+      ],
+      "tags": [
+        "ingredient"
       ]
     },
     {
@@ -3407,444 +1221,1812 @@
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고기떡"
+          "value": "무"
         },
         {
           "field": "romanization",
-          "value": "gogitteok"
+          "value": "mu"
         },
         {
           "field": "meaning",
-          "value": "A side dish prepared from a fish which has been gutted, split, coated with flour and seasonings, and fried or roasted."
+          "value": "radish (Korean white radish)"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고독"
+          "value": "배추"
         },
         {
           "field": "romanization",
-          "value": "godok"
+          "value": "baechu"
         },
         {
           "field": "meaning",
-          "value": "loneliness; A childless old person."
+          "value": "napa cabbage"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고모부"
+          "value": "오이"
         },
         {
           "field": "romanization",
-          "value": "gomobu"
+          "value": "oi"
         },
         {
           "field": "meaning",
-          "value": "father's sister's husband"
+          "value": "cucumber"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고생하다"
+          "value": "콩"
         },
         {
           "field": "romanization",
-          "value": "gosaenghada"
+          "value": "kong"
         },
         {
           "field": "meaning",
-          "value": "to have a hard time, to go through hardship"
+          "value": "bean, soybean"
         }
       ],
       "tags": [
-        "v"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고춧가루"
+          "value": "파"
         },
         {
           "field": "romanization",
-          "value": "gochutgaru"
+          "value": "pa"
         },
         {
           "field": "meaning",
-          "value": "powdered red pepper"
+          "value": "green onion, scallion"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "고향"
+          "value": "버섯"
         },
         {
           "field": "romanization",
-          "value": "gohyang"
+          "value": "beoseot"
         },
         {
           "field": "meaning",
-          "value": "one's hometown or birthplace; the ancestral home of one's family"
+          "value": "mushroom"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "곪다"
+          "value": "빵"
         },
         {
           "field": "romanization",
-          "value": "gomda"
+          "value": "ppang"
         },
         {
           "field": "meaning",
-          "value": "To fester; To come to a head"
+          "value": "bread"
         }
       ],
       "tags": [
-        "v"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "곱다"
+          "value": "국수"
         },
         {
           "field": "romanization",
-          "value": "gopda"
+          "value": "guksu"
         },
         {
           "field": "meaning",
-          "value": "(to be) sweet; (to be) beautiful"
+          "value": "noodles"
         }
       ],
       "tags": [
-        "a"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "과일단물"
+          "value": "떡"
         },
         {
           "field": "romanization",
-          "value": "gwaildanmul"
+          "value": "tteok"
         },
         {
           "field": "meaning",
-          "value": "fruit juice"
+          "value": "rice cake"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "과자"
+          "value": "소금"
         },
         {
           "field": "romanization",
-          "value": "gwaja"
+          "value": "sogeum"
         },
         {
           "field": "meaning",
-          "value": "sweet; confection; candy"
+          "value": "salt"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "과즙"
+          "value": "설탕"
         },
         {
           "field": "romanization",
-          "value": "gwajeup"
+          "value": "seoltang"
         },
         {
           "field": "meaning",
-          "value": "fruit juice"
+          "value": "sugar"
         }
       ],
       "tags": [
-        "n"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "광명성절"
+          "value": "기름"
         },
         {
           "field": "romanization",
-          "value": "Gwangmyeongseongjeol"
+          "value": "gireum"
         },
         {
           "field": "meaning",
-          "value": "Day of the Shining Star, a public holiday in North Korea falling on 16 February, in commemoration of the birth of the country's second leader, Kim Jong-il."
+          "value": "oil"
         }
       ],
       "tags": [
-        "propn"
+        "ingredient"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "광야"
+          "value": "물"
         },
         {
           "field": "romanization",
-          "value": "gwang-ya"
+          "value": "mul"
         },
         {
           "field": "meaning",
-          "value": "wide field; open country; wilderness"
+          "value": "water"
         }
       ],
       "tags": [
-        "n"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "괜찮아"
+          "value": "차"
         },
         {
           "field": "romanization",
-          "value": "gwaenchanta"
+          "value": "cha"
         },
         {
           "field": "meaning",
-          "value": "to be nice, good, passable, OK, all right; to be allowed to ...; may, can; it is OK to ..."
+          "value": "tea"
         }
       ],
       "tags": [
-        "a"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "괴짜"
+          "value": "커피"
         },
         {
           "field": "romanization",
-          "value": "goejja"
+          "value": "keopi"
         },
         {
           "field": "meaning",
-          "value": "eccentric person, odd fish, screwball"
+          "value": "coffee"
         }
       ],
       "tags": [
-        "n"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "교거"
+          "value": "맥주"
         },
         {
           "field": "romanization",
-          "value": "gyogeo"
+          "value": "maekju"
         },
         {
           "field": "meaning",
-          "value": "living in another person's house or abroad"
+          "value": "beer"
         }
       ],
       "tags": [
-        "n"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "교장"
+          "value": "소주"
         },
         {
           "field": "romanization",
-          "value": "gyojang"
+          "value": "soju"
         },
         {
           "field": "meaning",
-          "value": "the principal or head teacher of a school"
+          "value": "soju (Korean liquor)"
         }
       ],
       "tags": [
-        "n"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "구결"
+          "value": "주스"
         },
         {
           "field": "romanization",
-          "value": "gugyeol"
+          "value": "juseu"
         },
         {
           "field": "meaning",
-          "value": "kwukyel (one of three early systems for writing Korean phonetically with Chinese characters before the invention of the modern hangul script)"
+          "value": "juice"
         }
       ],
       "tags": [
-        "n"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "구애하다"
+          "value": "우유"
         },
         {
           "field": "romanization",
-          "value": "guaehada"
+          "value": "uyu"
         },
         {
           "field": "meaning",
-          "value": "to court, to try to win one's love; to propose"
+          "value": "milk"
         }
       ],
       "tags": [
-        "v"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "국밥"
+          "value": "막걸리"
         },
         {
           "field": "romanization",
-          "value": "gukbap"
+          "value": "makgeolli"
         },
         {
           "field": "meaning",
-          "value": "gukbap - a Korean dish of rice with some condiments and ingredients merged in soup"
+          "value": "makgeolli (rice wine)"
         }
       ],
       "tags": [
-        "n"
+        "drink"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "국뽕"
+          "value": "식당"
         },
         {
           "field": "romanization",
-          "value": "gukppong"
+          "value": "sikdang"
         },
         {
           "field": "meaning",
-          "value": "ultra-nationalistic Korean person (from South Korea and often has far right-wing tendency)"
+          "value": "restaurant"
         }
       ],
       "tags": [
-        "n"
+        "restaurant"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "국어"
+          "value": "메뉴"
         },
         {
           "field": "romanization",
-          "value": "gugeo"
+          "value": "menyu"
         },
         {
           "field": "meaning",
-          "value": "national language; one's native language"
+          "value": "menu"
         }
       ],
       "tags": [
-        "n"
+        "restaurant"
       ]
     },
     {
       "field_values": [
         {
           "field": "hangul",
-          "value": "굽이"
+          "value": "주문"
         },
         {
           "field": "romanization",
-          "value": "gubi"
+          "value": "jumun"
         },
         {
           "field": "meaning",
-          "value": "a turn, bend (of river, road), curve (of street)"
+          "value": "order"
         }
       ],
       "tags": [
-        "n"
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "계산"
+        },
+        {
+          "field": "romanization",
+          "value": "gyesan"
+        },
+        {
+          "field": "meaning",
+          "value": "bill, check"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "젓가락"
+        },
+        {
+          "field": "romanization",
+          "value": "jeotgarak"
+        },
+        {
+          "field": "meaning",
+          "value": "chopsticks"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "숟가락"
+        },
+        {
+          "field": "romanization",
+          "value": "sutgarak"
+        },
+        {
+          "field": "meaning",
+          "value": "spoon"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "그릇"
+        },
+        {
+          "field": "romanization",
+          "value": "geureut"
+        },
+        {
+          "field": "meaning",
+          "value": "bowl, dish"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "접시"
+        },
+        {
+          "field": "romanization",
+          "value": "jeopsi"
+        },
+        {
+          "field": "meaning",
+          "value": "plate"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "잔"
+        },
+        {
+          "field": "romanization",
+          "value": "jan"
+        },
+        {
+          "field": "meaning",
+          "value": "glass, cup"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "반찬"
+        },
+        {
+          "field": "romanization",
+          "value": "banchan"
+        },
+        {
+          "field": "meaning",
+          "value": "side dishes"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "포장"
+        },
+        {
+          "field": "romanization",
+          "value": "pojang"
+        },
+        {
+          "field": "meaning",
+          "value": "takeout, to-go"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "배달"
+        },
+        {
+          "field": "romanization",
+          "value": "baedal"
+        },
+        {
+          "field": "meaning",
+          "value": "delivery"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "자리"
+        },
+        {
+          "field": "romanization",
+          "value": "jari"
+        },
+        {
+          "field": "meaning",
+          "value": "seat"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "화장실"
+        },
+        {
+          "field": "romanization",
+          "value": "hwajangsil"
+        },
+        {
+          "field": "meaning",
+          "value": "restroom"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "맛있다"
+        },
+        {
+          "field": "romanization",
+          "value": "masitda"
+        },
+        {
+          "field": "meaning",
+          "value": "delicious"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "맛없다"
+        },
+        {
+          "field": "romanization",
+          "value": "maseopda"
+        },
+        {
+          "field": "meaning",
+          "value": "bad tasting, not delicious"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "맵다"
+        },
+        {
+          "field": "romanization",
+          "value": "maepda"
+        },
+        {
+          "field": "meaning",
+          "value": "spicy, hot"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "달다"
+        },
+        {
+          "field": "romanization",
+          "value": "dalda"
+        },
+        {
+          "field": "meaning",
+          "value": "sweet"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "쓰다"
+        },
+        {
+          "field": "romanization",
+          "value": "sseuda"
+        },
+        {
+          "field": "meaning",
+          "value": "bitter"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "짜다"
+        },
+        {
+          "field": "romanization",
+          "value": "jjada"
+        },
+        {
+          "field": "meaning",
+          "value": "salty"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "시다"
+        },
+        {
+          "field": "romanization",
+          "value": "sida"
+        },
+        {
+          "field": "meaning",
+          "value": "sour"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "뜨겁다"
+        },
+        {
+          "field": "romanization",
+          "value": "tteugeopda"
+        },
+        {
+          "field": "meaning",
+          "value": "hot (temperature)"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "차갑다"
+        },
+        {
+          "field": "romanization",
+          "value": "chagapda"
+        },
+        {
+          "field": "meaning",
+          "value": "cold (temperature)"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "싱겁다"
+        },
+        {
+          "field": "romanization",
+          "value": "singgeopda"
+        },
+        {
+          "field": "meaning",
+          "value": "bland, not salty enough"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "맛"
+        },
+        {
+          "field": "romanization",
+          "value": "mat"
+        },
+        {
+          "field": "meaning",
+          "value": "taste, flavor"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "많다"
+        },
+        {
+          "field": "romanization",
+          "value": "manta"
+        },
+        {
+          "field": "meaning",
+          "value": "many, a lot"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "적다"
+        },
+        {
+          "field": "romanization",
+          "value": "jeokda"
+        },
+        {
+          "field": "meaning",
+          "value": "few, little"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "크다"
+        },
+        {
+          "field": "romanization",
+          "value": "keuda"
+        },
+        {
+          "field": "meaning",
+          "value": "big"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "작다"
+        },
+        {
+          "field": "romanization",
+          "value": "jakda"
+        },
+        {
+          "field": "meaning",
+          "value": "small"
+        }
+      ],
+      "tags": [
+        "taste"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "안녕하세요"
+        },
+        {
+          "field": "romanization",
+          "value": "annyeonghaseyo"
+        },
+        {
+          "field": "meaning",
+          "value": "hello"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "감사합니다"
+        },
+        {
+          "field": "romanization",
+          "value": "gamsahamnida"
+        },
+        {
+          "field": "meaning",
+          "value": "thank you"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "주세요"
+        },
+        {
+          "field": "romanization",
+          "value": "juseyo"
+        },
+        {
+          "field": "meaning",
+          "value": "please give me"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "얼마예요"
+        },
+        {
+          "field": "romanization",
+          "value": "eolmayeyo"
+        },
+        {
+          "field": "meaning",
+          "value": "how much is it?"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "네"
+        },
+        {
+          "field": "romanization",
+          "value": "ne"
+        },
+        {
+          "field": "meaning",
+          "value": "yes"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "아니요"
+        },
+        {
+          "field": "romanization",
+          "value": "aniyo"
+        },
+        {
+          "field": "meaning",
+          "value": "no"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "예"
+        },
+        {
+          "field": "romanization",
+          "value": "ye"
+        },
+        {
+          "field": "meaning",
+          "value": "yes (formal)"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "괜찮아요"
+        },
+        {
+          "field": "romanization",
+          "value": "gwaenchanayo"
+        },
+        {
+          "field": "meaning",
+          "value": "it's OK, it's fine"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "맛있어요"
+        },
+        {
+          "field": "romanization",
+          "value": "masisseoyo"
+        },
+        {
+          "field": "meaning",
+          "value": "it's delicious"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "배고파요"
+        },
+        {
+          "field": "romanization",
+          "value": "baegopayo"
+        },
+        {
+          "field": "meaning",
+          "value": "I'm hungry"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "배불러요"
+        },
+        {
+          "field": "romanization",
+          "value": "baebulleoyo"
+        },
+        {
+          "field": "meaning",
+          "value": "I'm full"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "이거"
+        },
+        {
+          "field": "romanization",
+          "value": "igeo"
+        },
+        {
+          "field": "meaning",
+          "value": "this one"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "저거"
+        },
+        {
+          "field": "romanization",
+          "value": "jeogeo"
+        },
+        {
+          "field": "meaning",
+          "value": "that one"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "뭐"
+        },
+        {
+          "field": "romanization",
+          "value": "mwo"
+        },
+        {
+          "field": "meaning",
+          "value": "what"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "왜"
+        },
+        {
+          "field": "romanization",
+          "value": "wae"
+        },
+        {
+          "field": "meaning",
+          "value": "why"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "여기요"
+        },
+        {
+          "field": "romanization",
+          "value": "yeogiyo"
+        },
+        {
+          "field": "meaning",
+          "value": "excuse me (to get attention)"
+        }
+      ],
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "일"
+        },
+        {
+          "field": "romanization",
+          "value": "il"
+        },
+        {
+          "field": "meaning",
+          "value": "one (1)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "이"
+        },
+        {
+          "field": "romanization",
+          "value": "i"
+        },
+        {
+          "field": "meaning",
+          "value": "two (2)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "삼"
+        },
+        {
+          "field": "romanization",
+          "value": "sam"
+        },
+        {
+          "field": "meaning",
+          "value": "three (3)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "사"
+        },
+        {
+          "field": "romanization",
+          "value": "sa"
+        },
+        {
+          "field": "meaning",
+          "value": "four (4)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "오"
+        },
+        {
+          "field": "romanization",
+          "value": "o"
+        },
+        {
+          "field": "meaning",
+          "value": "five (5)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "육"
+        },
+        {
+          "field": "romanization",
+          "value": "yuk"
+        },
+        {
+          "field": "meaning",
+          "value": "six (6)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "칠"
+        },
+        {
+          "field": "romanization",
+          "value": "chil"
+        },
+        {
+          "field": "meaning",
+          "value": "seven (7)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "팔"
+        },
+        {
+          "field": "romanization",
+          "value": "pal"
+        },
+        {
+          "field": "meaning",
+          "value": "eight (8)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "구"
+        },
+        {
+          "field": "romanization",
+          "value": "gu"
+        },
+        {
+          "field": "meaning",
+          "value": "nine (9)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "십"
+        },
+        {
+          "field": "romanization",
+          "value": "sip"
+        },
+        {
+          "field": "meaning",
+          "value": "ten (10)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "백"
+        },
+        {
+          "field": "romanization",
+          "value": "baek"
+        },
+        {
+          "field": "meaning",
+          "value": "hundred (100)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "천"
+        },
+        {
+          "field": "romanization",
+          "value": "cheon"
+        },
+        {
+          "field": "meaning",
+          "value": "thousand (1000)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "만"
+        },
+        {
+          "field": "romanization",
+          "value": "man"
+        },
+        {
+          "field": "meaning",
+          "value": "ten thousand (10000)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "원"
+        },
+        {
+          "field": "romanization",
+          "value": "won"
+        },
+        {
+          "field": "meaning",
+          "value": "won (Korean currency)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "하나"
+        },
+        {
+          "field": "romanization",
+          "value": "hana"
+        },
+        {
+          "field": "meaning",
+          "value": "one (native)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "둘"
+        },
+        {
+          "field": "romanization",
+          "value": "dul"
+        },
+        {
+          "field": "meaning",
+          "value": "two (native)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "셋"
+        },
+        {
+          "field": "romanization",
+          "value": "set"
+        },
+        {
+          "field": "meaning",
+          "value": "three (native)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "넷"
+        },
+        {
+          "field": "romanization",
+          "value": "net"
+        },
+        {
+          "field": "meaning",
+          "value": "four (native)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "다섯"
+        },
+        {
+          "field": "romanization",
+          "value": "daseot"
+        },
+        {
+          "field": "meaning",
+          "value": "five (native)"
+        }
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "의자"
+        },
+        {
+          "field": "romanization",
+          "value": "uija"
+        },
+        {
+          "field": "meaning",
+          "value": "chair"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "웨이터"
+        },
+        {
+          "field": "romanization",
+          "value": "weiteo"
+        },
+        {
+          "field": "meaning",
+          "value": "waiter"
+        }
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "뒤"
+        },
+        {
+          "field": "romanization",
+          "value": "dwi"
+        },
+        {
+          "field": "meaning",
+          "value": "behind, back"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "쉬다"
+        },
+        {
+          "field": "romanization",
+          "value": "swida"
+        },
+        {
+          "field": "meaning",
+          "value": "to rest"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "예쁘다"
+        },
+        {
+          "field": "romanization",
+          "value": "yeppeuda"
+        },
+        {
+          "field": "meaning",
+          "value": "pretty, beautiful"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "가게"
+        },
+        {
+          "field": "romanization",
+          "value": "gage"
+        },
+        {
+          "field": "meaning",
+          "value": "shop, store"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "시장"
+        },
+        {
+          "field": "romanization",
+          "value": "sijang"
+        },
+        {
+          "field": "meaning",
+          "value": "market"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "가격"
+        },
+        {
+          "field": "romanization",
+          "value": "gagyeok"
+        },
+        {
+          "field": "meaning",
+          "value": "price"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "이름"
+        },
+        {
+          "field": "romanization",
+          "value": "ireum"
+        },
+        {
+          "field": "meaning",
+          "value": "name"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "사람"
+        },
+        {
+          "field": "romanization",
+          "value": "saram"
+        },
+        {
+          "field": "meaning",
+          "value": "person"
+        }
+      ],
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "field_values": [
+        {
+          "field": "hangul",
+          "value": "회"
+        },
+        {
+          "field": "romanization",
+          "value": "hoe"
+        },
+        {
+          "field": "meaning",
+          "value": "raw fish, sashimi"
+        }
+      ],
+      "tags": [
+        "food"
       ]
     }
   ]
