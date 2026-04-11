@@ -443,6 +443,26 @@ body {
   transition: opacity 0.3s ease;
 }
 
+/* Landscape (phone-in-landscape "StandBy-style" nightstand use):
+ * grow the text to fill the short dimension, tighten padding so
+ * nothing gets clipped. Only kicks in when the viewport is short,
+ * so desktop browsers are unaffected. */
+@media (orientation: landscape) and (max-height: 600px) {
+  #screen-ambient {
+    padding: 0.8rem 2rem;
+  }
+
+  #ambient-card .field-value {
+    font-size: clamp(2rem, 22vh, 7rem);
+    line-height: 1.1;
+  }
+
+  #ambient-hint {
+    font-size: 0.65rem;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 0.5rem);
+  }
+}
+
 /* --- Flashcard mode --- */
 
 #screen-flashcard {
