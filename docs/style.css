@@ -394,6 +394,10 @@ body {
   cursor: pointer;
 }
 
+#ambient-card {
+  transition: opacity 0.3s ease;
+}
+
 /* --- Flashcard mode --- */
 
 #screen-flashcard {

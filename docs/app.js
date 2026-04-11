@@ -279,7 +279,12 @@ function renderAmbientCard() {
   if (ambientPhase === 'back' || ambientPhase === 'both') {
     html += renderFields(card, getFaceFields('back'), 'back');
   }
-  el.innerHTML = html;
+  // Fade out old content, swap, then fade back in.
+  el.style.opacity = '0';
+  setTimeout(function() {
+    el.innerHTML = html;
+    el.style.opacity = '1';
+  }, 300);
 }
 
 // --- Flashcard mode ---
