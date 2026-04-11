@@ -1,4 +1,4 @@
-var CACHE_NAME = 'wrenshoe-v1';
+var CACHE_NAME = 'wrenshoe-v2';
 var APP_SHELL = [
   './',
   './index.html',
@@ -29,23 +29,24 @@ self.addEventListener('activate', function(event) {
   self.clients.claim();
 });
 
+// Stale-while-revalidate: serve cached copy for speed, update in
+// background so the next visit gets the fresh content. Falls back
+// to cache on network failure (offline support).
 self.addEventListener('fetch', function(event) {
+  if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request).then(function(cached) {
-      var url = event.request.url;
-      // Network-first for deck data; cache-first for app shell
-      if (url.indexOf('/data/') !== -1 || url.indexOf('deck-manifest') !== -1) {
-        return fetch(event.request).then(function(response) {
-          var clone = response.clone();
-          caches.open(CACHE_NAME).then(function(cache) {
-            cache.put(event.request, clone);
-          });
+    caches.open(CACHE_NAME).then(function(cache) {
+      return cache.match(event.request).then(function(cached) {
+        var fetchPromise = fetch(event.request).then(function(response) {
+          if (response && response.status === 200 && response.type === 'basic') {
+            cache.put(event.request, response.clone());
+          }
           return response;
         }).catch(function() {
           return cached;
         });
-      }
-      return cached || fetch(event.request);
+        return cached || fetchPromise;
+      });
     })
   );
 });
