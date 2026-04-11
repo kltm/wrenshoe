@@ -71,7 +71,23 @@ Full source attribution for each deck is in the deck JSON itself (`sources` fiel
 
 ### Using wrenshoe.org
 
-Visit [wrenshoe.org](https://wrenshoe.org), pick a deck, and choose Ambient or Flashcard mode. On iOS, tap Share > Add to Home Screen to install as a PWA for StandBy mode.
+Visit [wrenshoe.org](https://wrenshoe.org), pick a deck, and choose **Ambient** (passive cycling) or **Flashcard** (space = know, other key = don't know, score at end) mode.
+
+In the mode screen you can:
+- **Reassign fields** to front, back, or hidden on a per-deck basis.
+- **Pick an ambient speed**: Fast (5s), Normal (15s), Slow (30s, default), or Very Slow (60s).
+
+### Nightstand / StandBy-style use on iPhone
+
+iOS doesn't let Safari go true full-screen for regular browsing, and Apple's real StandBy mode is reserved for native WidgetKit widgets. But the installed PWA gets close:
+
+1. In Safari, open [wrenshoe.org](https://wrenshoe.org).
+2. Tap **Share** (the square with the up-arrow) > **Add to Home Screen** > **Add**.
+3. Launch Wrenshoe from the new home-screen icon — iOS opens it in **standalone mode**, with no URL bar or toolbar. The status bar blends into the black background.
+4. Pick a deck, enter **Ambient** mode, and rotate the phone to landscape — the layout grows to fill the screen.
+5. Dock the phone on a charger. The app requests a **wake lock**, so the screen stays on while Wrenshoe is in the foreground.
+
+This isn't technically "StandBy mode" (Apple reserves that name), but it's functionally the same experience without the Apple Developer commitment.
 
 ### Running your own instance
 
