@@ -15,7 +15,9 @@ Both frontends pull from the same deck JSONs and data model, so decks you add ap
 
 ## Claude Code status bar
 
-The terminal cycler at `terminal/wrenshoe.py` renders one card face at a time as a single status-line string. It's driven by Claude Code's `refreshInterval` and reads from `~/.config/wrenshoe/session.json`.
+![A Japanese vocabulary card cycling in the Claude Code status line: 役目 やくめ — duty, role, function, with the deck name and usual Claude Code status info above it.](images/claude-code-status-bar.png)
+
+The terminal cycler at `terminal/wrenshoe.py` renders one card face at a time as a single status-line string, slotted in beneath the normal Claude Code status info. Front fields render in bold cyan, back fields in yellow — the separation is color-based because many of the languages in Wrenshoe's decks use characters that resemble Latin punctuation. It's driven by Claude Code's `refreshInterval` and reads from `~/.config/wrenshoe/session.json`.
 
 ### Quick install (automated)
 
