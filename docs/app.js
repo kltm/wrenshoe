@@ -27,6 +27,14 @@ var ambientPhase = 'front';
 var wakeLock = null;
 var activeFilter = 'all';
 var fieldAssignment = {}; // field name → 'front' | 'back' | null
+var ambientSpeed = 30; // seconds per phase in ambient mode
+
+var SPEED_PRESETS = [
+  { label: 'Fast', value: 5 },
+  { label: 'Normal', value: 15 },
+  { label: 'Slow', value: 30 },
+  { label: 'Very Slow', value: 60 },
+];
 
 // --- DOM helpers ---
 
@@ -124,7 +132,27 @@ async function selectDeck(id) {
   $('#mode-deck-name').textContent = deck.name;
   $('#mode-deck-info').textContent = cards.length + ' cards';
   renderFieldConfig();
+  renderAmbientSpeed();
   show('#screen-mode');
+}
+
+function renderAmbientSpeed() {
+  var el = $('#ambient-speed');
+  var html = '<div class="speed-title">Ambient speed</div><div class="speed-chips">';
+  SPEED_PRESETS.forEach(function(p) {
+    var cls = p.value === ambientSpeed ? 'speed-chip active' : 'speed-chip';
+    html += '<button class="' + cls + '" data-value="' + p.value + '">'
+      + escapeHtml(p.label) + '</button>';
+  });
+  html += '</div>';
+  el.innerHTML = html;
+
+  el.querySelectorAll('.speed-chip').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      ambientSpeed = parseInt(btn.dataset.value, 10);
+      renderAmbientSpeed();
+    });
+  });
 }
 
 // --- Field assignment (front/back/hidden per field) ---
@@ -245,12 +273,7 @@ function stopAmbient() {
 
 function scheduleAmbientTick() {
   if (ambientTimer) clearTimeout(ambientTimer);
-  var display = deck.default_display || {};
-  var ms;
-  if (ambientPhase === 'front') ms = (display.timing_front_s || 30) * 1000;
-  else if (ambientPhase === 'back') ms = (display.timing_back_s || 30) * 1000;
-  else ms = (display.timing_both_s || 30) * 1000;
-  ambientTimer = setTimeout(ambientTick, ms);
+  ambientTimer = setTimeout(ambientTick, ambientSpeed * 1000);
 }
 
 function ambientTick() {
