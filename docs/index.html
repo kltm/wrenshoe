@@ -15,6 +15,7 @@
 <body>
 
   <div id="screen-decks" class="screen active">
+    <button class="corner-btn" id="btn-open-about">About</button>
     <header class="app-header">
       <h1>Wrenshoe</h1>
       <p class="subtitle">Ambient flashcards</p>
@@ -22,20 +23,87 @@
     <div id="deck-filters" class="deck-filters"></div>
     <div id="deck-grid" class="deck-grid"></div>
     <footer class="app-footer">
-      <p class="about-text">
-        Ambient, passive flashcards for language learning. Cards cycle
-        automatically&hairsp;&mdash;&hairsp;no interaction required.
-        Or quiz yourself in flashcard mode.
-      </p>
-      <p class="license-text">
-        Code: <a href="https://github.com/kltm/wrenshoe/blob/main/LICENSE">BSD-3-Clause</a>.
-        Data: each deck carries its own license (see deck JSON).
-        Most derived decks are CC-BY-SA-4.0; originals are CC-BY-4.0.
-      </p>
       <p class="footer-links">
+        <button type="button" class="footer-link-btn" id="btn-open-about-footer">About &amp; credits</button>
+        <span class="footer-sep">&middot;</span>
         <a href="https://github.com/kltm/wrenshoe">GitHub</a>
       </p>
     </footer>
+  </div>
+
+  <div id="screen-about" class="screen">
+    <button class="back-btn" id="btn-back-about">&larr;</button>
+    <div class="about-content">
+      <h2>About Wrenshoe</h2>
+      <p>
+        Wrenshoe is a passive flashcard system. Cards cycle automatically
+        in your peripheral vision&hairsp;&mdash;&hairsp;no interaction
+        required. It's designed for background, low-effort language study
+        while you do other things.
+      </p>
+
+      <h3>Two modes</h3>
+      <p>
+        <strong>Ambient</strong> cycles cards slowly on their own. Dock
+        your phone on a charger in landscape and glance at it throughout
+        the day.
+      </p>
+      <p>
+        <strong>Flashcard</strong> lets you quiz yourself. Space = know,
+        any other key = don't know. You get a score at the end.
+      </p>
+
+      <h3>Installing on iPhone</h3>
+      <ol>
+        <li>In Safari, tap the <strong>Share</strong> button.</li>
+        <li>Tap <strong>Add to Home Screen</strong>.</li>
+        <li>Launch Wrenshoe from the new home-screen icon&hairsp;&mdash;&hairsp;it opens full-screen.</li>
+        <li>Rotate to landscape and dock on a charger for nightstand use.</li>
+      </ol>
+
+      <h3>Deck credits</h3>
+      <p class="credits-intro">
+        Wrenshoe's decks are built on generous open-licensed work by
+        many people and projects:
+      </p>
+
+      <h4>Japanese</h4>
+      <ul>
+        <li><strong>JMdict &amp; KANJIDIC2</strong>&hairsp;&mdash;&hairsp;Jim Breen / EDRDG (Monash University)</li>
+        <li><strong>JLPT word lists</strong>&hairsp;&mdash;&hairsp;Jonathan Waller (tanos.co.uk), compiled by jamsinclair</li>
+        <li><strong>Kansai-ben vocabulary</strong>&hairsp;&mdash;&hairsp;Keiko Yukawa (kansaibenkyou.net)</li>
+        <li><strong>JMdict JSON conversion</strong>&hairsp;&mdash;&hairsp;scriptin / jmdict-simplified</li>
+      </ul>
+
+      <h4>Chinese</h4>
+      <ul>
+        <li><strong>CC-CEDICT</strong>&hairsp;&mdash;&hairsp;the CC-CEDICT project</li>
+        <li><strong>HSK vocabulary</strong>&hairsp;&mdash;&hairsp;drkameleon / complete-hsk-vocabulary</li>
+        <li><strong>Chit-Chat Chinese</strong>&hairsp;&mdash;&hairsp;Rachel Meyer et al. (Far East Book Co., 2010)</li>
+        <li><strong>Boya Chinese Elementary Starter II</strong>&hairsp;&mdash;&hairsp;Li Xiaoqi et al. (Peking University Press)</li>
+        <li><strong>Short-term Spoken Chinese: Threshold</strong>&hairsp;&mdash;&hairsp;Ma Jianfei et al. (BLCU Press)</li>
+      </ul>
+
+      <h4>Original Wrenshoe decks</h4>
+      <ul>
+        <li><strong>Hiragana, Katakana, Pinyin, Jamo, Korean Hangul, Morse Code, and the Chinese textbook hand-entries above</strong>&hairsp;&mdash;&hairsp;<a href="https://github.com/kltm">kltm</a></li>
+      </ul>
+
+      <h3>Licenses</h3>
+      <p>
+        Wrenshoe code is BSD-3-Clause. Each deck carries its own license
+        in its JSON file&hairsp;&mdash;&hairsp;a mix of CC-BY-4.0, CC-BY-SA-3.0,
+        CC-BY-SA-4.0, and MIT. Most derived decks are CC-BY-SA-4.0;
+        original Wrenshoe decks are CC-BY-4.0.
+      </p>
+
+      <h3>Links</h3>
+      <ul>
+        <li><a href="https://github.com/kltm/wrenshoe">GitHub repository</a></li>
+        <li><a href="https://github.com/kltm/wrenshoe/blob/main/data/ATTRIBUTION.md">Full data attribution</a></li>
+        <li><a href="https://github.com/kltm/wrenshoe/blob/main/LICENSE">Code license (BSD-3-Clause)</a></li>
+      </ul>
+    </div>
   </div>
 
   <div id="screen-mode" class="screen">

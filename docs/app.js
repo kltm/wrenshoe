@@ -415,12 +415,19 @@ function setupInput() {
     if (active.id === 'screen-score' && e.key === 'Escape') {
       show('#screen-decks');
     }
+
+    if (active.id === 'screen-about' && e.key === 'Escape') {
+      show('#screen-decks');
+    }
   });
 
   $('#btn-back-decks').addEventListener('click', function() {
     stopAmbient();
     show('#screen-decks');
   });
+  $('#btn-open-about').addEventListener('click', function() { show('#screen-about'); });
+  $('#btn-open-about-footer').addEventListener('click', function() { show('#screen-about'); });
+  $('#btn-back-about').addEventListener('click', function() { show('#screen-decks'); });
   $('#btn-ambient').addEventListener('click', function() { startAmbient(); });
   $('#btn-flashcard').addEventListener('click', function() { startFlashcard(); });
   $('#btn-know').addEventListener('click', function() { flashcardAnswer(true); });
