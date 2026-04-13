@@ -13,6 +13,7 @@ import json
 import os
 import random
 import sys
+import tempfile
 import time
 from pathlib import Path
 
@@ -53,32 +54,51 @@ def find_decks():
     return decks
 
 
+def _atomic_write(path, data, indent=None):
+    """Write JSON atomically: temp file + rename on the same filesystem."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=indent)
+            f.write("\n")
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
+def _safe_load(path):
+    """Load JSON, returning None on missing or corrupt files."""
+    try:
+        if path.exists():
+            with open(path, encoding="utf-8") as f:
+                return json.load(f)
+    except (json.JSONDecodeError, ValueError, OSError):
+        pass
+    return None
+
+
 def load_session():
     """Load session config, or None."""
-    if SESSION_FILE.exists():
-        with open(SESSION_FILE, encoding="utf-8") as f:
-            return json.load(f)
-    return None
+    return _safe_load(SESSION_FILE)
 
 
 def save_session(session):
-    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
-    with open(SESSION_FILE, "w", encoding="utf-8") as f:
-        json.dump(session, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    _atomic_write(SESSION_FILE, session, indent=2)
 
 
 def load_state():
-    if STATE_FILE.exists():
-        with open(STATE_FILE, encoding="utf-8") as f:
-            return json.load(f)
-    return None
+    return _safe_load(STATE_FILE)
 
 
 def save_state(state):
-    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
-    with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump(state, f)
+    _atomic_write(STATE_FILE, state)
 
 
 def load_deck(path):
