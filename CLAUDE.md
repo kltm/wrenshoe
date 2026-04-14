@@ -5,8 +5,8 @@
 Wrenshoe is an ambient, passive flashcard system for language learning. It is NOT an active quiz/recall system — cards cycle automatically in the user's peripheral vision without requiring interaction.
 
 Two frontends, one shared data model:
-1. **Claude Code status line** — implemented, cycles cards in the terminal status bar
-2. **iPhone PWA for StandBy mode** — planned, portrait orientation
+1. **Claude Code status line** — cycles cards in the terminal status bar
+2. **Web app / PWA** — hosted at wrenshoe.org via GitHub Pages, installable as a PWA for nightstand / StandBy-style use on iOS (landscape, docked, wake-locked)
 
 ## Data Model
 
@@ -41,6 +41,43 @@ Cards cycle through phases: front -> back (or front -> back -> both if cycle_mod
 - `refreshInterval: 5` in Claude Code settings.json drives the cycle
 
 Modes: `--render` (default, for status line), `--configure` (interactive setup), `--list-decks`, `--status`
+
+### Concurrent writes — IMPORTANT
+
+The user may have up to ~12 Claude Code terminals open at once, each invoking `--render` every 5 seconds. Any code that writes `session.json` or `state.json` must go through `_atomic_write()` (temp file + `os.replace`, which is POSIX-atomic on the same filesystem). Never call `open(path, "w")` on these files directly — concurrent direct writes interleave and corrupt the file, which previously surfaced as a `JSONDecodeError: Extra data` that killed the status line across every terminal.
+
+Reads go through `_safe_load()`, which returns `None` on corrupt or missing files so a single bad state can't brick the cycler. If you add a new persisted file, reuse these helpers.
+
+## Web App (PWA)
+
+- Source: `docs/` (HTML, CSS, JS, manifest, service worker, SVG icon)
+- Vanilla JS, no framework, no build step for the app itself
+- Deck manifest: `docs/deck-manifest.json` is **generated** (gitignored) by `tools/build-manifest.py`, which scans `data/*.json` and writes a lightweight index
+- Local dev: `ln -s ../data docs/data` makes deck data reachable to the app; this symlink is also gitignored
+- Deployment: `.github/workflows/pages.yml` runs `build-manifest.py`, copies `docs/` + `data/` into `_site/`, and deploys via `actions/deploy-pages`
+- Reference deployment: [wrenshoe.org](https://wrenshoe.org) (custom domain pointed at GitHub Pages via EasyDNS apex A records)
+
+### Screen architecture
+
+Single-page app with six screens toggled by JS: deck picker, mode select, ambient, flashcard, score, about. The `show(id)` helper flips the `.active` class. Global keydown routes input based on the active screen.
+
+### Service worker caching
+
+Strategy is **stale-while-revalidate** for everything. Cached response serves immediately, network fetch updates the cache in the background, next visit gets fresh content. A previous cache-first strategy meant deploys never reached installed PWAs — do not revert.
+
+If the fetch strategy changes fundamentally (e.g. new cache buckets, new URL patterns needing different behavior), bump `CACHE_NAME` in `docs/sw.js` so the `activate` handler drops the old cache and forces a clean rebootstrap. Regular app-shell deploys do NOT require a bump — stale-while-revalidate handles them.
+
+### Touch UX requirement
+
+Every screen must have a visible, tappable exit. Keyboard-only escapes (Esc) trap phone users because phones have no Esc key. The `.back-btn` class (top-left arrow) is reused across mode, flashcard, and about screens. Score screen has "Decks" and "Play Again" buttons. Ambient is exited by tapping anywhere.
+
+### Landscape layout
+
+Ambient mode has an `@media (orientation: landscape) and (max-height: 600px)` block that grows the text on `22vh` for phone-in-landscape nightstand use. The `max-height` guard prevents desktop landscape browsers from inheriting phone sizing.
+
+### Credits identity
+
+In user-facing surfaces (PWA About screen, wrenshoe.org), credit the project author as **kltm** with a link to their GitHub. In developer-facing surfaces (README.md, data/ATTRIBUTION.md, deck JSON `sources` fields), **Seth Carbon** is fine — the real name is already established in those contexts.
 
 ## Important Design Decisions
 
